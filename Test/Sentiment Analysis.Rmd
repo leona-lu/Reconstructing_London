@@ -1,0 +1,109 @@
+---
+title: "Case Study: Sentiment Analysis"
+author: "Leona"
+date: "6/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Packages
+```{r warning=FALSE}
+# install.packages("tidytext")
+library(tidytext)
+library(dplyr)
+library(stringr)
+```
+
+# Sentiment Lexicon
+
+* NRC overestimates the positive sentiment.
+* AFINN also provides overly positive estimates, but to a lesser extent.
+* Loughran seems unreliable altogether (on Yelp data).
+* Bing estimates are accurate as long as texts are long enough (e.g., 200+ words).
+
+```{r}
+tokens <- data_frame(text = test_df$texts[[3]]) %>%
+  unnest_tokens(word, text)
+
+# lexicon = c("bing", "afinn", "loughran", "nrc")
+tokens %>%
+  inner_join(get_sentiments("bing")) %>%
+  dplyr:: count(sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  dplyr:: mutate(sentiment = positive - negative)
+```
+
+# St. Paul's Cathedral 
+```{r}
+library(tei2r)
+Case_results <- tcpSearch(term <- "St. Paul's", field = "Terms")
+# tcpDownload(Case_results)
+```
+
+```{r}
+.importTexts <- function(dataframe, normalize = TRUE) {
+  dataframe$path <- paste0("/Users/yuchenlu/Desktop/Test/Case_result/",dataframe$TCP,".xml")
+  dataframe$texts <- lapply(dataframe$path,.cleanup)
+  return(dataframe)
+}
+
+Case_results <-.importTexts(Case_results)
+```
+
+# Function 
+```{r}
+.get_sentiment <- function(dataframe){
+  tokens <- data_frame(text = dataframe$texts[[1]]) %>%
+    unnest_tokens(word, text)
+  # lexicon = c("bing", "afinn", "loughran", "nrc")
+  result <- tokens %>%
+    inner_join(get_sentiments("bing")) %>%
+    dplyr:: count(sentiment) %>%
+    spread(sentiment, n, fill = 0) %>%
+    dplyr:: mutate(sentiment = positive - negative)
+  
+  for (i in 2:nrow(dataframe)){
+    tokens <- data_frame(text = dataframe$texts[[i]]) %>%
+    unnest_tokens(word, text)
+    # lexicon = c("bing", "afinn", "loughran", "nrc")
+    result_updated <- tokens %>%
+      inner_join(get_sentiments("bing")) %>%
+      dplyr:: count(sentiment) %>%
+      spread(sentiment, n, fill = 0) %>%
+      dplyr:: mutate(sentiment = positive - negative)
+    result <- rbind(result, result_updated)
+  }
+  result$Date <- dataframe$Date
+  result$TCP <- dataframe$TCP
+  return(result)
+}
+```
+
+# Wordcloud visualization 
+
+```{r}
+# Combine dfm 
+dfm <- dfm(tokens(Case_results$texts[[1]]))
+for (i in 2:nrow(Case_results)){
+  dfm <- cbind(dfm, dfm(tokens(Case_results$texts[[i]])))
+}
+```
+
+```{r}
+set.seed(100)
+textplot_wordcloud(dfm, max.words=100)
+```
+
+# Get_Sentiment of St. Paul's 
+```{r}
+Case_Sentiment_result <- .get_sentiment(Case_results)
+```
+
+```{r}
+Case_Sentiment_result[c("sentiment","Date")] %>%
+  ggplot(aes(x=Date, y=sentiment)) + geom_line()
+```
+

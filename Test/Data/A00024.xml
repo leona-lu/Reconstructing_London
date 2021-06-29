@@ -1,0 +1,3157 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peace with her four garders Viz. five moral meditations: of concord, chastity, constancy. Curtsy. Gravity. Eschew evil, and doe good, seek peace and ensue it.</title>
+            <author>Eyelet, Robert, 1583-1655?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1622</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 120 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-07">2003-07 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A00024</idno>
+            <idno type="STC">STC 1002</idno>
+            <idno type="STC">ESTC S118662</idno>
+            <idno type="EEBO-CITATION">99853869</idno>
+            <idno type="PROQUEST">99853869</idno>
+            <idno type="VID">19267</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A00024)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 19267)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 578:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Peace with her four garders Viz. five moral meditations: of concord, chastity, constancy. Curtsy. Gravity. Eschew evil, and doe good, seek peace and ensue it.</title>
+                  <author>Eyelet, Robert, 1583-1655?</author>
+               </titleStmt>
+               <extent>[4], 56 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by G. Purslowe] for Iohn Teage, and are to be sold at his shop in Pals Church-yard at the sign of the Ball,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1622.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: Robert Eyelet.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>In verse.</note>
+                  <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritised, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic state character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Conduct of life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2003-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:19267:1"/>
+            <pb facs="tcp:19267:1"/>
+            <p>PEACE WITH HER FOVRE GARDERS.</p>
+            <p>VIZ.</p>
+            <p>Five Moral Meditations: <hi>OF</hi> Concord, Chastity, Constancy. Curtsy. Gravity.</p>
+            <q>Eschew evil, and doe good, seek Peace and ensue it.</q>
+            <figure/>
+            <p>LONDON, Printed for <hi>Iohn Teage,</hi> and are to be sold at his shop in <hi>Pals</hi> Church-yard at the sign of the <hi>Ball.</hi> 1622.</p>
+         </div>
+         <div type="poem">
+            <lg>
+               <l>
+                  <pb facs="tcp:19267:2"/>SOme loathing <hi>Peace,</hi> wish <hi>War,</hi> because un<g ref="char:EOLhyphen"/>known,</l>
+               <l>To them <hi>Peace</hi> is like <hi>Manna,</hi> common grown:</l>
+               <l>I such doe wish to travel out, and see</l>
+               <l>Their <hi>Countries</hi> Bliss, by others misery.</l>
+               <l>
+                  <hi>Peace</hi> types vs out the Bliss of our Creation,</l>
+               <l>
+                  <hi>Wars</hi> show our fall from Glory to damnation:</l>
+               <l>All <hi>Warriors</hi> since, which seek immortal fame,</l>
+               <l>Must fight for <hi>PEACE,</hi> or merit Hell and shame.</l>
+               <l>Sweet <hi>PEACE</hi> to Subjects doth all blessings bring,</l>
+               <l>Immortal honour to a mortal King;</l>
+               <l>The Virtues four, which doe on Peace attend,</l>
+               <l>Her Body guard, as still doth them defend:</l>
+               <l>For nothing sets a <hi>Kingdoms Peace</hi> so fast,</l>
+               <l>As Courtiers <hi>constant, courteous, grave</hi> &amp; <hi>chaste.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:19267:2"/>
+            <head>TO THE RIGHT REVEREND FATHER IN GOD, IOHN, LORD BISHOP <hi>of Lincoln,</hi> Lord Keeper of the Great Seal, <hi>and one of his</hi> MAJESTIES <hi>most</hi> Honourable Privy Council.</head>
+            <lg>
+               <l>THou great <hi>Peace-Keeper,</hi> whom the <hi>greatest</hi> King,</l>
+               <l>That our great <hi>God of Peace</hi> did ever bring</l>
+               <l>To rule these Western Isles, in happy <hi>Peace,</hi>
+               </l>
+               <l>For <hi>Honours, Arts,</hi> and <hi>Piety</hi>'s increase,</l>
+               <l>Thou, whom this <hi>mighty Monarch</hi> doth entrust</l>
+               <l>With his <hi>Great Seal,</hi> as Prudent, Faithful, Just;</l>
+               <l>God to thy <hi>outward bliss,</hi> add <hi>inward Peace,</hi>
+               </l>
+               <l>That <hi>Goodness</hi> with thy <hi>Greatness</hi> may increase.</l>
+               <l>May but thine <hi>active Spirit</hi> now descend</l>
+               <l>Fro<g ref="char:cmbAbbrStroke">??</g> 
+                  <hi>high affairs,</hi> and high-straind thoughts vnbend,</l>
+               <l>To walk in <hi>Muses gardens</hi> delicate;</l>
+               <l>Wisest <hi>Apollo</hi> thou shalt imitate,</l>
+               <l>And Martial <hi>Pallas,</hi> whom the Poets fine</l>
+               <l>To leave <hi>Olympus</hi> Mount for <hi>Tempo-plain:</hi>
+               </l>
+               <l>Thus <hi>Dauid</hi> leaves his <hi>Throne,</hi> to sit with <hi>Graces,</hi>
+               </l>
+               <l>The <hi>Preacher</hi> after <hi>Travels, Hymen</hi> paces.</l>
+               <l>
+                  <pb facs="tcp:19267:3"/>
+These <hi>Precedents</hi> emboldened have my <hi>Muse,</hi>
+               </l>
+               <l>For <hi>Patron</hi> of the <hi>Graces,</hi> thee to choose,</l>
+               <l>Whom great <hi>Augustus</hi> with his <hi>Seal</hi> doth grace;</l>
+               <l>Oh be a true <hi>Mecenas</hi> in thy place:</l>
+               <l>Seal up for ever <hi>Ianus</hi> Temple door,</l>
+               <l>And let <hi>Bellona's</hi> voice be heard no more:</l>
+               <l>I of some <hi>Graces</hi> only meditate,</l>
+               <l>But they are all in thee habituate;</l>
+               <l>Then my defects excuse; when we oppose</l>
+               <l>
+                  <hi>Darkness</hi> to <hi>Light;</hi> the <hi>day</hi> more glorious shows.</l>
+            </lg>
+            <p>Your Lordships humble servant, <hi>Robert Eyelet.</hi>
+            </p>
+         </div>
+         <div type="to_the_reader">
+            <head>To the curious <hi>READER.</hi>
+            </head>
+            <lg>
+               <l>Profaner <hi>Michols</hi> will be censuring</l>
+               <l>Even <hi>Dauid,</hi> if hee doe but <hi>dance</hi> and <hi>sing</hi>
+               </l>
+               <l>Before the <hi>Arc:</hi> Then how should <hi>holy Rimes</hi>
+               </l>
+               <l>Escape the <hi>Jaws</hi> of these <hi>Censorious times?</hi>
+               </l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="part">
+            <pb n="1" facs="tcp:19267:3"/>
+            <head>
+               <hi>MEDITATION I.</hi> Of Peace and Concord.</head>
+            <lg>
+               <l>WHen first <hi>Worlds</hi> great <hi>Creator</hi> fashioned</l>
+               <l>This little <hi>Mansion</hi> for our Souls of Clay;</l>
+               <l>Man in his image he so ordered,</l>
+               <l>He had both <hi>Will</hi> and <hi>Power</hi> to obey:</l>
+               <l>Thus this sweet <hi>concord</hi> might have lasted ay,</l>
+               <l>If to his <hi>Power,</hi> had been joined his <hi>Will,</hi>
+               </l>
+               <l>Which failing in Obedience to stay,</l>
+               <l>He <hi>brake the Peace,</hi> whereby he all did fill</l>
+               <l>With Fury, Wars and Strifes, which doe continue still.</l>
+            </lg>
+            <lg>
+               <l>Thus, by mans wilful fault, <hi>Hostility</hi>
+               </l>
+               <l>Between <hi>him</hi> and his <hi>Maker</hi> first began,</l>
+               <l>Such breach hath <hi>Sin</hi> made with the <hi>Deity,</hi>
+               </l>
+               <l>As reconcile, not all the <hi>creatures</hi> can:</l>
+               <l>Besides, they all are Foes become to man,</l>
+               <l>For that he against their <hi>Maker</hi> did rebel:</l>
+               <l>Poor <hi>Adam,</hi> guilty, naked, wo and wan,</l>
+               <l>The <hi>Noise of God</hi> to <hi>covert</hi> doth compel:</l>
+               <l>A guilty <hi>Conscience</hi> is more terrible than hell.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Adam</hi> even then did feel a double <hi>pain,</hi>
+               </l>
+               <l>One pain of <hi>Loss,</hi> another pain of Sense,</l>
+               <l>And now against him Battles all maintain,</l>
+               <l>
+                  <hi>Heaven, Hell, World, Creatures, Wife</hi> and <hi>Conscience,</hi>
+               </l>
+               <l>Are out with him for Disobedience:</l>
+               <l>Till God, who first elected Man in Love,</l>
+               <l>For <hi>mercies</hi> sake, now by <hi>Obedience,</hi>
+               </l>
+               <l>From him doth <hi>pain of Loss,</hi> and <hi>Sense</hi> remove,</l>
+               <l>And brings to endless <hi>Peace,</hi> and <hi>rest,</hi> in heaven aboue.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="2" facs="tcp:19267:4"/>
+Of wondrous value is this Pearl of <hi>Peace,</hi>
+               </l>
+               <l>Which to redeem, the <hi>Lord of Life</hi> was sold,</l>
+               <l>Most sweet peace-offring; when for our release</l>
+               <l>
+                  <hi>Christs</hi> precious blood was as a ransom told.</l>
+               <l>Not that we here should <hi>Peace</hi> and <hi>quarter</hi> hold</l>
+               <l>With Hell, World, Lust, true <hi>Peace</hi>'s mortal foes:</l>
+               <l>Such <hi>Peace</hi> doth vs in dangerous wars enfold:</l>
+               <l>Except we these most valiantly oppose,</l>
+               <l>For seeming <hi>Peace</hi> on earth, we doe the heavenly lose.</l>
+            </lg>
+            <lg>
+               <l>Therefore the great <hi>Peace-maker</hi> did not come</l>
+               <l>To send vs <hi>Peace</hi> on earth, but Swords and Strife;</l>
+               <l>Debate betwixt the Father and the Son,</l>
+               <l>Mother and Daughter, Husband and the Wife:</l>
+               <l>Perpetual warfare is a Christians life,</l>
+               <l>With Arms and Weapons, he must fortify</l>
+               <l>Against his foes, which will assail him rife:</l>
+               <l>Right end of Wars and all <hi>hostility,</hi>
+               </l>
+               <l>Is gain of happy <hi>Peace,</hi> and sweet <hi>tranquillity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Thou,</hi> that before, through wars and dread affray,</l>
+               <l>Hast for vs entered on true <hi>Peace</hi> and <hi>rest,</hi>
+               </l>
+               <l>By thine own bloody wounds vs opening way,</l>
+               <l>And pains, wherewith thy foes did thee infest;</l>
+               <l>Inspire sweet heavenly <hi>peace</hi> into my breast,</l>
+               <l>That thence, as from a <hi>Lymbick</hi> may distill</l>
+               <l>Sweet drops of <hi>peace,</hi> on hearts that are oppressed,</l>
+               <l>And with true love of heavenly <hi>peace</hi> so fill,</l>
+               <l>As feeling her sweet Good, they never faint for ill.</l>
+            </lg>
+            <lg>
+               <l>Peace may be called the <hi>minds serenity,</hi>
+               </l>
+               <l>The <hi>concord</hi> of the affections and the <hi>will,</hi>
+               </l>
+               <l>The <hi>Band of Love, the hearts simplicity,</hi>
+               </l>
+               <l>The <hi>Souls chief good,</hi> the <hi>conscience free from ill;</hi>
+               </l>
+               <l>Thus is she simply: but if so you will</l>
+               <l>Discern her nature plainer; we divide</l>
+               <l>Her by the friends, to whom she bears good-will,</l>
+               <l>Thus we in Peace with God doe first abide,</l>
+               <l>Next, with our selves, and, last with all the world beside.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="3" facs="tcp:19267:4"/>
+And yet this <hi>peace</hi> with God, our selves, and men,</l>
+               <l>Is but one, and the same true heavenly <hi>peace:</hi>
+               </l>
+               <l>That happy <hi>peace,</hi> we have with God, is when</l>
+               <l>We freed by <hi>Faith,</hi> are iustifide of <hi>Grace:</hi>
+               </l>
+               <l>True inward <hi>peace</hi> then in our hearts hath place,</l>
+               <l>When as our <hi>Consciences</hi> excuse within:</l>
+               <l>Then <hi>peace</hi> with men we rightly doe embrace,</l>
+               <l>When to have <hi>peace</hi> with all men we begin:</l>
+               <l>Thus have we <hi>peace</hi> with <hi>Jaws,</hi> and <hi>Turks,</hi> but hate their sin.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Eternal, inward,</hi> and <hi>external peace,</hi>
+               </l>
+               <l>
+                  <hi>Eternal Peace</hi> is that with God alone,</l>
+               <l>From which our <hi>inward</hi> Life hath and increase,</l>
+               <l>The third's the <hi>peace</hi> we have with every one;</l>
+               <l>No farther yet than it concerns our own:</l>
+               <l>For when we wronged or injured behold</l>
+               <l>Those, that with vs in godly League are grown.</l>
+               <l>We break our League, if <hi>peace</hi> with them we hold,</l>
+               <l>For by such worldly <hi>peace</hi> our love to God grows cold.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>God</hi> is the Author, <hi>Christ</hi> the King of Peace,</l>
+               <l>The Seeds of <hi>peace,</hi> are by the <hi>Spirit</hi> sown,</l>
+               <l>Which, watered by his Servants here, increase</l>
+               <l>Till they into abundant fruits are grown.</l>
+               <l>How beautiful the feet of them doe shown,</l>
+               <l>That Peace's joyful tidings to vs bring!</l>
+               <l>This Pearl of Peace, where ever it is known,</l>
+               <l>Doth pass all understanding; <hi>Christ</hi> our King</l>
+               <l>Did honour Peace on earth with his sweet publishing.</l>
+            </lg>
+            <lg>
+               <l>Health, Quiet, Happiness, Prosperity,</l>
+               <l>All Concord, Liberty and good success,</l>
+               <l>Peace to vs brings with minds-tranquillity,</l>
+               <l>And frees our Souls from dismal heaviness:</l>
+               <l>It is the door to inward happiness,</l>
+               <l>True inward Peace our hearts doth mollify,</l>
+               <l>And make like Wax, that <hi>Joy</hi> on them may press</l>
+               <l>The <hi>privy Seal;</hi> whereby, assuredly,</l>
+               <l>We sealed are to live with God eternally.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="4" facs="tcp:19267:5"/>
+The Gentiles that far off, and strangers were,</l>
+               <l>
+                  <hi>Peace</hi> by Christs precious blood now makes nic:</l>
+               <l>For he's our <hi>peace</hi> whereby all one we are.</l>
+               <l>For so all fullness of Divinity</l>
+               <l>Inhabited in's Body really;</l>
+               <l>That on the Cross by his most precious blood,</l>
+               <l>He all in heaven and earth did pacify:</l>
+               <l>
+                  <hi>Abyss</hi> profound, not to be understood,</l>
+               <l>But where sweet inward Peace of Conscience makes it good.</l>
+            </lg>
+            <lg>
+               <l>For in the heart and Conscience is the Seat</l>
+               <l>Of all the <hi>Peace,</hi> that mortals can befall:</l>
+               <l>Alas! what boots it, though our <hi>peace</hi> seem great</l>
+               <l>Abroad, if that within we nourish shall</l>
+               <l>Hate Diffidence, Contentions, Envy, Gall,</l>
+               <l>Without this inward <hi>peace</hi> and <hi>holiness?</hi>
+               </l>
+               <l>We may not hope to see the Lord at all,</l>
+               <l>
+                  <hi>Peace-makers</hi> only shall have happiness.</l>
+               <l>True <hi>peace</hi> on earth the earnest is of heavenly Bless.</l>
+            </lg>
+            <lg>
+               <l>Sweet voice of <hi>peace!</hi> than which, we nothing hear</l>
+               <l>In heaven or earth more glad and acceptable!</l>
+               <l>What more delightful can to vs appear?</l>
+               <l>What here than to possess, more profitable?</l>
+               <l>As sprite of man to quicken is not able</l>
+               <l>The members, without <hi>peace</hi> and unity;</l>
+               <l>So never stand the Churches members stable,</l>
+               <l>Unless sweet inward <hi>peace</hi> them viuifie,</l>
+               <l>And cause them all to live in <hi>peace</hi> and <hi>amity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Inseparable friends are <hi>Righteousness</hi>
+               </l>
+               <l>And <hi>peace,</hi> they one another meet and kiss:</l>
+               <l>Except thou <hi>Justice</hi> love, thou dost profess</l>
+               <l>In vain thy love to <hi>peace:</hi> Him that doth miss</l>
+               <l>True love to <hi>Justice, peace</hi> will never bliss:</l>
+               <l>What more than Peace do all mankind admire?</l>
+               <l>But Righteousnesie to them a stranger is:</l>
+               <l>Sweet Fruits of Peace all earnestly require,</l>
+               <l>But to the works of <hi>Justice</hi> no man hath desire.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="5" facs="tcp:19267:5"/>
+With <hi>peace</hi> are always <hi>Mercy, Grace,</hi> and <hi>Love,</hi>
+               </l>
+               <l>Faith, Meekness, Humbleness, Joy, Holiness,</l>
+               <l>Except these Graces her companions prove,</l>
+               <l>She's but seeming-quiet <hi>Laziness,</hi>
+               </l>
+               <l>Even stupifide with worldly happiness:</l>
+               <l>Like dreams and slumbers, in a morning fair,</l>
+               <l>Which feed our Fantasies with seeming bless,</l>
+               <l>But when we wake, lo, nothing but the ayre,</l>
+               <l>Our golden hopes are flown, we left in more Despair.</l>
+            </lg>
+            <lg>
+               <l>This is a seeming <hi>peace:</hi> there is a feigned,</l>
+               <l>Which wolves do in cheeps clothing oft propound:</l>
+               <l>Ah! many Souls by such false <hi>peace</hi> are trained,</l>
+               <l>To build their <hi>peace</hi> upon uncertain ground.</l>
+               <l>Such semblance make, as if there did abound</l>
+               <l>With them, <hi>Joy, Peace, Truth,</hi> and <hi>Sincerity;</hi>
+               </l>
+               <l>But seek, and nothing less with them is found,</l>
+               <l>Vain outward <hi>glory, wealth, prosperity,</hi>
+               </l>
+               <l>Is all their aim and end, not minds <hi>Tranquillity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Cursed be their Union, cursed is their <hi>peace:</hi>
+               </l>
+               <l>For by their <hi>concord, plots,</hi> and <hi>unity,</hi>
+               </l>
+               <l>True <hi>Justice</hi> hindered is, in her increase,</l>
+               <l>For thus they foster all iniquity.</l>
+               <l>These make a show of <hi>peace,</hi> but come to try</l>
+               <l>Them by their actions, they are instruments</l>
+               <l>Of <hi>Wars, Rebellions, Treasons, Cruelties;</hi>
+               </l>
+               <l>Like <hi>Simeon, Leui,</hi> cou'ring their intents,</l>
+               <l>With making <hi>Proselites,</hi> and sewing Churches rents.</l>
+            </lg>
+            <lg>
+               <l>Four mortal enemies there are to <hi>peace,</hi>
+               </l>
+               <l>Base <hi>avarice,</hi> pale <hi>envy, wrath,</hi> and <hi>pride:</hi>
+               </l>
+               <l>If from vs we for ever banish these,</l>
+               <l>We may in happy <hi>peace</hi> for ay abide:</l>
+               <l>These two words, <hi>Mine</hi> and <hi>Thine,</hi> do more divide</l>
+               <l>The minds of <hi>brethren, neighbours, priests</hi> and <hi>flock,</hi>
+               </l>
+               <l>Than all that you can reckon me beside:</l>
+               <l>These two the bands of <hi>Amity</hi> unlock,</l>
+               <l>And all the world together in a fury shock.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="6" facs="tcp:19267:6"/>
+Even as mans <hi>body,</hi> whose just temp'rature</l>
+               <l>Consists of <hi>humid, frigid, hot</hi> and <hi>dry;</hi>
+               </l>
+               <l>So long as they in Concord do endure,</l>
+               <l>Doth thrive and grow: but if ambitiously</l>
+               <l>They strive amongst themselves for sovereignty,</l>
+               <l>Their civil breach doth cause <hi>Deaths</hi> execution.</l>
+               <l>So is it in <hi>City, Church,</hi> or <hi>Family,</hi>
+               </l>
+               <l>Sweet <hi>Peace</hi> and <hi>Concord</hi> breed sound constitution:</l>
+               <l>But <hi>Envy, Discord, Pride,</hi> a fearful dissolution.</l>
+            </lg>
+            <lg>
+               <l>And as in Music divers differing Sounds,</l>
+               <l>By <hi>Concord</hi> make one pleasant <hi>Harmony,</hi>
+               </l>
+               <l>But he that strains aboue the rest, confounds</l>
+               <l>His own, and all the others melody:</l>
+               <l>So it befalls each <hi>Society,</hi>
+               </l>
+               <l>So long as they in <hi>Concord</hi> do remain,</l>
+               <l>They live in plenty, ease, prosperity:</l>
+               <l>But if they jar for Envy, Pride, or Gain,</l>
+               <l>They from their quiet state do tumble down amain.</l>
+            </lg>
+            <lg>
+               <l>As many weak sticks, in one faggot bound,</l>
+               <l>No strength of man ever able is to break,</l>
+               <l>Which if they be alone and single found,</l>
+               <l>Would seem but easy to a man that's weak;</l>
+               <l>The same we may of <hi>Peace</hi> and <hi>Concord</hi> speak,</l>
+               <l>Whilst they true Subjects hearts in one do bind,</l>
+               <l>No foreign Power on them their spite can wreak,</l>
+               <l>But if with jars it them disjoined doth find,</l>
+               <l>It breaks their ranks, them chasing like a fearful Hind.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Concord</hi> and <hi>Peace</hi> be like a brazen wall,</l>
+               <l>No Fort's so strong as virtuous minds combined:</l>
+               <l>But as a straight and crooked piece, by all</l>
+               <l>The workmans skill, cannot in one be joined:</l>
+               <l>So fores it with a good and wicked mind;</l>
+               <l>In wicked nature fraught with guile and spite,</l>
+               <l>True <hi>Peace</hi> and <hi>Concord</hi> thou shalt never find:</l>
+               <l>For as good minds great pleasure take in right,</l>
+               <l>So base malicious hearts, in doing wrong, delight.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="7" facs="tcp:19267:6"/>
+The hungry <hi>Fox,</hi> pursuing hard his prey,</l>
+               <l>By chance upon a sleeping <hi>Snake</hi> doth tread;</l>
+               <l>For which, she wroth, defers not long his pay,</l>
+               <l>But with sting taught him to take better heed:</l>
+               <l>Thus dang'rously both wounded are indeed,</l>
+               <l>And both to wounds do Phisicks help apply,</l>
+               <l>Which inwardly do ranckle more than bleed,</l>
+               <l>Yet both by Leeches skill and Surgery:</l>
+               <l>For bodies grief, not minds, do find a remedy.</l>
+            </lg>
+            <lg>
+               <l>Many years after, this malicious <hi>Snake,</hi>
+               </l>
+               <l>Who still revenge doth harbour in her breast,</l>
+               <l>Meeting the <hi>Fox,</hi> him fairly thus bespoke:</l>
+               <l>Ah! how great sorrow doth my heart molest,</l>
+               <l>That we should one another thus infest:</l>
+               <l>For since the time that first began our broil,</l>
+               <l>No greater care within mine heart doth rest,</l>
+               <l>But how our loves again to reconcile,</l>
+               <l>(Thus would <hi>malicious Snake</hi> the <hi>crafty Fox</hi> beguile.)</l>
+            </lg>
+            <lg>
+               <l>Now if you please, let vs all injuries</l>
+               <l>Forget, and as we ought true <hi>Peace</hi> embrace:</l>
+               <l>For <hi>Peace</hi> and <hi>Concord</hi> all good things supplies</l>
+               <l>To mortals, of what-euer rank or place:</l>
+               <l>What thing more pleasing, sweet and good than Grace?</l>
+               <l>She all conserves, keeps all things safe and sound,</l>
+               <l>Makes great increase of Fruit in little space,</l>
+               <l>In pleasure, wealth and ease she doth abound,</l>
+               <l>Yea all the good, that one can wish, in her is found.</l>
+            </lg>
+            <lg>
+               <l>She is the cherisher and nurse of Life,</l>
+               <l>She breeds, feeds, nourishes, gives education,</l>
+               <l>When all confounded are by wars and strife,</l>
+               <l>Which breeds Corruption: Peace brings Generation.</l>
+               <l>Nothing on earth is of like estimation.</l>
+               <l>Thus having said, she offers him to kiss,</l>
+               <l>And fair embrace, according to her fashion:</l>
+               <l>But <hi>Renold</hi> trusts her ne'er the more for this,</l>
+               <l>Who most malicious, cruel, implacable is:</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="8" facs="tcp:19267:7"/>
+But thus replies, Ell's true that thou hast said:</l>
+               <l>But as <hi>true peace</hi> of all things is the best,</l>
+               <l>So sure of nothing more am I afraid</l>
+               <l>Than <hi>feigned peace:</hi> a poison nearly dressed,</l>
+               <l>Which thou concealst now boiling in thy breast;</l>
+               <l>And, with a seeming Kindness, cruelly</l>
+               <l>Would spill my Life, when as I feared it least:</l>
+               <l>No open <hi>sorce, spite,</hi> or <hi>hostility,</hi>
+               </l>
+               <l>So dangerous is, as feigned <hi>peace</hi> and <hi>amity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This <hi>public, private, health, wealth, dignity,</hi>
+               </l>
+               <l>All overthrows, when most we seem secure:</l>
+               <l>No man will trust an open enemy,</l>
+               <l>And therefore against his malice stands more sure;</l>
+               <l>When he by fraud can him no harm procure:</l>
+               <l>But such fair painting words, and honest shows,</l>
+               <l>Ensnare the simple inexpert and pure,</l>
+               <l>And into misery and error throws,</l>
+               <l>Then he too late <hi>plaine-dealing</hi> from <hi>dissembling</hi> knows.</l>
+            </lg>
+            <lg>
+               <l>But now to thee, that <hi>peace</hi> dost so commend:</l>
+               <l>I answer, That for reconciliation,</l>
+               <l>And thee embracing as a faithful friend,</l>
+               <l>I never had so fond determination:</l>
+               <l>God shield me from thy sly malicious nation?</l>
+               <l>Thy guileful heart's as hollow as the sand;</l>
+               <l>Thou doubt of <hi>Truth,</hi> I of <hi>Equivocation:</hi>
+               </l>
+               <l>Stand off: The Moral you may understand,</l>
+               <l>You have this Tale from me, but at the second hand.</l>
+            </lg>
+            <lg>
+               <l>Thus did the <hi>Snake</hi> our mother <hi>Eve</hi> beguile</l>
+               <l>By baits of <hi>honour, kindness,</hi> and <hi>ambition:</hi>
+               </l>
+               <l>But from her stole this <hi>pearl of peace</hi> the while,</l>
+               <l>And plunged her, and her Seed in all perdition:</l>
+               <l>Ever since by feigned shows, &amp; false apparition,</l>
+               <l>This subtle Serpents viprous progeny,</l>
+               <l>Embrace vs, <hi>Ioab<g ref="char:punc">???</g>
+                  </hi> like, with all submission,</l>
+               <l>But to the heart-blood stab vs privily.</l>
+               <l>Isle never trust a base malicious enemy.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="9" facs="tcp:19267:7"/>
+Of a fat <hi>Jovial Orator</hi> I read</l>
+               <l>A pleasant story; who when he ascends</l>
+               <l>Into a narrow Desk for <hi>Peace</hi> to plead,</l>
+               <l>The people all forth shouts and laughters sends:</l>
+               <l>Dough's corps were gross, his wit soon apprehends</l>
+               <l>Th'occasion, and he thus them tells plain,</l>
+               <l>My wife at home in bigness me transcends,</l>
+               <l>Yet vs at <hi>peace,</hi> one bed can well contain,</l>
+               <l>At odds, we in this City walls cannot remain.</l>
+            </lg>
+            <lg>
+               <l>But well my <hi>Muse</hi> of her Digression wites</l>
+               <l>From <hi>Peace</hi> to <hi>Concord;</hi> which the <hi>Schools</hi> define,</l>
+               <l>
+                  <hi>An union of divers appetites</hi>
+               </l>
+               <l>
+                  <hi>Of divers men, who in affection join.</hi>
+               </l>
+               <l>To <hi>Peace,</hi> this Definition they assign,</l>
+               <l>
+                  <hi>To be a concord in the appetite,</hi>
+               </l>
+               <l>
+                  <hi>Which doth th'affections but of one combine</hi>
+               </l>
+               <l>
+                  <hi>In one:</hi> I <hi>Peace</hi> and <hi>Concord</hi> here unite,</l>
+               <l>And of them, as but one true perfect <hi>peace</hi> do write.</l>
+            </lg>
+            <lg>
+               <l>All cruel wars and battles <hi>Dauid</hi> fought,</l>
+               <l>Was but to stablish <hi>peace</hi> to <hi>Solomon;</hi>
+               </l>
+               <l>That type of happy <hi>peace,</hi> who now (no doubt)</l>
+               <l>Rests in that Peace, which he on Earth begun:</l>
+               <l>Oh blessed, joyful, happy <hi>Union,</hi>
+               </l>
+               <l>The Song of <hi>peace</hi> thou singest of the <hi>Bride,</hi>
+               </l>
+               <l>And that great <hi>King of peace,</hi> her lovely One;</l>
+               <l>When sitting at the Banquet by his side,</l>
+               <l>Her with true <hi>peace</hi> as with a <hi>Banner</hi> he doth hide.</l>
+            </lg>
+            <lg>
+               <l>His sweetest gardens are our beds of <hi>rest,</hi>
+               </l>
+               <l>The fruits there growing, sweetest fruits of <hi>peace,</hi>
+               </l>
+               <l>The tunes which birds there warble in their breast,</l>
+               <l>Be songs of Peace: There Spring doth never cease,</l>
+               <l>But <hi>Zephyrus</hi> with Dews blows full increase.</l>
+               <l>Sweet Peace! which makes the Turtles voice resound</l>
+               <l>Such Musique, as the heaviest heart can ease,</l>
+               <l>For she her notes doth to the heart propound,</l>
+               <l>But none conceive the sweetness, till they feel the sound.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="10" facs="tcp:19267:8"/>
+If I through <hi>Scriptures gardens</hi> should you lead,</l>
+               <l>And show you all that glorious <hi>Nursery</hi>
+               </l>
+               <l>Of fruits and flowers there, of <hi>Peace</hi> that breed:</l>
+               <l>I should you tire with sweet Variety.</l>
+               <l>It was the last bequest and Legacy,</l>
+               <l>Our <hi>King of peace</hi> did his Apostles leave:</l>
+               <l>Who made our <hi>peace</hi> when he on Cross did die.</l>
+               <l>For Peace, he bars and gates of hell doth cleave,</l>
+               <l>And <hi>his</hi> Will in due time to endless <hi>peace</hi> receive,</l>
+            </lg>
+            <lg>
+               <l>See his <hi>Apostles, Martyrs, Fathers</hi> all,</l>
+               <l>How meek and lowly they on <hi>peace</hi> attend,</l>
+               <l>Refusing neither <hi>Cross,</hi> nor <hi>cup of Gall,</hi>
+               </l>
+               <l>So as they might attain unto their end;</l>
+               <l>Sweet <hi>peace</hi> on earth they labour to defend,</l>
+               <l>When they have made their <hi>peace</hi> in heaven aboue:</l>
+               <l>Who feels this inward Peace, fears not to spend</l>
+               <l>Wealth, Strength, and Life, for to maintain the love</l>
+               <l>Of those, which with them members of one Body prove,</l>
+            </lg>
+            <lg>
+               <l>But what need I thee furnish from without,</l>
+               <l>If in thine heart this <hi>inward peace</hi> thou find?</l>
+               <l>This <hi>peace of Conscience</hi> will give (no doubt)</l>
+               <l>More <hi>Rest</hi> and <hi>Comfort</hi> to thy Soul and Mind,</l>
+               <l>Than all <hi>wealth, pleasure, glory</hi> here assigned</l>
+               <l>Unto the wicked, for their worldly rest.</l>
+               <l>Sweet <hi>peace of Conscience!</hi> who art not consigned</l>
+               <l>To any <hi>pleasure</hi> here, on earth possessed,</l>
+               <l>Eternal, heavenly <hi>peace</hi> possesses all thy breast.</l>
+            </lg>
+            <lg>
+               <l>Oh I had my <hi>Muse</hi> some losty rapted <hi>strain,</hi>
+               </l>
+               <l>The glory of this <hi>heavenly peace</hi> to sing,</l>
+               <l>Which doth the <hi>heaven, earth, sea, ayre,</hi> all maintain,</l>
+               <l>By gentle government and ordering:</l>
+               <l>Or were she able, on a high-strained string,</l>
+               <l>To sing the Honour of my <hi>Sovereign,</hi>
+               </l>
+               <l>That grand Peace-maker, <hi>Britains</hi> peaceful King,</l>
+               <l>Who through the Christian world doth Peace maintain:</l>
+               <l>God grant, for <hi>peace on earth,</hi> thou <hi>heavenly peace</hi> may gain.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="11" facs="tcp:19267:8"/>
+But ah! how can my soul oppressed with Care,</l>
+               <l>And worldly tumults, of such Glory sing,</l>
+               <l>Since quiet <hi>peace</hi> her self removes far</l>
+               <l>From Discord, Strife, Contentions, Quarrelling?</l>
+               <l>Oh let me under shadow of thy wing,</l>
+               <l>In happy rest and Peace for ay abide!</l>
+               <l>So shall I never fear the malicing</l>
+               <l>Of Envy, Satan, Couetize, or Pride:</l>
+               <l>True <hi>inward peace</hi> was never vanquished, though tried.</l>
+            </lg>
+            <lg>
+               <l>Ah thus I wish for <hi>Peace,</hi> but worldly Care</l>
+               <l>And troubles more and more my mind oppress;</l>
+               <l>Afflictions here and Crosses should prepare,</l>
+               <l>And fit a man for <hi>peace</hi> and <hi>happiness,</hi>
+               </l>
+               <l>But oft they fill vs more with worldliness;</l>
+               <l>Yet such the nature is of <hi>inward peace,</hi>
+               </l>
+               <l>She fills the hearts of all, that her possess,</l>
+               <l>And ever as her vigour doth increase,</l>
+               <l>Our worldly thoughts and cares do more and more decease;</l>
+            </lg>
+            <lg>
+               <l>O <hi>King of Peace!</hi> grant me this inward <hi>peace,</hi>
+               </l>
+               <l>It is that for which the <hi>Spirit</hi> always prays,</l>
+               <l>That <hi>peace</hi> which brings all Graces sweet increase,</l>
+               <l>And now thou art to heaven gone, with vs stays.</l>
+               <l>This <hi>Peace, Hell, Death,</hi> nor <hi>Tyrants</hi> rage dismays,</l>
+               <l>It is not such <hi>peace</hi> as world to vs doth give,</l>
+               <l>In Comforts she transients Suns gentlest rays,</l>
+               <l>By her when we in <hi>Life of Grace</hi> have thrive,</l>
+               <l>With her we ever shall in <hi>life of Glory</hi> live.</l>
+            </lg>
+            <lg>
+               <l>This is the <hi>peace</hi> which sets our hearts as sure</l>
+               <l>As <hi>Sions Mount,</hi> which no force can remove,</l>
+               <l>This <hi>peace</hi> it is which ever shall endure,</l>
+               <l>If rooted in our hearts by <hi>Faith</hi> and <hi>Love:</hi>
+               </l>
+               <l>This Peace which first descends from heaven aboue,</l>
+               <l>And doth our troubled Consciences still,</l>
+               <l>Which makes the <hi>Members</hi> like the <hi>Head</hi> to prove,</l>
+               <l>This is the <hi>Peace of God,</hi> the which doth fill</l>
+               <l>Both <hi>heaven</hi> and earth with <hi>Peace,</hi> and all men with good will.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="12" facs="tcp:19267:9"/>
+Now never let my Soul enjoy true <hi>Peace,</hi>
+               </l>
+               <l>If now she doth not more my heart delight,</l>
+               <l>Than all the <hi>pleasures, glory, wealth</hi> and <hi>ease,</hi>
+               </l>
+               <l>Which here men's minds to <hi>vanity</hi> inuit:</l>
+               <l>
+                  <hi>God of all Peace,</hi> which hast me given a sight</l>
+               <l>Of this most rich inualewable <hi>treasure,</hi>
+               </l>
+               <l>Grant, I on <hi>peace</hi> may set my whole delight,</l>
+               <l>True <hi>peace</hi> like <hi>love,</hi> which hath no bounds nor measure,</l>
+               <l>In this I lie down safe, and take my <hi>rest</hi> and <hi>pleasure.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="part">
+            <head>MEDITATION 2. <hi>Of Chastity.</hi>
+            </head>
+            <lg>
+               <l>THe heavenly <hi>Steeres-man,</hi> which was erst my guide</l>
+               <l>Unto the <hi>hau'n</hi> of <hi>peace</hi> and happy rest,</l>
+               <l>Where I could wish at <hi>anchor</hi> ay to ride,</l>
+               <l>Free from <hi>worlds storms,</hi> which mortals here molest;</l>
+               <l>Doth now unto my <hi>whiter Muse</hi> suggest,</l>
+               <l>The praise of heavenly <hi>Chastity</hi> to sing,</l>
+               <l>Most needful <hi>grace</hi> for those, in <hi>peace,</hi> that rest:</l>
+               <l>For when she most <hi>tranquillity</hi> doth bring,</l>
+               <l>Man most in danger is of <hi>Lusts</hi> enchanting sting.</l>
+            </lg>
+            <lg>
+               <l>For such is <hi>Hells</hi> malicious subtlety,</l>
+               <l>With all advantages still to assail</l>
+               <l>The part unarmed of mans mortality,</l>
+               <l>That he with greater danger may prevail:</l>
+               <l>And when we all his instruments do quail</l>
+               <l>Of <hi>Anger, Envy, Couetize,</hi> and <hi>Pride:</hi>
+               </l>
+               <l>In humble quiet <hi>peace,</hi> he will not fail,</l>
+               <l>By slight, within our <hi>wills</hi> with <hi>brands</hi> to slide,</l>
+               <l>Where with he fires the <hi>gates,</hi> and all the <hi>Town</hi> beside.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="13" facs="tcp:19267:9"/>
+Thus when as <hi>Ioab</hi> and the host were pressed</l>
+               <l>To lye in Tents, and Fields a warfaring,</l>
+               <l>And <hi>Ishai</hi>'s son in Peace at home doth rest,</l>
+               <l>Divinest <hi>Hymns</hi> and <hi>Lays</hi> on Harp to sing;</l>
+               <l>Malicious <hi>Basilisk</hi> with lustful sting</l>
+               <l>Inflames his eyes, which set his heart on fire,</l>
+               <l>And from his heavenly <hi>peace</hi> to <hi>war</hi> doth bring,</l>
+               <l>Such lustful <hi>wars,</hi> such <hi>raging hot desire,</hi>
+               </l>
+               <l>As breed him dismal broils and Gods revenging ire.</l>
+            </lg>
+            <lg>
+               <l>For mans whole life is a continual war</l>
+               <l>With <hi>Satan, World,</hi> his <hi>fleshes sin</hi> and <hi>Lust:</hi>
+               </l>
+               <l>Satan the Captain, these his Soldiers are,</l>
+               <l>Against these always stand in arms we must:</l>
+               <l>But most of all, when we in <hi>peace</hi> doe trust,</l>
+               <l>We want <hi>Dame Chastity</hi>'s commanding Power,</l>
+               <l>Sweet holy <hi>Lady,</hi> faithful, pure and just,</l>
+               <l>In <hi>peace</hi> and rest our safe defence and tower,</l>
+               <l>Dames Laps enriching more than <hi>Dana??s</hi> golden shower.</l>
+            </lg>
+            <lg>
+               <l>Thou; that from slime of earth man first did raise,</l>
+               <l>To bear thine own express similitude,</l>
+               <l>That he in <hi>purity</hi> might spend his days,</l>
+               <l>And all <hi>corruption, sin</hi> and <hi>lust</hi> exclude;</l>
+               <l>Who hast his heart with <hi>Grace</hi> divine endued,</l>
+               <l>To be thy <hi>temple,</hi> and thy Spirits Cell,</l>
+               <l>From me all thoughts, words, acts unchaste seclude,</l>
+               <l>Whilst I the honour of this virtue tell,</l>
+               <l>For in a heart impure, chaste Spirit will not dwell.</l>
+            </lg>
+            <lg>
+               <l>I take <hi>her</hi> for that virtue of the mind,</l>
+               <l>Which doth the Furiousness of Lust retain</l>
+               <l>In reasons bounds; And our affections bind</l>
+               <l>In Royal Links of Virtues golden Chain:</l>
+               <l>As Abstinence doth appetite restrain</l>
+               <l>From food immoderate: So from desire</l>
+               <l>Unlawful, she doth mind and flesh contain,</l>
+               <l>And bounds in limits Generations fire,</l>
+               <l>As <hi>meekness</hi> bounds the rage of <hi>Zeals</hi> revenging ire.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="14" facs="tcp:19267:10"/>
+For even as <hi>Appetite,</hi> without restraint</l>
+               <l>Of <hi>Abstinence,</hi> delights in <hi>Gluttony,</hi>
+               </l>
+               <l>And valiant <hi>Zeal</hi> is, without Meekness, taint</l>
+               <l>With cruel rage, and spites malignity:</l>
+               <l>Even so without this virtue <hi>Chastity,</hi>
+               </l>
+               <l>The noblest <hi>vigour</hi> of sweet <hi>generation,</hi>
+               </l>
+               <l>Abounds in <hi>Lust,</hi> and foul <hi>Adultery,</hi>
+               </l>
+               <l>And spends the <hi>vitals</hi> without moderation,</l>
+               <l>But <hi>Chastity</hi> bounds all to lawful <hi>propagation.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In twofold currents runs her purer source,</l>
+               <l>
+                  <hi>Body's</hi> and <hi>minds;</hi> The <hi>mind</hi> remains chaste,</l>
+               <l>Though one by violence the <hi>Body</hi> force,</l>
+               <l>Again thy <hi>mind</hi> may be corrupt, unchaste,</l>
+               <l>Though thou no act in <hi>flesh</hi> committed hast:</l>
+               <l>Thine eyes, hands, ears, words, looks, least lustful thought</l>
+               <l>She will contain, if in thine heart once placed:</l>
+               <l>The unspotted Lamb, whose blood thee dearly bought,</l>
+               <l>Vnchastly never spake, looked, did, once heard or thought.</l>
+            </lg>
+            <lg>
+               <l>She hath her first divine pure excellence</l>
+               <l>With her beginning, from our Souls creation:</l>
+               <l>That heavenly, holy, purest influence</l>
+               <l>God breathed into the Lump his hand did fashion.</l>
+               <l>And though at first by <hi>Natures deprivation,</hi>
+               </l>
+               <l>She as all other virtues did vs leave,</l>
+               <l>Yet we again by true mortification</l>
+               <l>Of earthly Members, her again receive,</l>
+               <l>And seek, as <hi>members chaste,</hi> to <hi>chastest head</hi> to cleave.</l>
+            </lg>
+            <lg>
+               <l>For as nought better can the <hi>mind</hi> contain,</l>
+               <l>Than <hi>reading, heavenly thoughts</hi> and <hi>meditation,</hi>
+               </l>
+               <l>So nothing <hi>fleshly lusts</hi> doth more restrain,</l>
+               <l>Than <hi>Fasting, Prayer,</hi> and <hi>mortification:</hi>
+               </l>
+               <l>Sweet <hi>chastity's</hi> of heavenly propagation,</l>
+               <l>And as none gain gift of <hi>Virginity,</hi>
+               </l>
+               <l>But by the <hi>Spirits</hi> chaste sanctification,</l>
+               <l>So none conserve their Sacred <hi>Chastity,</hi>
+               </l>
+               <l>But by that <hi>Spirits</hi> working, <hi>Grace</hi> and <hi>Sanctity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="15" facs="tcp:19267:10"/>
+Wherefore as <hi>wantonness, Adultery,</hi>
+               </l>
+               <l>Amongst the <hi>wicked works</hi> of <hi>flesh</hi> are named,</l>
+               <l>So <hi>Meekness, Continence,</hi> and <hi>Chastity</hi>
+               </l>
+               <l>Are called the Spirits Fruits by none defamed:</l>
+               <l>Talk scurrilous to hear she is ashamed,</l>
+               <l>Her modest looks are free from Wantonness,</l>
+               <l>Uncleanness, Filthiness may not be named</l>
+               <l>Within their mouths, that <hi>Chastity</hi> profess,</l>
+               <l>Tongue, eye and ear, the affections of the heart express.</l>
+            </lg>
+            <lg>
+               <l>The Heathen did this <hi>Chastity of mind,</hi>
+               </l>
+               <l>In all that came to worship God, require,</l>
+               <l>For they her seated in the Soul did find,</l>
+               <l>From whence comes every good or bad desire:</l>
+               <l>And as <hi>Souls substance pure immortal fire,</hi>
+               </l>
+               <l>Doth <hi>Bodies</hi> made of <hi>Elements</hi> transcend,</l>
+               <l>So doth the <hi>Chastity of mind</hi> aspire,</l>
+               <l>Our Souls to <hi>Angels purity</hi> doe tend,</l>
+               <l>When we in flesh with them in chastest thoughts contend.</l>
+            </lg>
+            <lg>
+               <l>The <hi>fleshes Chastity</hi> is to be free</l>
+               <l>From sinful touch, or act; <hi>that of the mind</hi>
+               </l>
+               <l>Is <hi>Faith vnuiolate;</hi> not to agree</l>
+               <l>To any lustful thought: we seldom find</l>
+               <l>The body chaste, where mind is ill inclined.</l>
+               <l>In this she doth <hi>Virginity</hi> transcend,</l>
+               <l>That she is the Preserver of mankind,</l>
+               <l>And from chaste nuptial bed doth children send,</l>
+               <l>Without which all the world would perish soon and end.</l>
+            </lg>
+            <lg>
+               <l>These therefore always her Companions are,</l>
+               <l>
+                  <hi>Shamefastness, Continence,</hi> and <hi>Modesty,</hi>
+               </l>
+               <l>The enemies that of her stand in fear,</l>
+               <l>Are <hi>Fornication,</hi> wanton <hi>Luxury;</hi>
+               </l>
+               <l>For she ay <hi>chastens</hi> their iniquity:</l>
+               <l>The <hi>Seminary's</hi> of Delight and Pleasure,</l>
+               <l>
+                  <hi>Carousing, Chambering,</hi> and <hi>Gluttony,</hi>
+               </l>
+               <l>Which Worldlings here account their greatest treasure,</l>
+               <l>She hates, and lives in all by <hi>Natures little measure.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="16" facs="tcp:19267:11"/>
+Fullness of meat, Sleep, play, Garrulity,</l>
+               <l>With <hi>ease of body, costly vain attire,</hi>
+               </l>
+               <l>The <hi>fuel</hi> are of <hi>Lust</hi> and <hi>Luxury,</hi>
+               </l>
+               <l>Which here dry up our <hi>humid,</hi> and conspire</l>
+               <l>To burn our <hi>souls</hi> and <hi>bodies</hi> in hell fire:</l>
+               <l>Other sins are without, but <hi>generation,</hi>
+               </l>
+               <l>To procreate by mutual desire,</l>
+               <l>Except it be confined with moderation,</l>
+               <l>A sin is against our <hi>body's health,</hi> and <hi>souls salvation.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Lust</hi> may be lik'ned to some River maine,</l>
+               <l>Bounded by purest Channels of her own,</l>
+               <l>Wherein so long as she her streams contain,</l>
+               <l>Her waters pleasant, pure and sweet are known,</l>
+               <l>But if her swelling waives so proud be grown,</l>
+               <l>They pass their Bounds, and overflow the Plain,</l>
+               <l>Her floods late pure, now foul &amp; muddy shown,</l>
+               <l>And boundless overflow the grass and grain;</l>
+               <l>So rages <hi>lawless Lust,</hi> let loose from <hi>Virtues rain.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>For we are like unruly Horses all</l>
+               <l>Still neighing after <hi>neighbours wives:</hi> But she</l>
+               <l>Vs, as with <hi>Bit</hi> and <hi>Bridle,</hi> doth recall,</l>
+               <l>And makes our <hi>Lusts</hi> to reasons rules agree:</l>
+               <l>Thus two as in one Body joined be,</l>
+               <l>And are for mutual <hi>Bounds</hi> of sweet desire,</l>
+               <l>And bounded thus, <hi>the act</hi> is <hi>Chastilee,</hi>
+               </l>
+               <l>Like to the useful Element of fire,</l>
+               <l>Which bounded all preserves; but loosed is ell's destroyer.</l>
+            </lg>
+            <lg>
+               <l>This <hi>boundless Lust</hi> some liken to the <hi>Fire,</hi>
+               </l>
+               <l>
+                  <hi>And Brimstone</hi> God did down on <hi>Sodomy rain,</hi>
+               </l>
+               <l>
+                  <hi>Virginity</hi> to <hi>mount,</hi> God doth require</l>
+               <l>
+                  <hi>Lot</hi> to escape unto, who doth obtain</l>
+               <l>Rather in little <hi>Soar</hi> to remain:</l>
+               <l>So they, that from Lusts <hi>Sodome-scorching</hi> flame,</l>
+               <l>Can not <hi>Virginiti's high Mount</hi> attain,</l>
+               <l>May stay in <hi>Soar,</hi> which they <hi>wedlock</hi> name</l>
+               <l>The <hi>Citti's</hi> safest, but the <hi>Mount</hi> of greater fame.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="17" facs="tcp:19267:11"/>
+As glorious <hi>Sun,</hi> when he doth first arise,</l>
+               <l>Is both of <hi>heaven</hi> and <hi>earth</hi> the wonderment,</l>
+               <l>Even so a <hi>woman, modest, chaste</hi> and <hi>wise,</hi>
+               </l>
+               <l>Of <hi>House</hi> and <hi>Husband</hi> is the ornament:</l>
+               <l>An honest Wife's a gift from heaven sent.</l>
+               <l>As light on <hi>golden Candlestick</hi> shines bright,</l>
+               <l>So <hi>Beauty</hi> in a <hi>woman continent,</hi>
+               </l>
+               <l>A <hi>Lamp</hi> to <hi>House</hi> and <hi>Husband</hi> all the night,</l>
+               <l>All day like <hi>glorious Beams</hi> of <hi>Titans</hi> heavenly Light.</l>
+            </lg>
+            <lg>
+               <l>And as that is the noblest <hi>victory,</hi>
+               </l>
+               <l>Which Soldiers with most danger do obtain,</l>
+               <l>So she, that keeps her honoured <hi>Chastity,</hi>
+               </l>
+               <l>Against most <hi>temptations,</hi> doth most glory gain:</l>
+               <l>It is harder base affections to restrain</l>
+               <l>In ease and rest, than moderate aright</l>
+               <l>A Kingdom, which by open force we gain,</l>
+               <l>So many are our Lusts that in vs fight,</l>
+               <l>So strong is <hi>Satins</hi> force, so subtle is his slight.</l>
+            </lg>
+            <lg>
+               <l>No beauty, form, or golden Vestiment</l>
+               <l>Do so adorn the Body; as the Mind</l>
+               <l>Is graced by this Virtues Ornament:</l>
+               <l>Without sweet Light the Sun as soon we find,</l>
+               <l>As Shamefastness from Chastity disjoined:</l>
+               <l>Immodest looks are Darts against her thrown,</l>
+               <l>When man and women's light aspects are joined,</l>
+               <l>The battel's fought, both sides are overthrown.</l>
+               <l>Ah cruel fight! where neither side defends her own.</l>
+            </lg>
+            <lg>
+               <l>As eyes from wanton looks, even so our ear</l>
+               <l>Against all immodest Charms, we must enclose;</l>
+               <l>For Shamefastnesses veil these off doe tear,</l>
+               <l>And our affections prone to Lust vnlose:</l>
+               <l>The <hi>Flame</hi> and <hi>Fire</hi> do not sooner close,</l>
+               <l>Than <hi>Impudence</hi> and foul <hi>unchastity,</hi>
+               </l>
+               <l>Then <hi>Beauty,</hi> like Gold-ring in swinish Nose,</l>
+               <l>Doth root in <hi>Dirt</hi> of <hi>Impudicity,</hi>
+               </l>
+               <l>No <hi>Body's</hi> chaste where <hi>Mind's</hi> join in <hi>Adultery.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="18" facs="tcp:19267:12"/>
+Who is not clothed in robe pure snowy white</l>
+               <l>Of <hi>Chastity,</hi> the <hi>Lamb</hi> will never know:</l>
+               <l>Then <hi>Dames,</hi> that in fair ornaments delight,</l>
+               <l>Desire to be, as you desire to show:</l>
+               <l>All richest Pearls, Gold, Jewels, here below,</l>
+               <l>Are nothing to this <hi>Gem of Chastity:</hi>
+               </l>
+               <l>No <hi>fairer Flower,</hi> doth in <hi>Loves garden</hi> grow,</l>
+               <l>Than <hi>Blush</hi> of <hi>Shamefastness,</hi> and <hi>Modesty,</hi>
+               </l>
+               <l>No <hi>Jewel</hi> like the <hi>Belt of Truth and Sanctity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Nor doe I only here of you require</l>
+               <l>A <hi>Continence,</hi> for fear of <hi>Law</hi> or <hi>Fame,</hi>
+               </l>
+               <l>But such a <hi>Chastity</hi> I doe desire,</l>
+               <l>That neither may your Mind nor Conscience blame<g ref="char:punc">???</g>
+               </l>
+               <l>Oh let it be unto your Souls a shame,</l>
+               <l>A Bird should you in <hi>Chastity</hi> transcend,</l>
+               <l>The <hi>Turtle</hi> never changes <hi>mate</hi> or <hi>name,</hi>
+               </l>
+               <l>For this the Story <hi>Iudith</hi> doth commend,</l>
+               <l>But this is no <hi>Command,</hi> but <hi>counsel</hi> for a friend.</l>
+            </lg>
+            <lg>
+               <l>Take here for pattern <hi>Rachels</hi> chastest son,</l>
+               <l>Who even a princess lustful soft embrace</l>
+               <l>For <hi>virtues Love,</hi> not <hi>fear of shame,</hi> did shun:</l>
+               <l>I here might grant <hi>Lucretia</hi> a place,</l>
+               <l>But that <hi>selfe-murther</hi> doth her foul disgrace:</l>
+               <l>
+                  <hi>Penelope's</hi> a Map of Chaste desire,</l>
+               <l>Who far away all <hi>Idleness</hi> doth chase,</l>
+               <l>Nor takes least heate from Suitors lustful fire,</l>
+               <l>But twice ten years expects her dearest Lords retire.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Susan's</hi> so chaste, <hi>her rumour</hi> dares not blame,</l>
+               <l>To this high pitch of honour they doe rise,</l>
+               <l>That shun all <hi>idleness,</hi> and <hi>wanton game,</hi>
+               </l>
+               <l>And more than gold their names &amp; honour prize.</l>
+               <l>
+                  <hi>Sobriety</hi> them ay accompany's,</l>
+               <l>Both in their <hi>speaking, eating,</hi> and <hi>attire,</hi>
+               </l>
+               <l>Their <hi>modest gate,</hi> sweet carriage, shamefaced eyes,</l>
+               <l>Doe prove their <hi>Beds</hi> be <hi>nests</hi> of chaste desire,</l>
+               <l>To quench more than inflame the brands of lustful fire.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="19" facs="tcp:19267:12"/>
+Even fruitful <hi>Venus,</hi> true to husbands side,</l>
+               <l>May win from <hi>heavens high</hi> 
+                  <note n="a" place="margin">Iuno</note> 
+                  <hi>Queen</hi> the <hi>golden Ball:</hi>
+               </l>
+               <l>And virgin <hi>Pallas</hi> may be well denied</l>
+               <l>The honour, which <hi>chaste Matrons</hi> doth befall.</l>
+               <l>Glory of either Sex! Oh how then shall</l>
+               <l>This hand unchaste of that pure <hi>chastnesse</hi> write,</l>
+               <l>By which <hi>Christs-Bride</hi> surmounts the <hi>daughters all,</hi>
+               </l>
+               <l>And doth the <hi>Queens</hi> and <hi>Concubines</hi> delight,</l>
+               <l>Binding even mighty Kings with her most glorious sight?</l>
+            </lg>
+            <lg>
+               <l>Her <hi>turtle-voice, Doves eyes,</hi> as <hi>Lilly-white</hi>
+               </l>
+               <l>Excels the <hi>thorns,</hi> so She all Womankind:</l>
+               <l>Yet loves but <hi>one,</hi> whom she in bed by night,</l>
+               <l>Doth seek for long, at last <hi>alone</hi> doth find:</l>
+               <l>He her <hi>alone</hi> in arms embraces kind,</l>
+               <l>And she <hi>alone</hi> delights in his embrace:</l>
+               <l>Chaste Bridegroom, chastest Bride together joined,</l>
+               <l>Of Saints beget a holy heavenly race:</l>
+               <l>With this high <hi>Mystery,</hi> Christ doth chaste Wedlock grace:</l>
+            </lg>
+            <lg>
+               <l>And brands with <hi>spiritual Fornication,</hi>
+               </l>
+               <l>Those, who on earth their chastest <hi>Head</hi> forsake,</l>
+               <l>And stoop to <hi>Idols</hi> and abomination,</l>
+               <l>Here choice of <hi>Lovers</hi> to themselves to rake:</l>
+               <l>The <hi>Saints</hi> and <hi>Angels</hi> they for <hi>Bridegroom</hi> take,</l>
+               <l>When they before their <hi>Images</hi> do fall:</l>
+               <l>Thus she the <hi>Scarlet-whore</hi> herself doth make,</l>
+               <l>And they her <hi>bastards</hi> which she bears all:</l>
+               <l>Such <hi>bastards,</hi> with <hi>true-heiers,</hi> ne'er inherit shall.</l>
+            </lg>
+            <lg>
+               <l>As <hi>chaste,</hi> so we a <hi>jealous</hi> Bridegroom have,</l>
+               <l>And as his <hi>Love,</hi> like <hi>Death,</hi> is sure and strong,</l>
+               <l>Co's <hi>Jealousy</hi> as cruel is as <hi>grave:</hi>
+               </l>
+               <l>Who such a loving Husband dares to wrong,</l>
+               <l>His jealous Fury may expect ere long</l>
+               <l>But now I stray from sweetest Meditation,</l>
+               <l>I ought to end, as I began my song:</l>
+               <l>One word more of a <hi>Worthy</hi> of our nation,</l>
+               <l>A pattern worth thy learning, love, and imitation.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="20" facs="tcp:19267:13"/>
+                  <hi>Thomas</hi> Archbishop of <hi>Yorks</hi> famous See;</l>
+               <l>When Doctors counsel, and his friends him pried,</l>
+               <l>For Cure, to use a female-remedy,</l>
+               <l>And for that turn, him brought a comely maid;</l>
+               <l>Most piously to them replied, and said,</l>
+               <l>That to preserve his flesh, which was to die,</l>
+               <l>His Souls immortal <hi>Chastity</hi> betrayed</l>
+               <l>Should never be: Such heavenly <hi>chastity</hi>
+               </l>
+               <l>Shows plain, his Soul doth live in heaven eternally.</l>
+            </lg>
+            <lg>
+               <l>But as the Lute, which yields a pleasant sound,</l>
+               <l>Doth others, but it self, no whit delight;</l>
+               <l>So, if examples, only I propound</l>
+               <l>To others, and not practise what I write,</l>
+               <l>I never may approach the <hi>chastest Light,</hi>
+               </l>
+               <l>To which our <hi>chastest Head</hi> before is gone:</l>
+               <l>For no unchaste one comes in his sight,</l>
+               <l>Except with <hi>Magdalen</hi> they sigh and groan,</l>
+               <l>And cleanse with floods of <hi>tears</hi> their filthiness each one.</l>
+            </lg>
+            <lg>
+               <l>Thus clensd our Soul is like <hi>Brides liuing-Well,</hi>
+               </l>
+               <l>Whose waters are most pleasant, pure and sweet:</l>
+               <l>Our bodies eyes like fountains two, which quell</l>
+               <l>And quench all Lusts temptatio<g ref="char:cmbAbbrStroke">??</g>s which they meet:</l>
+               <l>But now adays we hold this <hi>Grace</hi> unmeet,</l>
+               <l>In noble valiant breast to entertain,</l>
+               <l>Men only think her fit for <hi>Dames</hi> to greet,</l>
+               <l>And to their basest Lusts let loose the Rain:</l>
+               <l>But sure no Virtue dwells, where she doth not remain.</l>
+            </lg>
+            <lg>
+               <l>The Flesh against the Spirit covets,</l>
+               <l>But if the Spirit manfully hold out,</l>
+               <l>It all Lusts base temptations vanquishes;</l>
+               <l>Who have a purpose resolute and stout,</l>
+               <l>To temper their affections, may (no doubt)</l>
+               <l>Defend their <hi>honour'</hi> against <hi>Concupiscence;</hi>
+               </l>
+               <l>And though they oft opposd are by a <hi>rout</hi>
+               </l>
+               <l>Of their own <hi>lusts, hells,</hi> and <hi>worlds</hi> violence,</l>
+               <l>Their <hi>chaste</hi> resolved mind maintains their innocence.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="21" facs="tcp:19267:13"/>
+Then Fools are they, that when they have began</l>
+               <l>In <hi>spirit,</hi> in the <hi>flesh</hi> will make an end:</l>
+               <l>He that once tastes of Lust, more hardly can</l>
+               <l>Abstain, than he that never did intend:</l>
+               <l>Me, from her first Beginnings, Lord defend!</l>
+               <l>She's like the Serpent that did <hi>Eve</hi> assail;</l>
+               <l>She pleasant fruits and pleasures doth pretend,</l>
+               <l>Her <hi>mouth</hi> drops hony-sweet, but with her <hi>tail,</hi>
+               </l>
+               <l>She stings even all to hell, with whom she doth prevail.</l>
+            </lg>
+            <lg>
+               <l>But though I make a <hi>covenant with mine eyes,</hi>
+               </l>
+               <l>Like <hi>Iob,</hi> no lustful object to behold,</l>
+               <l>Yet oft this Monster will mine heart surprise,</l>
+               <l>And unawares in sinful Thought enfold:</l>
+               <l>This Serpents cunning sleights can not be told:</l>
+               <l>The best way to avoid them can be found,</l>
+               <l>Is her aloof to keep: if thou be bold</l>
+               <l>To chat with her, she unawares will wound.</l>
+               <l>I almost fear her filthiness now to propound.</l>
+            </lg>
+            <lg>
+               <l>Vncircumcised, railing <hi>Philistine!</hi>
+               </l>
+               <l>Who all Gods host defies in single fight,</l>
+               <l>I dare not suffer thee to come within,</l>
+               <l>Such is thy force, such is thy cunning slight:</l>
+               <l>Thou art a Giant of exceeding might.</l>
+               <l>If you will hearken unto my persuasion,</l>
+               <l>Keep him aloof, and in the <hi>forehead</hi> smite.</l>
+               <l>Best way to shun Lusts furious invasion,</l>
+               <l>Is warily here to avoid the least occasion.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Dauid</hi> escapes the Bears and Lyons paws,</l>
+               <l>And overthrows the <hi>Philistine</hi> in field,</l>
+               <l>And yet this subtle <hi>Serpent</hi> him so draws,</l>
+               <l>His heart unto her Sirens-songs doth yield:</l>
+               <l>Then she him conquers without <hi>sword</hi> or <hi>shield,</hi>
+               </l>
+               <l>And leads him by the eye-lids to her snare.</l>
+               <l>Heavens from such subtle vile allurements shield</l>
+               <l>All those, that have a Conscience and care,</l>
+               <l>Their hearts fit <hi>Temples</hi> for thy <hi>Spirit</hi> to prepare.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="22" facs="tcp:19267:14"/>
+Purge vs with Hyssope, and we shall be pure:</l>
+               <l>Wash vs, we than the Snow shall be more white;</l>
+               <l>Our Souls and Bodies Temple shall be sure</l>
+               <l>A <hi>holy house,</hi> wherein thou may delight:</l>
+               <l>But I the <hi>virtue</hi> for the <hi>vice</hi> have quite,</l>
+               <l>I purposed <hi>Chastity</hi> here to commend,</l>
+               <l>But <hi>Lust</hi> so fiercely with my <hi>Muse</hi> doth fight,</l>
+               <l>I scarce mine own am able to defend:</l>
+               <l>Therefore with Prayer I my Meditation end.</l>
+            </lg>
+            <lg>
+               <l>Oh thou, that made my Soul a little <hi>King<g ref="char:punc">???</g>
+                  </hi>
+               </l>
+               <l>And in this <hi>little-world, my-Body</hi> placed;</l>
+               <l>It subject making to the ordering</l>
+               <l>Of <hi>Reason,</hi> wherewith thou this King hast graced;</l>
+               <l>Set first of all the <hi>Sovereigns Kingdom</hi> fast,</l>
+               <l>Whereby his <hi>Subjects</hi> he may rule aright,</l>
+               <l>That is, <hi>affections</hi> keep most pure and chaste,</l>
+               <l>But most in <hi>spiritual chastity</hi> delight,</l>
+               <l>To which add <hi>Constancy,</hi> of which I next do write.</l>
+            </lg>
+         </div>
+         <div type="part">
+            <head>
+               <hi>MEDITATION</hi> 3. Of Constancy.</head>
+            <lg>
+               <l>SO oft as I the Splendour do behold</l>
+               <l>Of heavenly Graces, linked in golden chain,</l>
+               <l>Which them so firmly doth together hold,</l>
+               <l>That <hi>all</hi> they but as <hi>one</hi> seem to remain;</l>
+               <l>My Soul is so delighted with their train,</l>
+               <l>That she desires to dwell with them for ay;</l>
+               <l>But oft <hi>employment, pleasures, cares</hi> and <hi>gain,</hi>
+               </l>
+               <l>Mine eyes and heart so draw another way,</l>
+               <l>I fleshly motions more than spiritual obey.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="23" facs="tcp:19267:14"/>
+And as these Graces joined, my soul delight,</l>
+               <l>So doth each singled out by Meditation,</l>
+               <l>Sing I of <hi>Love,</hi> I love with all my might:</l>
+               <l>If <hi>Humbleness,</hi> she works humiliation:</l>
+               <l>So <hi>Faith, Repentance, Hope, Justification,</hi>
+               </l>
+               <l>By <hi>Righteousness imputed: Mercy</hi> kind,</l>
+               <l>
+                  <hi>Joy, Patience, Fortitude, chaste Conversation,</hi>
+               </l>
+               <l>
+                  <hi>Peace, Meekness, Prayer, Zeal,</hi> even <hi>all</hi> I find</l>
+               <l>Do always to my Song, both suit mine heart and mind.</l>
+            </lg>
+            <lg>
+               <l>But such are my Corruptions innate,</l>
+               <l>Hells malice, and the worlds enticements vain,</l>
+               <l>I can no longer hold that happy state,</l>
+               <l>Than I in Contemplation remain:</l>
+               <l>This is the cause my Muse is now so fine</l>
+               <l>To sing of <hi>Constancy,</hi> that heavenly Grace,</l>
+               <l>Which all the rest doth ay with vs retain</l>
+               <l>Most glorious Grace! the lustre of whose face,</l>
+               <l>Both heavenly <hi>Love,</hi> and all her Peers for ever grace.</l>
+            </lg>
+            <lg>
+               <l>For, without Her, the rest are all but shows,</l>
+               <l>Like Corn by high-wayes side, flourish awhile,</l>
+               <l>And seems more glorious, than that which grows</l>
+               <l>Upon best bottomed, dunged, tilled Soil:</l>
+               <l>But as that only doth our eyes beguile</l>
+               <l>With flourishes, in calm and gentle spring,</l>
+               <l>But Summers heate, and frosts, it's verdure spoil:</l>
+               <l>Even so, these rootless Virtues flourishing,</l>
+               <l>Adverse or prosperous <hi>Fortune</hi> to confusion bring.</l>
+            </lg>
+            <lg>
+               <l>Thou, that art from <hi>Eternity</hi> the same,</l>
+               <l>Without least shadow of Variety:</l>
+               <l>Like to the <hi>Sun,</hi> heavens pure world-lightning flame,</l>
+               <l>Constant in <hi>beat, course,</hi> and <hi>serenity:</hi>
+               </l>
+               <l>
+                  <hi>Three,</hi> yet subsisting in one <hi>Deity,</hi>
+               </l>
+               <l>Who, though thou seem to change with things below,</l>
+               <l>Art far in truth from Mutability:</l>
+               <l>Oh make mine heart in virtue <hi>constant</hi> grow,</l>
+               <l>That thence, as from a Fountain, this Discourse may flow.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="24" facs="tcp:19267:15"/>
+We <hi>Constancy</hi> a <hi>Perseverance</hi> call</l>
+               <l>In some good purpose: for in every thing</l>
+               <l>We undertake, <hi>right</hi> must be first of all</l>
+               <l>Resolved of, next, our <hi>firm persevering:</hi>
+               </l>
+               <l>A vain, unsettled, idle wavering</l>
+               <l>Without just ground, by <hi>Proteus,</hi> Poets fine,</l>
+               <l>Who on himself as many forms will bring,</l>
+               <l>As he hath idle notions in his brain,</l>
+               <l>Or base desires and Lusts which in his heart remain.</l>
+            </lg>
+            <lg>
+               <l>But in good purpose to stand fast and sound,</l>
+               <l>Not only man-like is, but most divine,</l>
+               <l>Like God, in whom no change was ever found:</l>
+               <l>For as the Sun, this worlds pure crystal eyne,</l>
+               <l>In heaven doth always with like glory shine,</l>
+               <l>Though, by the varying <hi>Medium's</hi> here below,</l>
+               <l>It seem more glorious in the Summer time,</l>
+               <l>Than when <hi>Eolian</hi> blasts dark clouds do blow:</l>
+               <l>So <hi>Constance</hi> is the same, though alt'ring oft in show.</l>
+            </lg>
+            <lg>
+               <l>This <hi>Constance</hi> is with <hi>Patience</hi> a twin,</l>
+               <l>Begot by <hi>Iupiter</hi> of <hi>Fortitude;</hi>
+               </l>
+               <l>Mother and Babes as like, as near of kin;</l>
+               <l>Who hath <hi>one,</hi> with all <hi>three</hi> must be endued:</l>
+               <l>These lift up to <hi>heroical habitude,</hi>
+               </l>
+               <l>And come from <hi>Justice,</hi> and a <hi>prudent mind.</hi>
+               </l>
+               <l>If Fury, Rage, Wrong, Rashness do intrude,</l>
+               <l>We them no <hi>virtues</hi> fair, but <hi>vices</hi> find,</l>
+               <l>With whom <hi>Minerua,</hi> nor the <hi>Graces</hi> ever joined.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Patience</hi> and <hi>Constancy</hi> in this agree,</l>
+               <l>Effeminate faint hearts ay to oppose,</l>
+               <l>And men relieve in all extremity,</l>
+               <l>Undaunted, resolute, who will not loose</l>
+               <l>That liberty, they have the Good to choose:</l>
+               <l>Thus seem they one: now mark their difference,</l>
+               <l>
+                  <hi>Patience</hi> all wrongs with courage undergoes:</l>
+               <l>For without <hi>Suffering's</hi> no <hi>Patience:</hi>
+               </l>
+               <l>But <hi>Constance</hi> is in <hi>joy</hi> and <hi>pain</hi> a firm defence<g ref="char:punc">???</g>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="25" facs="tcp:19267:15"/>
+Without Compulsion, free for Virtues sake,</l>
+               <l>
+                  <hi>Patience</hi> constrained, oft by necessity,</l>
+               <l>Most cheerful valiantly doth undertake</l>
+               <l>To bear, what cannot well avoided be:</l>
+               <l>One good end <hi>Constancy</hi> propounds, which she</l>
+               <l>Only regards: but noble <hi>patience,</hi>
+               </l>
+               <l>Before her will all evils conquered see,</l>
+               <l>Which her oppress in flesh or conscience:</l>
+               <l>
+                  <hi>Both</hi> have brave resolution, and sound confidence.</l>
+            </lg>
+            <lg>
+               <l>No <hi>fury</hi> of the headless <hi>Multitude,</hi>
+               </l>
+               <l>No <hi>Tyrants</hi> rage a constant mind can shake;</l>
+               <l>Though all the world turn to a <hi>Chaos</hi> rude,</l>
+               <l>The ruins crush him may, but can not make</l>
+               <l>Him stagger, nor <hi>Ioues</hi> thunder make him quake.</l>
+               <l>The Sea may roar, the waives mount to the skies,</l>
+               <l>And threaten him to drown in deepest Lake:</l>
+               <l>But Fury, Rage, Waives, all he doth despise,</l>
+               <l>And when hopes outward fail, his inward highest rise.</l>
+            </lg>
+            <lg>
+               <l>He <hi>constant</hi> perseveres unto the end,</l>
+               <l>Like some good traveller, who gives not in,</l>
+               <l>Till he attain the place he doth intend:</l>
+               <l>And as the Soldier, that the town would win,</l>
+               <l>Fights stoutly, till he conquers all within:</l>
+               <l>Even so in Buildings, Arts, or Merchandise,</l>
+               <l>In any Work or Science we begin,</l>
+               <l>It is the end where all our glory lies;</l>
+               <l>He runs in vain, that faints before he wins the Prize.</l>
+            </lg>
+            <lg>
+               <l>Though all her means, &amp; all her strength do sail,</l>
+               <l>Yet fears she not to hold out to the end,</l>
+               <l>She's still the same, and nothing can prevail,</l>
+               <l>To alter any Good she doth intend.</l>
+               <l>To whom the heavens true <hi>Constancy</hi> do send</l>
+               <l>Within their hearts to dwell, on all occasions</l>
+               <l>Effects most admirable thence transcend,</l>
+               <l>She fills the heart with such secure persuasions;</l>
+               <l>They it defend from all faint-hearted base invasions.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="26" facs="tcp:19267:16"/>
+A <hi>constant</hi> man, the most disastrous fate,</l>
+               <l>With a most pleasing forehead entertains:</l>
+               <l>
+                  <hi>Integrity</hi> so sweetens his estate,</l>
+               <l>As in a pleasant Calm he ay remains:</l>
+               <l>With her he always in his heart retains,</l>
+               <l>
+                  <hi>Hope, Prudence, Fortitude, Right, Temperance:</hi>
+               </l>
+               <l>And when him Troubles, Losses, Grief or Pains</l>
+               <l>Assail, so stoutly <hi>patience</hi> doth advance,</l>
+               <l>He lives most secure, not subject unto Chance.</l>
+            </lg>
+            <lg>
+               <l>Brave noble <hi>Constance!</hi> who art never sound,</l>
+               <l>Except dame Prudence thee accompany,</l>
+               <l>Thou on her counsels and advice dost found</l>
+               <l>Thy settled resolutions all, whereby</l>
+               <l>Thou standst most firm for Truth and Honesty;</l>
+               <l>Nothing can thee, thus well resolved, withstand.</l>
+               <l>In vain and evil things no <hi>constancy,</hi>
+               </l>
+               <l>But base <hi>perverseness,</hi> we do understand;</l>
+               <l>Just, honest, profitable's all she takes in hand.</l>
+            </lg>
+            <lg>
+               <l>For <hi>perseverance</hi> in a thing that's ill,</l>
+               <l>Is to this Virtue no less enemy,</l>
+               <l>Than they that by affections guide their will,</l>
+               <l>With vain inconstancy and levity:</l>
+               <l>Who, of a wanton imbecility,</l>
+               <l>Stagger and change at every idle motion;</l>
+               <l>Wind-shaken Reeds, whose instability,</l>
+               <l>Are like the brain-sicke, idle, vain devotion</l>
+               <l>Of <hi>Nouellists,</hi> drunk with hot humours giddy potion.</l>
+            </lg>
+            <lg>
+               <l>Preposterous fools! who when they should frequent</l>
+               <l>Assemblies, hide themselves at home alone;</l>
+               <l>From what they do approve, they soon dissent,</l>
+               <l>Hating what erst they loved, dispraise as soon,</l>
+               <l>What erst they liked well: Lo, such a one,</l>
+               <l>Appears like <hi>Cato's Ape,</hi> wondrous severe,</l>
+               <l>With rugged brow; but you may find him soon</l>
+               <l>Dissolved in Laughter, or even dead with fear:</l>
+               <l>Such, any public Office is unfit to bear.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="27" facs="tcp:19267:16"/>
+No truth of <hi>Judgment</hi> or <hi>Sincerity,</hi>
+               </l>
+               <l>In such a vain <hi>inconstant mind</hi> is found:</l>
+               <l>But Sloth, Fraud, Wantonness, Iniquity,</l>
+               <l>With all the basest <hi>Vices</hi> there abound:</l>
+               <l>This <hi>Levity</hi> in <hi>youth</hi> doth <hi>age</hi> confound</l>
+               <l>With doting madness; and a man declares</l>
+               <l>Wise only then in show, not inward sound:</l>
+               <l>But then a brave and <hi>constant mind</hi> appears,</l>
+               <l>When <hi>constant Resolution</hi> honours silver hairs.</l>
+            </lg>
+            <lg>
+               <l>Well said th'old <hi>Cynic,</hi> when him friends advise</l>
+               <l>To leave his study, and to take his rest:</l>
+               <l>I am, saith he, now running for a prize,</l>
+               <l>And therefore in the end must run my best.</l>
+               <l>The shorter time of Life to vs doth rest,</l>
+               <l>More <hi>constantly</hi> we to our aim must rend.</l>
+               <l>Who runs, saith <hi>Paul,</hi> the race, is never blessed</l>
+               <l>With due reward, that holds not to the end:</l>
+               <l>For <hi>Constance</hi> is the Grace doth all the rest commend.</l>
+            </lg>
+            <lg>
+               <l>And as the man, that hard things undertakes,</l>
+               <l>Must always have respect unto the end,</l>
+               <l>Which all precedent bitterness sweet makes,</l>
+               <l>Be it for pleasure, glory, gain, or friend;</l>
+               <l>So he that for Gods glory doth contend,</l>
+               <l>And makes it ay his <hi>constant</hi> end and aim,</l>
+               <l>As that's immortal, so it him doth send</l>
+               <l>True immortality in heaven to gain,</l>
+               <l>Which comforts him for all his Labour, loss, and pain.</l>
+            </lg>
+            <lg>
+               <l>As Mountains huge stand fast on their foundation,</l>
+               <l>So <hi>constant minds</hi> on resolutions sound,</l>
+               <l>As they vnmou'd, so without alteration</l>
+               <l>Are good Conclusions built on <hi>Virtues</hi> ground:</l>
+               <l>A <hi>constant</hi> man stands on a rock profound,</l>
+               <l>Which neither storms, wind, waives, nor force can move:</l>
+               <l>Crosses, afflictions, can no more confound</l>
+               <l>Him, than wind, waives, and storms, the rock remove,</l>
+               <l>Whose strong foundation stands on <hi>faith, hope, truth</hi> and <hi>love.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="28" facs="tcp:19267:17"/>
+                  <hi>Anselmus</hi> doth a <hi>constant man</hi> compare</l>
+               <l>Unto a sixe-square dye, or hewed stone,</l>
+               <l>The six <hi>flat-sides,</hi> his <hi>six Conditions</hi> are,</l>
+               <l>
+                  <hi>Freedom, Prosperity, Subjection,</hi>
+               </l>
+               <l>
+                  <hi>Aduerstey, Life-publique,</hi> and <hi>alone:</hi>
+               </l>
+               <l>On which soever side he chance to fall,</l>
+               <l>He stands upright with resolution,</l>
+               <l>No <hi>changes</hi> can his constant mind appal,</l>
+               <l>But as he stands firm on one side, so on all,</l>
+            </lg>
+            <lg>
+               <l>As bodily eyes all need Light of Sun,</l>
+               <l>Whereby they may attain unto their end,</l>
+               <l>So on all good and virtuous works begun,</l>
+               <l>This holy Virtue <hi>Constance</hi> must attend:</l>
+               <l>And as except the Sun his Light doth lend,</l>
+               <l>We open in the dark our eyes in vain,</l>
+               <l>So vainly we good holy works intend,</l>
+               <l>Except we <hi>constant</hi> to the end remain,</l>
+               <l>Like <hi>Pilot</hi> drowned in <hi>hau'n,</hi> when he hath escaped the <hi>Maine.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Is it not absurd, that we should early rise,</l>
+               <l>Lose sleep, broil with Suns heat, and take great pain,</l>
+               <l>Only to win a fading worthless prize,</l>
+               <l>And give in, when we sure be to obtain</l>
+               <l>A Crown, which shall for ever make vs reign?</l>
+               <l>Except the <hi>Soldier Constant</hi> be and bold,</l>
+               <l>His <hi>Captains</hi> favour he shall never gain,</l>
+               <l>Unless our spiritual fight we <hi>constant</hi> hold,</l>
+               <l>Gods comfortable face we never shall behold.</l>
+            </lg>
+            <lg>
+               <l>She is the Nurse of Merit, friend of Peace,</l>
+               <l>Way to Reward, sister of Patience,</l>
+               <l>True friendships Band, pure Sanctities increase:</l>
+               <l>Take away <hi>Constance,</hi> Bounties excellence</l>
+               <l>Doth fade, and Duty wants her recompense;</l>
+               <l>High Fortitude doth want her commendation.</l>
+               <l>She is alone the noble <hi>Grace,</hi> from whence</l>
+               <l>All other <hi>Graces</hi> have their Consummation:</l>
+               <l>To her is given, or rather she gives man salvation.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="29" facs="tcp:19267:17"/>
+What more like unto God than Constancy?</l>
+               <l>Who ay like Sun in heaven remains the same,</l>
+               <l>Though to descend to mans capacity,</l>
+               <l>He often seem to change his mind and name.</l>
+               <l>The Scriptures then mans changing closely blame,</l>
+               <l>When they affirm, God grieves, or doth repent:</l>
+               <l>It is flesh that alters, God is still the same:</l>
+               <l>So clouds seem oft to change the Firmament,</l>
+               <l>Which till the Day of Doom stands firm and permanent.</l>
+            </lg>
+            <lg>
+               <l>When as she hath a <hi>constat</hi> of the right,</l>
+               <l>She therein perseveres unto the end:</l>
+               <l>Therefore of <hi>constat</hi> she is <hi>Constance</hi> hight;</l>
+               <l>And well this <hi>name</hi> her <hi>nature</hi> doth commend.</l>
+               <l>Her understanding first doth apprehend</l>
+               <l>Things to be good, before she doth begin<g ref="char:punc">???</g>
+               </l>
+               <l>Then she most <hi>constantly</hi> doth ay intend,</l>
+               <l>When she <hi>consid'rately</hi> hath entered in:</l>
+               <l>Thus all the Saints on earth, a room in heaven must win.</l>
+            </lg>
+            <lg>
+               <l>And though all flesh, by our first Parents fall,</l>
+               <l>Are so inconstant, vain, and wavering,</l>
+               <l>They have in words, thoughts, actions, and all,</l>
+               <l>Of <hi>Eves</hi> fond fickleness a relishing:</l>
+               <l>Lo <hi>Enoch</hi> yet <hi>constant</hi> persevering</l>
+               <l>To walk with God, till he him takes away:</l>
+               <l>And <hi>Noah, constant</hi> in the publishing</l>
+               <l>Of true Repentance, even until the day,</l>
+               <l>Floods come and drown all <hi>Flesh</hi> without the <hi>Arc</hi> that stay.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Abram</hi> most <hi>constant</hi> in belief we find:</l>
+               <l>No fear nor terror <hi>Iacob</hi> could dismay:</l>
+               <l>
+                  <hi>Ioseph</hi> had rather iron links should bind</l>
+               <l>His limbs, than from chaste <hi>Constancy</hi> to stray.</l>
+               <l>So long as hard'ned <hi>Memphians</hi> disobey,</l>
+               <l>
+                  <hi>Moses</hi> most <hi>constantly</hi> for plagues doth call:</l>
+               <l>Lo <hi>Iosuahs</hi> courage lengthens out the day,</l>
+               <l>Till he Gods enemies destroys all;</l>
+               <l>No force, nor fury can his <hi>constant</hi> mind appal.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="30" facs="tcp:19267:18"/>
+I number may the Stars of heaven as well,</l>
+               <l>As here the Mirrors all of <hi>Constance</hi> count,</l>
+               <l>Who <hi>champions</hi> brave against <hi>world, flesh,</hi> and <hi>hell,</hi>
+               </l>
+               <l>In <hi>Fortitude</hi> and <hi>Patience</hi> surmount:</l>
+               <l>Many of them I formerly recount,</l>
+               <l>In <hi>Fortitudes</hi> and <hi>Patience</hi> Meditation,</l>
+               <l>They all arise from one fair <hi>heavenly fount,</hi>
+               </l>
+               <l>That cleansing <hi>Lauer</hi> of Regeneration,</l>
+               <l>Though glittering shows we find oft with the heathen nation.</l>
+            </lg>
+            <lg>
+               <l>Isle name one <note n="a" place="margin">Regulus</note> 
+                  <hi>Carthage prisoner</hi> for all,</l>
+               <l>Who, upon promise to return again,</l>
+               <l>Was sent to <hi>Rome,</hi> the <hi>Senate</hi> there to call,</l>
+               <l>Them to persuade against their Cities gain:</l>
+               <l>But he most nobly will not yield to stain</l>
+               <l>His Countries glory, for his private <hi>good,</hi>
+               </l>
+               <l>But <hi>constantly</hi> persuades them to maintain</l>
+               <l>Their honour, though he sealed it with his blood,</l>
+               <l>And <hi>constant</hi> still the <hi>same</hi> against all tortures stood.</l>
+            </lg>
+            <lg>
+               <l>His noble mind their cruelties derides,</l>
+               <l>His Executioners are wearied,</l>
+               <l>Yet <hi>constant</hi> he and cheerful all abides,</l>
+               <l>
+                  <hi>Grief, gain,</hi> for Countries good, he reckoned.</l>
+               <l>Yet hath this <hi>Constancy</hi> been conquered</l>
+               <l>By thousand Martyrs, which most willingly</l>
+               <l>For <hi>Syons glory</hi> have been martyred;</l>
+               <l>Who when their flesh doth broil, and bowels fry,</l>
+               <l>Sing joyful <hi>Hallelujahs</hi> to God on hie.</l>
+            </lg>
+            <lg>
+               <l>Yet are these, but as Candles to the Sun,</l>
+               <l>Compared with the <hi>constant Lord of all:</hi>
+               </l>
+               <l>Begin we with his apprehension,</l>
+               <l>When his Disciples all from him do fall,</l>
+               <l>Behold him in the high Priests Iudgment-hall:</l>
+               <l>See <hi>Harrods</hi> men of war him foul deride:</l>
+               <l>Condemned by <hi>Pilot,</hi> scorned, abused of all:</l>
+               <l>The <hi>thief</hi> that rails, hanging by his side,</l>
+               <l>Yet he most valiant, <hi>constant,</hi> patient, doth abide.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="31" facs="tcp:19267:18"/>
+But now the Sun ascended is aboue,</l>
+               <l>Th'Apostles will their Light no longer hide,</l>
+               <l>They constantly before the <hi>Rulers</hi> prove,</l>
+               <l>That they the <hi>Lord of Life</hi> had crucified:</l>
+               <l>And when they are before those Rulers tried,</l>
+               <l>And charged to preach no more in <hi>Iesus</hi> name,</l>
+               <l>They most courageous, constantly replied,</l>
+               <l>Be judges, whether it were greater blame,</l>
+               <l>You now to disobey or God who vs did frame.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Paul</hi> ready is not only to be <hi>bound,</hi>
+               </l>
+               <l>But at <hi>Hierusalem</hi> for <hi>Christ to die,</hi>
+               </l>
+               <l>He <hi>patient</hi> is in all afflictions found,</l>
+               <l>
+                  <hi>Constant</hi> in losses, joy, prosperity:</l>
+               <l>Read his imprisonments brave history,</l>
+               <l>You there shall more divine <hi>Idea's</hi> find,</l>
+               <l>Than <hi>Homer, Virgil, Spencer,</hi> can supply,</l>
+               <l>Though they in loftiest <hi>strains</hi> the form have lined</l>
+               <l>Of a most brave, heroic, <hi>constant,</hi> noble mind.</l>
+            </lg>
+            <lg>
+               <l>These, as they saw their <hi>pattern</hi> set before,</l>
+               <l>Unto the <hi>Races</hi> end most <hi>constant</hi> run,</l>
+               <l>But yet their Fortitude's increased more,</l>
+               <l>By Confidence, that he which hath begun</l>
+               <l>So good a work, it will not leave undone:</l>
+               <l>Let <hi>Devils</hi> try by <hi>crosses</hi> and <hi>tentation,</hi>
+               </l>
+               <l>Hold <hi>constant to the end,</hi> the Crown is won.</l>
+               <l>Though for awhile we suffer tribulation,</l>
+               <l>A noble, <hi>constant</hi> mind stands without perturbation.</l>
+            </lg>
+            <lg>
+               <l>I do confess it is difficult and rare,</l>
+               <l>To know ones-selfe; but to be still the same,</l>
+               <l>Is chiefest work, of all the works that are:</l>
+               <l>He that so <hi>constantly</hi> his mind can frame,</l>
+               <l>Deserves the honour of a <hi>constant name:</hi>
+               </l>
+               <l>He's near to glorious <hi>virtues consummation;</hi>
+               </l>
+               <l>His soul minds only heaven, from whence it came,</l>
+               <l>Secure and free from worlds vain molestation,</l>
+               <l>And waits heavens leisure only for his glad translation.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="32" facs="tcp:19267:19"/>
+Not that I <hi>constant Idleness</hi> commend,</l>
+               <l>Or a retired Life monastical;</l>
+               <l>No, <hi>Constance</hi> always <hi>Labour</hi> doth intend,</l>
+               <l>And is the <hi>same</hi> approved and seen of all:</l>
+               <l>Her words, looks, gesture, are heroical;</l>
+               <l>She makes the Body strong, confirms the mind.</l>
+               <l>Ah! wo to them, that from her favour fall,</l>
+               <l>And leave the right, the crooked way to find;</l>
+               <l>These grieve the Angels, which to guard them are assigned.</l>
+            </lg>
+            <lg>
+               <l>Grant in Prosperity a prudent heart,</l>
+               <l>And in Adversity a mind upright;</l>
+               <l>So shall no pleasures vain my Soul pervert,</l>
+               <l>Nor crosses or tentations me affright:</l>
+               <l>My self I with Gods blessings will delight,</l>
+               <l>So long as please his Bounty them to lend.</l>
+               <l>If I must suffer here for doing right,</l>
+               <l>I to the <hi>Just one</hi> will my cause commend,</l>
+               <l>Where I am sure to have a just and equal end.</l>
+            </lg>
+            <lg>
+               <l>The <hi>end,</hi> whereon all that is past depends,</l>
+               <l>If then we have a <hi>constant</hi> resolution,</l>
+               <l>A holy Life shall bring vs happy ends,</l>
+               <l>Then comes our <hi>Fate,</hi> to justest revolution:</l>
+               <l>We then of <hi>Adams</hi> loss have restitution,</l>
+               <l>Ah! all our Labour hath but been in vain,</l>
+               <l>If Courage faint in point of Dissolution:</l>
+               <l>This is the hour we happiness attain,</l>
+               <l>Or else for ever in hells torments must remain.</l>
+            </lg>
+            <lg>
+               <l>Lord make me ever mindful of this Hour,</l>
+               <l>That <hi>constant</hi> always I may stand prepared,</l>
+               <l>Grant me with boldness to declare thy power,</l>
+               <l>And <hi>in the right</hi> of none to be afraid:</l>
+               <l>True happiness is <hi>Constancies</hi> reward,</l>
+               <l>A high reward, but he it sure shall gain,</l>
+               <l>That to the end holds out with due regard.</l>
+               <l>Things hardest, <hi>Perseverance</hi> will attain,</l>
+               <l>And <hi>Constancy</hi> will make them ay with vs remain.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="33" facs="tcp:19267:19"/>
+Then stand we firm, in what we have begun,</l>
+               <l>And labour <hi>constantly</hi> more to obtain,</l>
+               <l>Lo, thus we <hi>heaven upon the earth</hi> have won:</l>
+               <l>Thus we that <hi>true Security</hi> attain,</l>
+               <l>Which every wise and good man seeks to gain:</l>
+               <l>No Greatness, King, or Kesar is so high,</l>
+               <l>As those that over their <hi>affections</hi> reign:</l>
+               <l>Here <hi>Peace of Conscience</hi> brings <hi>Security,</hi>
+               </l>
+               <l>
+                  <hi>Saints</hi> wished true <hi>content,</hi> and <hi>Angels Dignity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Most blessed Port, that Pilgrims can attain!</l>
+               <l>Till they arrive at hau'n of Happiness,</l>
+               <l>Pure Joy of heart, which only they do gain,</l>
+               <l>Where heavens sweet <hi>Comforter</hi> doth dwell in peace:</l>
+               <l>God of all Comfort, in my heart increase</l>
+               <l>This <hi>Constancy,</hi> that she may me defend</l>
+               <l>In <hi>private, public, loss, gain, pain,</hi> and <hi>ease,</hi>
+               </l>
+               <l>And grant, as I the <hi>Graces</hi> do commend,</l>
+               <l>I may in all continue <hi>constant</hi> to the end.</l>
+            </lg>
+            <div type="section">
+               <head>Authoris Uotum.</head>
+               <lg>
+                  <l>MIght I a Life enjoy to my desire,</l>
+                  <l>I would no wealth, or honour vain require,</l>
+                  <l>Nor troops of Horsemen after me to ride,</l>
+                  <l>Nor clouds of Servants trouping by my side:</l>
+                  <l>In private fields, and gardens I would walk;</l>
+                  <l>Now with my <hi>Muse,</hi> now with my <hi>Friends</hi> to talk:</l>
+                  <l>(By <hi>Muse,</hi> I <hi>prayer</hi> mean; and <hi>Meditation,</hi>
+                  </l>
+                  <l>By <hi>Friends,</hi> a holy loving <hi>Conversation)</hi>
+                  </l>
+                  <l>At Peace with all, but <hi>Ill:</hi> My Conscience</l>
+                  <l>Both <hi>good</hi> and <hi>quiet,</hi> free from foul offence:</l>
+               </lg>
+               <lg>
+                  <l>So when the hour of my <hi>change</hi> shall come,</l>
+                  <l>I with a willing heart will leave my room,</l>
+                  <l>To whom it is ordained by <hi>Destiny:</hi>
+                  </l>
+                  <l>Thus I desire to <hi>live,</hi> and thus to <hi>die.</hi>
+                  </l>
+               </lg>
+            </div>
+         </div>
+         <div type="part">
+            <pb n="34" facs="tcp:19267:20"/>
+            <head>
+               <hi>MEDITATION</hi> 4. Of Curtsy, or Humanity.</head>
+            <lg>
+               <l>THus have I brought the <hi>Muse</hi> from pleasing shade,</l>
+               <l>And gentle sweetest <hi>Heliconian</hi> Spring,</l>
+               <l>To <hi>Stoics School,</hi> to teach her in the trade</l>
+               <l>Of <hi>Constancy;</hi> and firm persevering:</l>
+               <l>Some <hi>Critic</hi> will me blame for marshaling</l>
+               <l>
+                  <hi>Cato</hi> severe, with Virgins sweet delight,</l>
+               <l>But nothing more makes for their honouring,</l>
+               <l>Than with that noble <hi>Virtue</hi> to be tight,</l>
+               <l>Which makes them high accepted even in Princes sight.</l>
+            </lg>
+            <lg>
+               <l>And sure, O <hi>Kings,</hi> your wisdoms cannot find</l>
+               <l>More prudent <hi>Senators,</hi> your States to sway,</l>
+               <l>Than Muses friends, which have a constant mind,</l>
+               <l>And know as well to govern as obey:</l>
+               <l>Who by their <hi>Curtsy</hi> and <hi>Constance</hi> may</l>
+               <l>Order your <hi>Halls,</hi> and wield your State-affairs:</l>
+               <l>For noble Curtsy and Constance ay</l>
+               <l>Adorn Kings <hi>Iudgements-Seats,</hi> and stately <hi>Chairs,</hi>
+               </l>
+               <l>And strangers entertain, that to your Court repairs.</l>
+            </lg>
+            <lg>
+               <l>For in each flourishing and goodly State,</l>
+               <l>Upon the royal Person of the King,</l>
+               <l>The courteous Courtier hath a place to waite,</l>
+               <l>As well as Senate for wise-governing:</l>
+               <l>These both must join in prudent managing</l>
+               <l>Of subject <hi>Provinces,</hi> and to entreat,</l>
+               <l>Of Leagues with Princes on them bordering;</l>
+               <l>But he for all employments is most meet,</l>
+               <l>Where <hi>Curtsy</hi> and <hi>Constance</hi> both together greet.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="35" facs="tcp:19267:20"/>
+Wherefore in Court of <hi>Loves</hi> most <hi>royal</hi> Queen,</l>
+               <l>Where <hi>Graces</hi> all, in due administration,</l>
+               <l>Are in most comely order placed seen</l>
+               <l>For <hi>Kingdoms Peace,</hi> and <hi>Princes Delectation:</hi>
+               </l>
+               <l>Behold this one thing worth thy Observation,</l>
+               <l>Brave Constance ay with Curtsy is joined,</l>
+               <l>For all men do observe, with admiration,</l>
+               <l>A <hi>courteous carriage,</hi> with a constant mind,</l>
+               <l>Adoring even as Gods the valiant gentle kind.</l>
+            </lg>
+            <lg>
+               <l>For sure except these both together meet,</l>
+               <l>
+                  <hi>Constance</hi> alone's so rigid and severe,</l>
+               <l>She for a <hi>pedagogue</hi> is far more meet,</l>
+               <l>Than Office in <hi>Loves</hi> gentle Court to bear:</l>
+               <l>And, if that single <hi>curtsy</hi> appear,</l>
+               <l>Without this resolute most constant Grace,</l>
+               <l>She is but <hi>apish complement,</hi> to blear</l>
+               <l>Beholders eyes with <hi>Conges</hi> and a face,</l>
+               <l>When nought that in her looks, within her heart hath place.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Dauid</hi> the heavenly <hi>Muses</hi> darling dear,</l>
+               <l>An <hi>Emblem</hi> of Humanity I find,</l>
+               <l>In <hi>Camp</hi> he is undaunted, without fear,</l>
+               <l>In Court of constant, noble, courteous mind,</l>
+               <l>One <hi>Ionathans</hi> true love to him inclined,</l>
+               <l>The other smites even stout <hi>Goliab</hi> down,</l>
+               <l>His <hi>Muse</hi> the <hi>evil spirit of Saul</hi> doth bind,</l>
+               <l>And raised him from the fouled to high renown,</l>
+               <l>And set upon his royal head the golden Crown.</l>
+            </lg>
+            <lg>
+               <l>True noble <hi>Curtsy,</hi> most heavenly Grace,</l>
+               <l>Most high to be esteemed and reckoned</l>
+               <l>Of all; but most of those whom God doth place,</l>
+               <l>Aboue their brethren to be honoured:</l>
+               <l>For they that here vs govern in his stead,</l>
+               <l>Ought, like their <hi>Lord,</hi> to <hi>gentleness</hi> incline,</l>
+               <l>Who, though his Throne shines round with lightning dread,</l>
+               <l>With <hi>courteous countenance</hi> on his doth shine,</l>
+               <l>Oh gentle King me grant this <hi>Grace</hi> aright to line.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="36" facs="tcp:19267:21"/>
+Gentleness, Curtsy, Humanity,</l>
+               <l>Divers in name, in nature are the same,</l>
+               <l>Proceeding from the minds integrity,</l>
+               <l>And are as sparks of <hi>Loves</hi> celestial flame:</l>
+               <l>The outward shows which co<g ref="char:cmbAbbrStroke">??</g>plements we name,</l>
+               <l>Are but as <hi>Symboles</hi> of her heart and mind,</l>
+               <l>If they be true, she is a noble Dame,</l>
+               <l>If feigned, she is the <hi>shame</hi> of <hi>womankind,</hi>
+               </l>
+               <l>And seeks to <hi>lye</hi> with all, where she may favour find.</l>
+            </lg>
+            <lg>
+               <l>I know not whether I may better call</l>
+               <l>Her <hi>Sister,</hi> or the <hi>Child</hi> of <hi>Gravity,</hi>
+               </l>
+               <l>But sure I find these <hi>Graces</hi> all in all,</l>
+               <l>Delighting in each others Company:</l>
+               <l>The glory of all fair Society,</l>
+               <l>Most reverend and amiable Peers,</l>
+               <l>In whom all <hi>sweetness</hi> shines with <hi>Majesty,</hi>
+               </l>
+               <l>Where not least <hi>ostentation</hi> vain appears,</l>
+               <l>Chief ornaments of Youth, and grace of filuer hairs.</l>
+            </lg>
+            <lg>
+               <l>Both doe proceed from one <hi>Dame,</hi> Sanctity,</l>
+               <l>And <hi>both</hi> employed are in reformation</l>
+               <l>Of manners; but in brief <hi>Humanity</hi>
+               </l>
+               <l>A man, <hi>humane,</hi> like to his name doth fashion:</l>
+               <l>And this to <hi>Poets fables</hi> gave occasion,</l>
+               <l>To tell how <hi>men</hi> were made of <hi>stocks</hi> and <hi>stones,</hi>
+               </l>
+               <l>And <hi>Beasts</hi> turned <hi>men,</hi> by <hi>Orpheus</hi> his persuasion.</l>
+               <l>And for she thus brought men to live as one,</l>
+               <l>
+                  <hi>Amphions Harp</hi> is said <hi>Thebes</hi> walls to build alone.</l>
+            </lg>
+            <lg>
+               <l>Yea those, that in <hi>Humanity</hi> transcended,</l>
+               <l>And others brought unto <hi>civility,</hi>
+               </l>
+               <l>Were <hi>deified</hi> when their lives were ended,</l>
+               <l>And ever honoured of Posterity:</l>
+               <l>Ah! what more princely is than <hi>Curtsy?</hi>
+               </l>
+               <l>Thus Kings to <hi>King of heaven</hi> most near do come,</l>
+               <l>When savage men unto Society</l>
+               <l>They bring, which else like furious Beasts would run,</l>
+               <l>And even more cruel to themselves than beasts become.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="37" facs="tcp:19267:21"/>
+Thus <hi>Curtsy</hi> with <hi>adamantine</hi> band</l>
+               <l>Men ties in Friendship, free from Envies rents,</l>
+               <l>For no offence can part their joined hand,</l>
+               <l>Where gentleness interprets friends intents;</l>
+               <l>Where Kindness ever Courtesies prevents,</l>
+               <l>And grateful, always strives to overcome,</l>
+               <l>As <hi>Foes by Arms, Friends by munificence</hi>
+               </l>
+               <l>The barbarous and insolentest groom</l>
+               <l>Doth gentle, kind, benign, by <hi>Curtsy</hi> become.</l>
+            </lg>
+            <lg>
+               <l>Man is the weakest creature God hath made,</l>
+               <l>For where all else, by heavenly <hi>Providence,</hi>
+               </l>
+               <l>Have bodies armed against Foes that them invade,</l>
+               <l>And rage of Times by Natures muniments,</l>
+               <l>Man only <hi>Virtue</hi> hath for his defence,</l>
+               <l>This gentle virtue, sweet humanity,</l>
+               <l>With loving kind and tender heart, from whence</l>
+               <l>Flow <hi>Pity, Mercy, Love, Benignity,</hi>
+               </l>
+               <l>Whereby we mutual helps to others here supply.</l>
+            </lg>
+            <lg>
+               <l>For these <hi>Companions</hi> are to <hi>gentleness,</hi>
+               </l>
+               <l>Which make her here beloved unto all;</l>
+               <l>
+                  <hi>Sweet gracious looks,</hi> and <hi>speeches gracefulness,</hi>
+               </l>
+               <l>Are to this courteous Lady natural,</l>
+               <l>To which she adding <hi>Majesty</hi> withal,</l>
+               <l>And <hi>comely Guise</hi> doth steal men's hearts away,</l>
+               <l>And free, from sterne <hi>morosity</hi> and <hi>gall,</hi>
+               </l>
+               <l>In sweet Tranquillity and Peace doth stay,</l>
+               <l>Immutable, without base perturbation, ay.</l>
+            </lg>
+            <lg>
+               <l>Far from the base <hi>morose</hi> and <hi>cynical,</hi>
+               </l>
+               <l>That to all others manners are averse,</l>
+               <l>Who are so crooked, cross and critical,</l>
+               <l>In their own dispositions so perverse,</l>
+               <l>No friend with them is able to converse,</l>
+               <l>Delighting to be conversant with none;</l>
+               <l>But sullen, truculent, so sterne and fierce,</l>
+               <l>You easier may wring water from a stone.</l>
+               <l>Then mirth and gentle words; or looks from such an one.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="38" facs="tcp:19267:22"/>
+Neighbourhood, Countreys-Loue, Affinity,</l>
+               <l>
+                  <hi>Kindred</hi> and <hi>Friendship</hi> are cold <hi>barren names;</hi>
+               </l>
+               <l>Such neither like nor love the Company</l>
+               <l>Of <hi>honest equals,</hi> nor of <hi>gentle Dames:</hi>
+               </l>
+               <l>This <hi>Vice</hi> in every man even <hi>Nature</hi> blames,</l>
+               <l>But most in <hi>Officers</hi> of <hi>Court</hi> or <hi>State,</hi>
+               </l>
+               <l>For <hi>Courteous gravity</hi> her <hi>Courtier</hi> frames;</l>
+               <l>
+                  <hi>Sweet, gentle, facile, pleasing, delicate,</hi>
+               </l>
+               <l>Fair <hi>Almas</hi> bounteous <hi>Pears</hi> in all to imitate.</l>
+            </lg>
+            <lg>
+               <l>As he is worthy Death, who here denies</l>
+               <l>His brother Water from a living Spring,</l>
+               <l>Or him Suns comfortable Beams envies,</l>
+               <l>Or from his Candles-light, light-borrowing,</l>
+               <l>Or to direct aright the wandering;</l>
+               <l>So he is most discourteous, inhumane,</l>
+               <l>Who when he profit may to others bring,</l>
+               <l>Without least <hi>Damage</hi> to himself, or blame,</l>
+               <l>Yet to his brother churlishly denies the same.</l>
+            </lg>
+            <lg>
+               <l>Humanity's like fairest <hi>July</hi>flower</l>
+               <l>With silken leaves, which bud, doth yet enclose,</l>
+               <l>Which fair dispreading by sweet Natures power</l>
+               <l>As she doth wax broader and sweeter blows;</l>
+               <l>No flower in Loves fairest garden grows,</l>
+               <l>That more delights the smell, affects the eye,</l>
+               <l>But as from root bright hue and sweetness flows,</l>
+               <l>So from the heart springs fairest <hi>Curtsy,</hi>
+               </l>
+               <l>Else as the <hi>Flower</hi> fades, so dyes <hi>Humanity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>For as a gentle heart it self betrays,</l>
+               <l>By doing courteous deeds, with free delight,</l>
+               <l>Even so base dunghill mind it self displays,</l>
+               <l>In malice, churlishness, revenge and spite:</l>
+               <l>
+                  <hi>Humanity</hi> is Friendships chiefest night,</l>
+               <l>
+                  <hi>Foes reconciler, Bounty's greatest Fame,</hi>
+               </l>
+               <l>Than to accept more ready to requite,</l>
+               <l>Gifts are to her like Oil powered on the flame,</l>
+               <l>Which more and more her heart with friendly love inflame.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="39" facs="tcp:19267:22"/>
+As blowing on hot coals them more inflames,</l>
+               <l>But water on them powered extinguishes;</l>
+               <l>So bitter words enrage, but soft reclaims:</l>
+               <l>One ire appeases, the other kindles:</l>
+               <l>And as more safe on Sea he trauelleth,</l>
+               <l>That passes on with soft and gentle blast,</l>
+               <l>Than whom full Sails like arrow carries:</l>
+               <l>So stands the mild, sweet <hi>gentle</hi> man more fast,</l>
+               <l>Than he whose furious mood bears all before in hast.</l>
+            </lg>
+            <lg>
+               <l>As lukewarm water cools an inflammation,</l>
+               <l>So <hi>courteous language, anger</hi> pacifies,</l>
+               <l>And as wild horse is tamed by mild traction,</l>
+               <l>So cruel foes are won by <hi>courtesies:</hi>
+               </l>
+               <l>We easier our most savage enemies</l>
+               <l>Subdue by <hi>Gentleness,</hi> than cruelty,</l>
+               <l>Wild Hawks the Faulkner surer to him ties,</l>
+               <l>By handling gently, and familiarly,</l>
+               <l>Than if he never suffered them from fist to fly.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Bough</hi> by <hi>gentleness</hi> is easily bent,</l>
+               <l>Which handled boistrously would break in sunder,</l>
+               <l>Thus fiercest <hi>Bull</hi> is with the <hi>yoke</hi> content,</l>
+               <l>And <hi>gentleness</hi> brings cruel <hi>Tigers</hi> under:</l>
+               <l>
+                  <hi>Philosophers</hi> affirm that <hi>dint of Thunder,</hi>
+               </l>
+               <l>Doth never <hi>hurt,</hi> where it doth <hi>yielding</hi> find,</l>
+               <l>It melts the <hi>blade,</hi> and yet behold and wonder!</l>
+               <l>The scabbard's not consumed, it bones doth grind,</l>
+               <l>And yet the yielding flesh is neither scorched nor pined.</l>
+            </lg>
+            <lg>
+               <l>Wisely, said he, that thought wise men below</l>
+               <l>Should not be moved with those which do offend,</l>
+               <l>But where they vices find increase and grow,</l>
+               <l>Should strive and do their best them to amend;</l>
+               <l>Like good <hi>Physicians,</hi> who when they attend</l>
+               <l>Their <hi>Patients,</hi> are not angry with their fit,</l>
+               <l>But to the <hi>cure</hi> best skill and cunning bend:</l>
+               <l>As all are sons of <hi>Eve,</hi> we sin commit,</l>
+               <l>But he is most like God, that here amends it.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="40" facs="tcp:19267:23"/>
+                  <hi>Humanity</hi> may have a <hi>threefold sense,</hi>
+               </l>
+               <l>
+                  <hi>Mans Nature, Virtue,</hi> and his <hi>education,</hi>
+               </l>
+               <l>
+                  <hi>In humane Arts,</hi> and pure <hi>Intelligence;</hi>
+               </l>
+               <l>From whence she seems to have <hi>denomination:</hi>
+               </l>
+               <l>And therefore <hi>Liberal Arts</hi> by every Nation,</l>
+               <l>Are called the <hi>studies</hi> of <hi>humanity,</hi>
+               </l>
+               <l>And breed in man a <hi>courteous conversation,</hi>
+               </l>
+               <l>With <hi>gentle manners</hi> and <hi>civility,</hi>
+               </l>
+               <l>Which only heavens bestow on <hi>Muses Nursery.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And hence it is, that rustique <hi>Boars</hi> and <hi>Clowns,</hi>
+               </l>
+               <l>Who want the good of civil education,</l>
+               <l>So rude and rustique are in Country towns,</l>
+               <l>When those, that have with <hi>Muses</hi> conversation,</l>
+               <l>Or near to <hi>Princes Courts</hi> their habitation,</l>
+               <l>Become more <hi>civil, sociable,</hi> kind;</l>
+               <l>Hence it is that every rude and savage nation,</l>
+               <l>Where gentle Arts abide not, are inclined</l>
+               <l>To rustique force, and savage cruelty of mind.</l>
+            </lg>
+            <lg>
+               <l>No greater Grace the heavens to man afford,</l>
+               <l>Than gentle breeding up in heavenly lore,</l>
+               <l>By thews and holy knowledge to accord</l>
+               <l>Their wrathful furious Passions evermore:</l>
+               <l>
+                  <hi>Plato</hi> the Gods immortal doth adore,</l>
+               <l>That they him <hi>reasonable</hi> made, no <hi>Beast;</hi>
+               </l>
+               <l>A <hi>Man,</hi> no <hi>Woman:</hi> But it glads him more,</l>
+               <l>That he knew humane <hi>Arts,</hi> and <hi>heavenly best,</hi>
+               </l>
+               <l>By which he thought himself in life and death most blessed.</l>
+            </lg>
+            <lg>
+               <l>The Emperor <hi>Trojan;</hi> when his friends him blame</l>
+               <l>As careless of imperial Majesty,</l>
+               <l>Because so mild, sweet, gentle he became</l>
+               <l>And affable to all his company;</l>
+               <l>Said he would so be in high Sou'raignty</l>
+               <l>To others: as if else he private were,</l>
+               <l>He wished to find the royal Dignity,</l>
+               <l>With whom all good men ought be free from fear,</l>
+               <l>But cruel, vile, malicious, never should come there.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="41" facs="tcp:19267:23"/>
+                  <hi>Philip,</hi> who had by Liberality</l>
+               <l>Obliged, as he thought, to him a Nation,</l>
+               <l>Received nought but <hi>Scorn</hi> for <hi>Curtsy,</hi>
+               </l>
+               <l>Wherefore his Courtiers, moved with indignation,</l>
+               <l>Persuade their King unto revenge and passion:</l>
+               <l>Soft, said the Prince, if these men doe requite</l>
+               <l>Our benefits, in such a scornful fashion,</l>
+               <l>They vs for injuries will more despite:</l>
+               <l>True pattern of a prudent, patient, gentle Knight.</l>
+            </lg>
+            <lg>
+               <l>Is <hi>Jury</hi> barren then of <hi>gentle</hi> deed?</l>
+               <l>Because I only of the <hi>Nations</hi> tell,</l>
+               <l>The lives of <hi>Abram, Isaac, Ioseph</hi> read,</l>
+               <l>And see how they in <hi>Curtsy</hi> excel:</l>
+               <l>When as betwixt the Herdsman strife befell,</l>
+               <l>
+                  <hi>Abram</hi> leaves to his nephew <hi>Let</hi> the Plain,</l>
+               <l>His <hi>Curtsy</hi> the Angels greetes so well,</l>
+               <l>Their errand gently they to him explain,</l>
+               <l>Yea gracious God to him familiar talk did deign.</l>
+            </lg>
+            <lg>
+               <l>Most gentle <hi>Iacob, courteous</hi> like thy <hi>Sire,</hi>
+               </l>
+               <l>Though <hi>Laban churlishly</hi> thee handled;</l>
+               <l>Let all thy patient <hi>gentleness</hi> admire,</l>
+               <l>When thou did see thy <hi>Dina</hi> ravished,</l>
+               <l>And for her Rape a Nation slaughtered:</l>
+               <l>Thy <hi>gentle Ioseph</hi> into <hi>Egypt</hi> sold,</l>
+               <l>Who when he sees his brethren humbeled,</l>
+               <l>Could not his heart and eyes from weeping hold,</l>
+               <l>The Dreams thus proving true, which he before had told.</l>
+            </lg>
+            <lg>
+               <l>Though <hi>Shemei</hi> bark, <hi>Dauid</hi> forbids to smite,</l>
+               <l>Oh let him curse, my son me seeks to kill:</l>
+               <l>The Lord with Blessings may his Curse require,</l>
+               <l>If in his favour I continue still,</l>
+               <l>I shall return, else be it as he will.</l>
+               <l>
+                  <hi>Mephibosheth</hi> must have his fathers land,</l>
+               <l>And at his Table eat of Bread his fill,</l>
+               <l>
+                  <hi>Chimham</hi> in old <hi>Barzellais</hi> room shall stand,</l>
+               <l>And nothing be denied him at King <hi>Dauids</hi> hand.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="42" facs="tcp:19267:24"/>
+But Kings and People, all learn <hi>gentleness</hi>
+               </l>
+               <l>Of our most courteous, gentle <hi>King of Kings,</hi>
+               </l>
+               <l>Who, when he walked on earth in lowliness,</l>
+               <l>And was the <hi>Lord</hi> and <hi>Maker</hi> of all things,</l>
+               <l>Never used bitter words nor threatenings,</l>
+               <l>But was to <hi>meanest,</hi> courteous, gentle, mild;</l>
+               <l>
+                  <hi>The Lord rebuke thee, Michael</hi> only sings</l>
+               <l>When <hi>Satins malice</hi> would have him beguiled</l>
+               <l>
+                  <hi>Of Moses body;</hi> but he never him reviled.</l>
+            </lg>
+            <lg>
+               <l>As of the <hi>head,</hi> so of the <hi>members</hi> learn</l>
+               <l>
+                  <hi>Mildness, Humanity,</hi> and <hi>Gentleness,</hi>
+               </l>
+               <l>
+                  <hi>Speeches morose,</hi> and <hi>countenances sterne</hi>
+               </l>
+               <l>Never agree with <hi>worth</hi> and <hi>nobleness:</hi>
+               </l>
+               <l>Nor to the <hi>vessels</hi> of true <hi>holiness:</hi>
+               </l>
+               <l>And <hi>Dames</hi> that soft and tender are by kind,</l>
+               <l>Adorned with Natures goodliest gracefulness,</l>
+               <l>Be gentle, humble, soft and meek in mind,</l>
+               <l>So you with God and Man, shall grace and favour find.</l>
+            </lg>
+            <lg>
+               <l>No virtue so adorns a valiant man,</l>
+               <l>Nor virtuous Dame, whom valiant men doe love,</l>
+               <l>As curtsy, which best direct them can</l>
+               <l>To bear themselves in all as doth behove:</l>
+               <l>Whether them God hath placed to rule aboue,</l>
+               <l>Or wait below, it them befits to know</l>
+               <l>Their Duties, that none justly may reprove</l>
+               <l>Their rudeness, in not giving what they ow:</l>
+               <l>Who gives each man his due, doth great discretion show.</l>
+            </lg>
+            <lg>
+               <l>Nothing more wins men's hearts than gentle words,</l>
+               <l>Nor their affections than sweet looks delight,</l>
+               <l>If Men, like Beasts, should make the strongest Lords,</l>
+               <l>And be enraged one at another sight,</l>
+               <l>Society of men would perish quite,</l>
+               <l>The rules of <hi>Policies</hi> and <hi>States</hi> would fail;</l>
+               <l>Men's lives should be in hazard of each wight,</l>
+               <l>That them by force or cunning would assail,</l>
+               <l>Yea savage Beasts against their weakness would prevail.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="43" facs="tcp:19267:24"/>
+Rude manners those that have them doe infest,</l>
+               <l>And grievous are to all they deal withal,</l>
+               <l>But gentleness in <hi>Angels, Man,</hi> and <hi>Beast,</hi>
+               </l>
+               <l>Is much commended and beloved of all:</l>
+               <l>The <hi>Poets</hi> want the <hi>Gods in heaven</hi> to call</l>
+               <l>Most gentle, bountiful, and amiable;</l>
+               <l>But Fiends and Furies, cruel, tetricall,</l>
+               <l>To first they Temples build, and prayers fable,</l>
+               <l>Counting the other dreadful and abominable.</l>
+            </lg>
+            <lg>
+               <l>If <hi>Socrates</hi> a froward wife would bear,</l>
+               <l>As men ride horses wild; that they may know</l>
+               <l>To rule them better that well tamed were,</l>
+               <l>Much more should Christians sweetly bear the blow</l>
+               <l>Of proud and cruel worldlings here below:</l>
+               <l>And not to grieve at their prosperity,</l>
+               <l>Though here they seem in wealth and bliss to flow,</l>
+               <l>Alas such stand in places slippery,</l>
+               <l>And in their haughty pride shall perish suddenly.</l>
+            </lg>
+            <lg>
+               <l>Who that most wicked <hi>Sect</hi> doe imitate,</l>
+               <l>That would all friendship and acquaintance shun,</l>
+               <l>That they might here enjoy more happy <hi>fate,</hi>
+               </l>
+               <l>And <hi>partners</hi> of no others loss become:</l>
+               <l>One burden is enough for any one,</l>
+               <l>Oh! why should others losses them molest:</l>
+               <l>By this is all <hi>Humanity</hi> undone,</l>
+               <l>And man made more ungentle than a beast,</l>
+               <l>The Heathen therefore did such beastliness detest.</l>
+            </lg>
+            <lg>
+               <l>The <hi>first</hi> and <hi>special Duty,</hi> which we ow,</l>
+               <l>Is <hi>Love to God,</hi> which we call <hi>Piety;</hi>
+               </l>
+               <l>Next, is the <hi>Mercy</hi> we to <hi>men</hi> do show,</l>
+               <l>And this indeed is true <hi>Humanity:</hi>
+               </l>
+               <l>This is the sum of all <hi>Divinity;</hi>
+               </l>
+               <l>And this to <hi>Piety</hi> doth <hi>Practice</hi> join:</l>
+               <l>All love the Lord in words, but doe deny</l>
+               <l>Their hearts and hands to Mercy to incline,</l>
+               <l>God grant they both in vs together may combine.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb facs="tcp:19267:25"/>
+Chief <hi>Band</hi> amongst men is <hi>Humanity,</hi>
+               </l>
+               <l>Which who would break, deserves eternal palne,</l>
+               <l>From one man all derive their <hi>pedigree,</hi>
+               </l>
+               <l>And therefore <hi>Kinsmen</hi> all in him remain:</l>
+               <l>From <hi>one God,</hi> we our <hi>souls</hi> doe all obtain,</l>
+               <l>And so we brethren are, and nearer joined</l>
+               <l>In <hi>Soul</hi> than <hi>Body:</hi> And we hope in vain,</l>
+               <l>If all into <hi>one head</hi> be not conjoined,</l>
+               <l>And feel not all <hi>one Spirit</hi> working in our mind.</l>
+            </lg>
+            <lg>
+               <l>Inhumane cruel Beasts! which take delight</l>
+               <l>Without just cause <hi>Gods image</hi> to destroy,</l>
+               <l>Torment, kill, torture, cruelly despite,</l>
+               <l>When God would have all live in amity.</l>
+               <l>Oh measure others by thy misery!</l>
+               <l>No man without another aid can live,</l>
+               <l>He that denies help in adversity,</l>
+               <l>None at his need unto him help shall give,</l>
+               <l>As none shall be forgiven, that doth not here forgive.</l>
+            </lg>
+            <lg>
+               <l>No man, that doth obey <hi>Dame Natures</hi> hest,</l>
+               <l>Can hurt a man, much less him spoil or kill:</l>
+               <l>Learn of the gentle, meek, and harmless beast,</l>
+               <l>How he <hi>Society</hi> doth covet still:</l>
+               <l>The Shepherds <hi>gentle Flocks</hi> the Plains do fill,</l>
+               <l>Wolves, Bears and Tigers love to Lord alone:</l>
+               <l>Where they their young ones with the fat may fill,</l>
+               <l>And forage all the Country for their own,</l>
+               <l>Lo Mercy there is strange, where Misery's unknown.</l>
+            </lg>
+            <lg>
+               <l>Such in their <hi>Complement</hi> are only kind;</l>
+               <l>And where they kindness may receive again,</l>
+               <l>Oh be mine heart to <hi>gentleness</hi> inclined!</l>
+               <l>Not for base recompense, reward, or gain,</l>
+               <l>But for his sake, who for my sin was slain:</l>
+               <l>But <hi>ouer-courteously</hi> I doe abuse</l>
+               <l>My Readers <hi>patience,</hi> with ungentle strain,</l>
+               <l>Yet if he gentle be, he cannot choose,</l>
+               <l>But my most willing mind, though not my Verse excuse.</l>
+            </lg>
+         </div>
+         <div type="part">
+            <pb facs="tcp:19267:25"/>
+            <head>
+               <hi>MEDITATION</hi> 5. Of Gravity.</head>
+            <lg>
+               <l>MY <hi>Muse</hi> now fares like some <hi>Geometrician,</hi>
+               </l>
+               <l>That having viewed on <hi>Globe terrestrial</hi>
+               </l>
+               <l>The Earth, and like a good <hi>Mathematician,</hi>
+               </l>
+               <l>Cast up the Measure of her craggy ball,</l>
+               <l>Now thinks that all doth in his Compass fall,</l>
+               <l>But sailing forth by <hi>Compass, Card,</hi> and <hi>Sterne,</hi>
+               </l>
+               <l>With his own eyes it to discover all,</l>
+               <l>He many <hi>Isles</hi> and <hi>Regions</hi> doth discern,</l>
+               <l>Which never by the Map he able was to learn.</l>
+            </lg>
+            <lg>
+               <l>So when I first in <hi>Virtues Maps</hi> had read,</l>
+               <l>Of all the <hi>Graces</hi> linked in <hi>golden Chain,</hi>
+               </l>
+               <l>I thought I had them all discovered,</l>
+               <l>And able was their Natures to explain,</l>
+               <l>But more that I doe labour and take pain,</l>
+               <l>To tell their Numbers, Nature, Qualities,</l>
+               <l>More numberless I find their glorious train,</l>
+               <l>And more admire their Grace and Dignities,</l>
+               <l>And more of them I write, the more my <hi>Muse</hi> descry's.</l>
+            </lg>
+            <lg>
+               <l>But none more fair I can amongst them find,</l>
+               <l>Than next I write of comely <hi>Gravity,</hi>
+               </l>
+               <l>Which as I said, goes linked and combined</l>
+               <l>With gentle, noble, sweet <hi>Humanity,</hi>
+               </l>
+               <l>Whom follow <hi>Constancy</hi> and <hi>Chastity</hi>
+               </l>
+               <l>Attending always on this <hi>stately Peer,</hi>
+               </l>
+               <l>Who for her <hi>venerable Majesty,</hi>
+               </l>
+               <l>Is to the <hi>Queen of Love her self</hi> most dear,</l>
+               <l>And always <hi>tires</hi> her <hi>face,</hi> which <hi>curtsy</hi> washes clear.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="46" facs="tcp:19267:26"/>
+Now help, O <hi>heavenly Queen!</hi> and <hi>
+                     <gap reason="illegible: indecipherable" extent="2 words">
+                        <desc>????????????</desc>
+                     </gap> fair!</hi>
+               </l>
+               <l>Her to adorn that beautify's you <gap reason="illegible: indecipherable" extent="2 words">
+                     <desc>????????????</desc>
+                  </gap>
+               </l>
+               <l>And lift my <hi>Muse</hi> to fly aboue the <hi>
+                     <gap reason="illegible: indecipherable" extent="1 word">
+                        <desc>?????????</desc>
+                     </gap>,</hi>
+               </l>
+               <l>Oh never let my fit and fury fall,</l>
+               <l>Whilst I describe this <hi>Grace Majestic;</hi>
+               </l>
+               <l>Which with her comely presence doth adorn</l>
+               <l>The <hi>Temple, Judgment Seat,</hi> and <hi>Princes</hi> Hall,</l>
+               <l>With <hi>Academies,</hi> where the <hi>Muse</hi> was borne,</l>
+               <l>And ay defends the ancient from the yongers scorn.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>She</hi> is an <hi>inward splendour</hi> of the mind,</l>
+               <l>Which makes the whole man gracious, commendable,</l>
+               <l>The outward manners which in <hi>her</hi> we find,</l>
+               <l>
+                  <hi>Her</hi> looks and gestures, fair and delectable,</l>
+               <l>Are but as <hi>Beams</hi> of that bright admirable</l>
+               <l>Transcendent <hi>Grace,</hi> which in her heart doth shine,</l>
+               <l>To make words, looks, and actions venerable,</l>
+               <l>And <hi>Dignity</hi> and <hi>Comeliness</hi> to join,</l>
+               <l>With <hi>manners Sanctity,</hi> which make a man Divine.</l>
+            </lg>
+            <lg>
+               <l>For sure all reverend <hi>shows</hi> of <hi>Gravity,</hi>
+               </l>
+               <l>Are but <hi>external good</hi> exposed to sight,</l>
+               <l>Except they have fast rooting <hi>inwardly,</hi>
+               </l>
+               <l>And from the heart receive their <hi>Splendour</hi> bright,</l>
+               <l>As <hi>Majesty,</hi> is without <hi>Goodness</hi> light,</l>
+               <l>Co's <hi>Gravity</hi> without true <hi>holiness,</hi>
+               </l>
+               <l>It is that which makes vs <hi>grave,</hi> and to delight</l>
+               <l>In sober honesty, and comeliness,</l>
+               <l>And to be patterns of all <hi>Grace</hi> and <hi>godliness.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>She</hi> is that <hi>holy Law</hi> and <hi>Rule of Life,</hi>
+               </l>
+               <l>Of <hi>constancy</hi> and <hi>gracious manners</hi> borne,</l>
+               <l>Free from <hi>lascivious Love,</hi> or causeless <hi>strife,</hi>
+               </l>
+               <l>And ever doth most gloriously adorn</l>
+               <l>Him, before whom <hi>her</hi> glorious ensigne's borne,</l>
+               <l>
+                  <hi>She</hi> is not <hi>lowering hard,</hi> to <hi>equals</hi> proud,</l>
+               <l>To <hi>betters base,</hi> nor <hi>doth inferiors scorn,</hi>
+               </l>
+               <l>
+                  <hi>
+                     <gap reason="illegible: indecipherable" extent="1 word">
+                        <desc>?????????</desc>
+                     </gap>, wanton, loose, exulting, loud,</hi>
+               </l>
+               <l>Her <hi>habit, look, attire,</hi> all <hi>modesty</hi> doth shroud.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="47" facs="tcp:19267:26"/>
+                  <hi>Her Ornaments</hi> are not <hi>Wealth, Strength,</hi> or <hi>Power,</hi>
+               </l>
+               <l>
+                  <hi>Sumptuous apparel, decking Limbs,</hi> or <hi>face,</hi>
+               </l>
+               <l>
+                  <hi>Sweet Chastity</hi> of <hi>Manners</hi> is her <hi>Dower,</hi>
+               </l>
+               <l>
+                  <hi>Her outward parts,</hi> adorned with <hi>inward Grace:</hi>
+               </l>
+               <l>These be the <hi>ornaments</hi> that most her grace,</l>
+               <l>Not made by any skilful hand, or Art;</l>
+               <l>
+                  <hi>Virtue</hi> the <hi>Queen</hi> of all things did enchace</l>
+               <l>These works of wondrous Glory in her heart,</l>
+               <l>Wherewith <hi>she</hi> now adorns and graces every part.</l>
+            </lg>
+            <lg>
+               <l>By these <hi>she</hi> casting out all <hi>perturbation,</hi>
+               </l>
+               <l>Perpetual <hi>tranquillity</hi> attains,</l>
+               <l>And shines in <hi>Grace,</hi> which at her first Creation,</l>
+               <l>
+                  <hi>She</hi> from the Fountain of all <hi>Grace</hi> obtains,</l>
+               <l>And thus <hi>she</hi> true immortal honour games,</l>
+               <l>Not that which leanes on <hi>popular vain blast;</hi>
+               </l>
+               <l>But that whereby the <hi>Queen of Virtue</hi> reigns,</l>
+               <l>And stands upon her virtuous thoughts so fast,</l>
+               <l>
+                  <hi>She</hi> from the pitch of honour cannot be displaced.</l>
+            </lg>
+            <lg>
+               <l>Hence it is, that who can to this pitch attain,</l>
+               <l>Admits of nought unseemly to be done,</l>
+               <l>His mind no evil cogitations stain,</l>
+               <l>His actions chaste as mind from whence they come,</l>
+               <l>Many indifferent things are fit for some,</l>
+               <l>Which some more <hi>grave</hi> and noble ill beseem;</l>
+               <l>It doth no <hi>Judge</hi> or <hi>Magistrate</hi> become,</l>
+               <l>In <hi>servants habit</hi> public to be seen,</l>
+               <l>What <hi>Country Maid</hi> commends, may ill beseem a <hi>Queen.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Justly did <hi>Philip</hi> reprehend his Son,</l>
+               <l>When, to the <hi>Harp,</hi> he heard him sweetly sing,</l>
+               <l>This well, saith he, soft Ladies doth become,</l>
+               <l>But <hi>Drums</hi> and <hi>Trumpets</hi> best beseem a King;</l>
+               <l>It is for <hi>Clarks</hi> no commendable thing,</l>
+               <l>To <hi>Hunt, Hawk,</hi> and <hi>great Horse</hi> for <hi>service train,</hi>
+               </l>
+               <l>Which <hi>highest Grace</hi> to <hi>Gentlemen</hi> doth bring,</l>
+               <l>
+                  <hi>Poets</hi> may witty pleasant <hi>fictions</hi> fine,</l>
+               <l>Which in a <hi>grave Divine</hi> would be accounted <hi>vain.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="48" facs="tcp:19267:27"/>
+Man in Gods Image to be like a Beast,</l>
+               <l>Neigh like a Horse, grunt, swill, like to a Swine,</l>
+               <l>Such things doth <hi>Gravity</hi> as base detest,</l>
+               <l>
+                  <hi>Equality</hi> and <hi>Comeliness</hi> doe shine,</l>
+               <l>In her <hi>voice, speeches, countenance divine;</hi>
+               </l>
+               <l>In <hi>going, sitting, gestures,</hi> and <hi>devotions;</hi>
+               </l>
+               <l>She words perplexed, contentions, doth decline,</l>
+               <l>
+                  <hi>Plain, constant, resolute,</hi> are all her motions,</l>
+               <l>Proceeding from her hearts, pure, wise, &amp; heavenly notions.</l>
+            </lg>
+            <lg>
+               <l>Her words fly not at random, all do flow</l>
+               <l>From Fountain of pure understanding heart:</l>
+               <l>Her gestures are not quick, nor yet too slow,</l>
+               <l>Sweetly severe, consid'rates in each part:</l>
+               <l>Her looke's not Cruel, nor composed by <hi>Art,</hi>
+               </l>
+               <l>Grave and severe, yet gentle, liberal,</l>
+               <l>Sweet <hi>Mistress</hi> of the <hi>Graces!</hi> where thou art</l>
+               <l>They are most gracious and comely all,</l>
+               <l>Wherefore I them thy <hi>Scholars</hi> all aright may call,</l>
+            </lg>
+            <lg>
+               <l>Nay rather thy <hi>companions:</hi> Poets feign</l>
+               <l>
+                  <hi>Astr??a</hi> called from heaven, with <hi>thee</hi> to dwell,</l>
+               <l>And to put all her Nymphs to <hi>thee;</hi> to train</l>
+               <l>Them up in Virtue as beseems well:</l>
+               <l>To men all <hi>graceful manners</hi> thou dost tell,</l>
+               <l>Thou teach <hi>Kings</hi> to <hi>rule</hi> their <hi>Subjects</hi> right,</l>
+               <l>
+                  <hi>Fathers</hi> their <hi>Duties</hi> to their <hi>sons</hi> to spell,</l>
+               <l>Servants to Masters, Lady to her Knight,</l>
+               <l>No <hi>Policy</hi> or <hi>force</hi> without thee rules aright.</l>
+            </lg>
+            <lg>
+               <l>Happy are they! <hi>thou</hi> teach to eschew</l>
+               <l>All <hi>Levity, vain fear,</hi> and <hi>ostentation,</hi>
+               </l>
+               <l>
+                  <hi>Morose, rough manners, taunts, reproach undue,</hi>
+               </l>
+               <l>Which shows a mind subject to perturbation,</l>
+               <l>Delighting in another molestation:</l>
+               <l>These are like <hi>Scorpions,</hi> whose malignity,</l>
+               <l>To all, comes from their natures inclination,</l>
+               <l>And from their Malice comes <hi>Morosity,</hi>
+               </l>
+               <l>Averse to all, but most to <hi>Truth</hi> and honesty.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="49" facs="tcp:19267:27"/>
+As <hi>Urchin,</hi> which hath pricks upon his skin,</l>
+               <l>Amongst Thorns, and Briars always takes delight,</l>
+               <l>So in all business these enter in,</l>
+               <l>They use morose, uncivil, barb'rous might;</l>
+               <l>They bring within them Malice, Gall &amp; Spite.</l>
+               <l>How-euer be the thing wherein they deal,</l>
+               <l>Oh God forbid! such base malicious Sprite</l>
+               <l>Be ever Judge in <hi>Iudahs</hi> commonwealth:</l>
+               <l>Such take large <hi>Toule,</hi> but never care to grind the <hi>meal.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Some days <hi>Euripus</hi> seven times ebbs and flows,</l>
+               <l>Some other days, nor flows nor ebbs at all,</l>
+               <l>The moving of this River's like to those,</l>
+               <l>That have not <hi>Gravity habitual:</hi>
+               </l>
+               <l>Unlike themselves, loose, sparing, prodigal,</l>
+               <l>Idle precipice, vain, for either part</l>
+               <l>Most earnest, vehement, pathetic,</l>
+               <l>These their own business and friends pervert,</l>
+               <l>For want of <hi>Gravity,</hi> and <hi>Constance</hi> in their heart.</l>
+            </lg>
+            <lg>
+               <l>But <hi>Gravity</hi> is like the <hi>Ocean maine,</hi>
+               </l>
+               <l>Into whose <hi>Treasure</hi> all the <hi>Floods</hi> doe flow,</l>
+               <l>Which he as constantly sends out again,</l>
+               <l>Yet hereby doth, nor less, nor greater grow,</l>
+               <l>He neither swells, nor banks doth overflow,</l>
+               <l>When greater <hi>sums</hi> his <hi>tributaries</hi> pay,</l>
+               <l>Nor is base sparing, when their pay is slow,</l>
+               <l>The winds may toss his waives but not dismay,</l>
+               <l>He smiles so soon to see his troubles blown away.</l>
+            </lg>
+            <lg>
+               <l>As <hi>Censor</hi> in the <hi>Senate-house</hi> of <hi>Rome,</hi>
+               </l>
+               <l>So is this <hi>Grace</hi> amongst the <hi>Graces</hi> all;</l>
+               <l>And as none might into the <hi>Senate</hi> come,</l>
+               <l>But those whom he did in his <hi>Conscript</hi> call:</l>
+               <l>So none may come into the <hi>Graces Hall,</hi>
+               </l>
+               <l>But they must be conscrib'd by <hi>Gravity,</hi>
+               </l>
+               <l>And those she will not have come there at all,</l>
+               <l>She passes by them for their Levity,</l>
+               <l>Such confidence have all in her integrity.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="50" facs="tcp:19267:28"/>
+But <hi>she</hi> most like is to the glorious <hi>Sun,</hi>
+               </l>
+               <l>Whose cheerful countenance is still the same;</l>
+               <l>And like <hi>him</hi> constantly one course doth run,</l>
+               <l>Of which, <hi>she</hi> never weary is or lame:</l>
+               <l>From <hi>hem's</hi> all elemental heate and flame,</l>
+               <l>With <hi>her</hi> all lively spiritual doth dwell:</l>
+               <l>
+                  <hi>He</hi> lightens all with his enlightening beam,</l>
+               <l>Sins, Clouds, and Ignorance <hi>she</hi> doth expel:</l>
+               <l>
+                  <hi>Sol</hi> prince of Lights, <hi>she</hi> of all Graces bears the bell.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>She's</hi> like that <hi>Breath,</hi> which God is said to breathe</l>
+               <l>Into mans face for immortality,</l>
+               <l>His own sweet <hi>Image,</hi> which he did bequeath</l>
+               <l>To <hi>Adam, Righteousness,</hi> and <hi>Sanctity:</hi>
+               </l>
+               <l>For where is inward holy <hi>Gravity,</hi>
+               </l>
+               <l>All <hi>Graces spiritual</hi> are likewise found,</l>
+               <l>Where <hi>grave</hi> and <hi>modest</hi> outward Curtsy,</l>
+               <l>There outward comely <hi>Graces</hi> all are found,</l>
+               <l>Without the one we never find the other sound.</l>
+            </lg>
+            <lg>
+               <l>No firmer, or more ready muniment,</l>
+               <l>Against <hi>Envy, Malice,</hi> and each enemy,</l>
+               <l>That here mankind assail, and circumvent,</l>
+               <l>Than high, sublime, <hi>grave</hi> Manners majesty;</l>
+               <l>Who outward hath and inward <hi>Gravity,</hi>
+               </l>
+               <l>Consorts with all without, hath Peace within,</l>
+               <l>Of Virtues all consent, and Unity,</l>
+               <l>Gods image thus renewed, doth here begin,</l>
+               <l>In humane flesh to vanquish Lust, and mortal Sin.</l>
+            </lg>
+            <lg>
+               <l>Old Ages honour, garland of gray-haires,</l>
+               <l>Most ample orders Grace, and dignity,</l>
+               <l>The highest seats of <hi>Justice,</hi> richest chairs</l>
+               <l>Of State, from her have all their majesty:</l>
+               <l>She sways the Sceptre of high Sou'raignty,</l>
+               <l>The fairest Cope which <hi>Irons</hi> sons do wear,</l>
+               <l>Sweet, reverend, amiable <hi>Gravity!</hi>
+               </l>
+               <l>To thee I nothing find fit to compare,</l>
+               <l>All Simile's but shadows to thy substance are.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="51" facs="tcp:19267:28"/>
+For in the <hi>grave</hi> and reverend do shine</l>
+               <l>All Goodness, Constancy, and Sapience,</l>
+               <l>The Manners which were in the golden time,</l>
+               <l>The Age when reigned Right and Innocence,</l>
+               <l>Before Debate, Strife, and Malevolence</l>
+               <l>Were hatched, since fledge, now taught aloft to sore;</l>
+               <l>Inveterate in reprobated Sense,</l>
+               <l>Habituated so in Vices lore,</l>
+               <l>They scoff at <hi>grave</hi> examples, all that went before.</l>
+            </lg>
+            <lg>
+               <l>At first, I say, when in the <hi>golden Age,</hi>
+               </l>
+               <l>
+                  <hi>Grave Saturn</hi> did <hi>Olympus</hi> Sceptre sway,</l>
+               <l>Of high esteem were then the <hi>ancient Sage,</hi>
+               </l>
+               <l>And mortals all did their behests obey;</l>
+               <l>But since <hi>Jove</hi> did by violence betray</l>
+               <l>His <hi>father,</hi> and aspired to his <hi>Crown,</hi>
+               </l>
+               <l>
+                  <hi>Severer Gravity</hi> is driven away:</l>
+               <l>The Jovial men are only of renown,</l>
+               <l>
+                  <hi>Grave Saturn</hi> on their Lusts too rigidly doth frown.</l>
+            </lg>
+            <lg>
+               <l>As long as <hi>Eve</hi> maintains her <hi>Gravity,</hi>
+               </l>
+               <l>So long in her Integrity she stood:</l>
+               <l>But when neglecting Grace and Majesty,</l>
+               <l>She of her <hi>vassal</hi> learns the <hi>ill</hi> from <hi>good,</hi>
+               </l>
+               <l>The Serpent, with his base malicious brood,</l>
+               <l>Soon brings her to an everlasting blame;</l>
+               <l>She <hi>evil</hi> did, and <hi>evil</hi> understood,</l>
+               <l>And seeks to hide her naked parts from shame,</l>
+               <l>Which perfect Natures <hi>Gravity</hi> did never blame.</l>
+            </lg>
+            <lg>
+               <l>Oh wondrous <hi>Grace</hi> of heavenly <hi>Gravity,</hi>
+               </l>
+               <l>If in her likeness she should here appear!</l>
+               <l>But <hi>Adam</hi> lost her with <hi>Integrity,</hi>
+               </l>
+               <l>Since, she could never be discerned clear:</l>
+               <l>But when our <hi>Head</hi> with vs conversed here,</l>
+               <l>Only some <hi>Beams</hi> he pleases to bestow</l>
+               <l>Upon his <hi>members</hi> to himself most dear,</l>
+               <l>Whereby they shine like little <hi>lamps</hi> below,</l>
+               <l>And, as he lends them light, they great or lesser show.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="52" facs="tcp:19267:29"/>
+If you examples of this <hi>Grace</hi> desire,</l>
+               <l>You must the <hi>Fathers</hi> lives, and Stories read,</l>
+               <l>She a continued habit doth require,</l>
+               <l>Nor is expressed in a single deed,</l>
+               <l>I easier to you could their slips areed,</l>
+               <l>As <hi>Noah grave</hi> yet overtone with wine,</l>
+               <l>And <hi>Lot</hi> thus punish't with incestuous deed.</l>
+               <l>I read, that once even <hi>Abram</hi> did decline,</l>
+               <l>And fainting, fell from this high <hi>Gravity</hi> divine.</l>
+            </lg>
+            <lg>
+               <l>Could I now <hi>Iob</hi> here picture in a Verse,</l>
+               <l>I might her comeliest feature to you show,</l>
+               <l>Read his whole life: I only will rehearse</l>
+               <l>What he would have his unjust friends to know:</l>
+               <l>Did he unto the Seat of Judgment go;</l>
+               <l>The young man saw him, and themselves did hide,</l>
+               <l>The aged rise; the Princes tongues that flow</l>
+               <l>In Eloquence, their talking lay aside.</l>
+               <l>Speaks he? all mouths are shut, all ears are open wide.</l>
+            </lg>
+            <lg>
+               <l>I do not read, that <hi>grave Judge Samuel</hi>
+               </l>
+               <l>Did ever from this heavenly <hi>Grace</hi> decline,</l>
+               <l>For all the time he judged <hi>Israel:</hi>
+               </l>
+               <l>But sure his <note n="a" place="margin">Eli</note> 
+                  <hi>Tutor</hi> did so much incline</l>
+               <l>To gentleness, he swerved from her line.</l>
+               <l>Oh <hi>Dauid!</hi> where was then thy <hi>Gravity,</hi>
+               </l>
+               <l>When thou did make <hi>Vriah</hi> drunk with wine,</l>
+               <l>That so he might go with thy Leman lie,</l>
+               <l>To cover thy base Sin of foul <hi>Adultery?</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>That innocent pure golden <hi>Gravity,</hi>
+               </l>
+               <l>With which thou in a linen <hi>Ephod</hi> tight,</l>
+               <l>Laidst by thy sovereign kingly Majesty,</l>
+               <l>To dance before the Lord with all thy might:</l>
+               <l>Oh thus to be vncouerd in the sight</l>
+               <l>Of maids, and servants, well becomes a King,</l>
+               <l>Though profane wicked <hi>Michols</hi> vs despite,</l>
+               <l>Yet when to God we our Devotions bring,</l>
+               <l>To be most vile and meek is no dishonouring.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="53" facs="tcp:19267:29"/>
+Should I now pass by Judges, Prophets, Kings,</l>
+               <l>And from th'Apostles times this Virtue trace,</l>
+               <l>To show how silly fisher-men did things</l>
+               <l>More <hi>grave</hi> and venerable in their place,</l>
+               <l>Than all the Prelates that have highest grace,</l>
+               <l>My self and Reader I too much should spend:</l>
+               <l>Let's labour in our hearts <hi>her</hi> to embrace,</l>
+               <l>For that indeed is <hi>Meditations</hi> end,</l>
+               <l>In vain hee sees the right, that doth the wrong way wend.</l>
+            </lg>
+            <lg>
+               <l>By two or three examples, Isle commend</l>
+               <l>This <hi>Grace,</hi> as she did with the Heathen won:</l>
+               <l>
+                  <hi>Cato,</hi> one from the Senate did suspend,</l>
+               <l>Because he kissed his wife before his son:</l>
+               <l>A <hi>Poet</hi> craving of a Judge alone,</l>
+               <l>To do him favour against Law, replied,</l>
+               <l>As <hi>Poet</hi> is not good, whose Virtues run</l>
+               <l>Not by the rules of <hi>Art:</hi> so <hi>Judge</hi> is wide,</l>
+               <l>That lays, for <hi>fear</hi> or <hi>favour, Laws</hi> and right aside.</l>
+            </lg>
+            <lg>
+               <l>A <hi>Spartan</hi> lewd, in serious consultation,</l>
+               <l>Giving his good advice, was followed</l>
+               <l>Of all the Senate in their Convocation;</l>
+               <l>And the Decree in his name entered:</l>
+               <l>A <hi>grave</hi> old man them better counselled,</l>
+               <l>That they their honour would not so defame,</l>
+               <l>To have Decrees in such names registered:</l>
+               <l>The Sentence might continue still the same,</l>
+               <l>Changed only from a <hi>lewd,</hi> unto a <hi>grave</hi> mans name</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Themistocles</hi> is said, once with his friend,</l>
+               <l>After the <hi>Persians</hi> fatal overthrow,</l>
+               <l>To see that mighty slaughter, to descend</l>
+               <l>Unto the Sea, which wont to ebb and flow;</l>
+               <l>Which many Chains and Bracelets up did throw:</l>
+               <l>These when he saw thus lying on the shore,</l>
+               <l>He them, thus saying, to his friend doth show,</l>
+               <l>Thou art no Captain, gather them therefore:</l>
+               <l>Showing, he <hi>Gravity,</hi> than <hi>Gold</hi> esteemed more.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="54" facs="tcp:19267:30"/>
+Oh! shall a <hi>Captain</hi> of the <hi>heathen</hi> host,</l>
+               <l>For <hi>Gravity</hi> despise all gold and gain?</l>
+               <l>And <hi>Christians,</hi> thou whose Soul alone hath cost</l>
+               <l>More than all wealth that doth on earth remain,</l>
+               <l>Neglect this <hi>Grace</hi> a little pelf to gain?</l>
+               <l>Oh! what do such, but <hi>Esaus</hi> Birth-right sell,</l>
+               <l>Or like the <hi>Prodigal,</hi> eat swill and grain:</l>
+               <l>If they at home with <hi>Gravity</hi> would dwell,</l>
+               <l>
+                  <hi>Manna</hi> should be their food, their drink sweet <hi>liuing-Well.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Alas! how many be that do profess</l>
+               <l>Themselves great friends to gracious <hi>Gravity,</hi>
+               </l>
+               <l>And do in outward shows express no less?</l>
+               <l>But they at home are full of <hi>Luxury,</hi>
+               </l>
+               <l>Base Wantonness, and all Immodesty;</l>
+               <l>Especially obscene in filthy Lust:</l>
+               <l>Thus <hi>Cupped</hi> binds <hi>Ioues</hi> awful Majesty;</l>
+               <l>
+                  <hi>Venus</hi> have her petitions granted must,</l>
+               <l>When <hi>Iuno's</hi> and <hi>Minerua's</hi> thrown are in the dust.</l>
+            </lg>
+            <lg>
+               <l>Ah! I could wish, but never hope to see</l>
+               <l>The <hi>golden-Age,</hi> when every one was plain,</l>
+               <l>And hearts and faces did in one agree;</l>
+               <l>Dissembling was not known all <hi>Saturnes</hi> reign.</l>
+               <l>The <hi>Matrons</hi> modest <hi>Virgins</hi> sought to gain</l>
+               <l>By patterns <hi>gre<gap reason="illegible: indecipherable" extent="2 letters">
+                        <desc>??????</desc>
+                     </gap>,</hi> in Virtue to begin</l>
+               <l>Their <hi>youth,</hi> the <hi>ancient</hi> up in labour train;</l>
+               <l>To moderate their <hi>Lust,</hi> and keep from sin:</l>
+               <l>That as they seemed without, so they might be within.</l>
+            </lg>
+            <lg>
+               <l>Three things the <hi>Persians</hi> did teach their youth,</l>
+               <l>To ride a horse, the Bow aright to draw,</l>
+               <l>The last thing was, in all to tell the Truth;</l>
+               <l>This made them of ill doing stand in awe,</l>
+               <l>They being bound to Truth, as to a law.</l>
+               <l>This last, true <hi>inward Gravity</hi> would frame,</l>
+               <l>Considering God secret sins will draw</l>
+               <l>To light on earth, to our disgrace and blame,</l>
+               <l>Or else hereafter to our greater pain and shame.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="55" facs="tcp:19267:30"/>
+But I confess, we are so far from fear</l>
+               <l>Of wanton looseness in our privacy,</l>
+               <l>That openly we without blushing bear</l>
+               <l>The ensigns of our Impudicitie.</l>
+               <l>So far from antique <hi>graver Modesty,</hi>
+               </l>
+               <l>In <hi>gestures, goings, looks, veils,</hi> and <hi>attire:</hi>
+               </l>
+               <l>They now are baits of Lust and Luxury,</l>
+               <l>And fuel to increase our shameless fire,</l>
+               <l>Which should be limited in Wedlocks chaste desire.</l>
+            </lg>
+            <lg>
+               <l>And not shows only, but our sweetest songs,</l>
+               <l>Are now the Baits of Lust and Wantonness;</l>
+               <l>In Ribaldry we exercise our tongues,</l>
+               <l>With unchaste tales we entertain our guess;</l>
+               <l>Without these now no mirth or cheerfulness.</l>
+               <l>Alas! poor <hi>Gravity</hi> is quite undone,</l>
+               <l>Her honours blended by Lasciviousness;</l>
+               <l>The <hi>Signs</hi> will tell you, where <hi>good-Ale</hi> doth won,</l>
+               <l>It is filthiness to speak, what's filthy to be done.</l>
+            </lg>
+            <lg>
+               <l>Divinest Spirits! <hi>Muses</hi> Darlings dear!</l>
+               <l>That in sublimest <hi>Numbers</hi> take delight,</l>
+               <l>Oh! let your <hi>Fountains</hi> stream as pure and clear,</l>
+               <l>As runs the <hi>Helicon</hi> whereof you write:</l>
+               <l>Dim not your pure, sublime, most glorious light,</l>
+               <l>With lustful thought, or wanton cogitation,</l>
+               <l>But spend the honour of your <hi>Furies</hi> might,</l>
+               <l>In holy, sweet, transcendent Contemplation,</l>
+               <l>And as your matter's grave, so be your conversation.</l>
+            </lg>
+            <lg>
+               <l>You by the <hi>Muses</hi> are inaugurate</l>
+               <l>
+                  <hi>Censors</hi> of Manners, inward Sanctity,</l>
+               <l>As of the outward is the <hi>Magistrate;</hi>
+               </l>
+               <l>Oh <hi>both</hi> be patterns of true <hi>Gravity!</hi>
+               </l>
+               <l>And you shall both shine like a <hi>Deity,</hi>
+               </l>
+               <l>Amongst the <hi>mortals</hi> which are here below:</l>
+               <l>Your private honour, public majesty,</l>
+               <l>By <hi>Gravity</hi> more glorious shall show,</l>
+               <l>So as your outward truly doth from inward flow.</l>
+            </lg>
+            <lg>
+               <l>
+                  <pb n="56" facs="tcp:19267:31"/>
+                  <hi>Wives, Matrons, Widows, Virgins</hi> fair be <hi>grave,</hi>
+               </l>
+               <l>Dame <hi>Chastity</hi> defend your Bodies may</l>
+               <l>From lawless <hi>Lust:</hi> This <hi>Virtue</hi> will you save</l>
+               <l>From lustful <hi>proffer</hi> without saying nay;</l>
+               <l>The boldest dares not <hi>Gravity</hi> assay;</l>
+               <l>She better than a thousand <hi>Argo's</hi> eyes,</l>
+               <l>All lustful <hi>looks</hi> and <hi>glances</hi> keeps away,</l>
+               <l>And silences enchanting <hi>Mercuries:</hi>
+               </l>
+               <l>That Matron's truly <hi>chaste,</hi> whom no man ever tries.</l>
+            </lg>
+            <lg>
+               <l>God of all <hi>Grace,</hi> I humbly beg this <hi>Grace</hi>
+               </l>
+               <l>Of inward, and of outward <hi>Gravity,</hi>
+               </l>
+               <l>
+                  <hi>Grave</hi> in my <hi>Muses, grave</hi> in <hi>public place,</hi>
+               </l>
+               <l>
+                  <hi>Grave</hi> with my <hi>friends, grave</hi> in my <hi>Family,</hi>
+               </l>
+               <l>
+                  <hi>Grave</hi> in <hi>Adversity, Prosperity,</hi>
+               </l>
+               <l>In all religious <hi>Duties</hi> truly <hi>grave:</hi>
+               </l>
+               <l>Be I in <hi>Bondage,</hi> or at <hi>Liberty,</hi>
+               </l>
+               <l>In <hi>health,</hi> or <hi>sickness, Gravity</hi> I crave.</l>
+               <l>In all from <hi>crying Sins,</hi> this <hi>Grace</hi> my Soul shall save.</l>
+            </lg>
+            <lg>
+               <l>And though to sing of <hi>Gravity</hi> I cease,</l>
+               <l>Yet never will I cease her Contemplation.</l>
+               <l>As years, so must my <hi>Gravity</hi> increase.</l>
+               <l>The <hi>Author</hi> of all heavenly Cogitation,</l>
+               <l>Me teach her practice in my Conversation.</l>
+               <l>This Book began with <hi>Peace,</hi> I now will end</l>
+               <l>With <hi>Gravity</hi> both Book and Meditation:</l>
+               <l>God grant it <hi>Readers</hi> hearts may all amend,</l>
+               <l>As it hath done the <hi>Authors,</hi> when the same he penned.</l>
+            </lg>
+         </div>
+         <div type="to_the_author">
+            <head>To the Author.</head>
+            <lg>
+               <l>I Read thy <hi>Poems,</hi> and I them admire;</l>
+               <l>The more I read, the more I do desire:</l>
+               <l>They breathe such holy <hi>Passions</hi> in the mind;</l>
+               <l>Who reads them most, himself shall better find.</l>
+            </lg>
+            <closer>
+               <signed>R. C.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:19267:31"/>
+         </div>
+      </body>
+   </text>
+</TEI>
+
