@@ -1,0 +1,6 @@
+"0","df <- read.csv(""/Users/yuchenlu/Desktop/Test/index.csv"")"
+"0","test_df <- df %>% head(20)"
+"0","test_df <- .importTexts(test_df)"
+"0","dtm <- CreateDtm(doc_vec = test_df$texts,"
+"0","                 doc_names = test_df$TCP, "
+"0","                 ngram_window = c(1, 2))"

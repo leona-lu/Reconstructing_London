@@ -1,0 +1,5 @@
+"0",".importTexts <- function(dataframe, normalize = TRUE) {"
+"0","  dataframe$path <- paste0(""/Users/yuchenlu/Desktop/Test/Data/"",dataframe$TCP,"".xml"")"
+"0","  dataframe$texts <- lapply(dataframe$path,.cleanup)"
+"0","  return(dataframe)"
+"0","}"

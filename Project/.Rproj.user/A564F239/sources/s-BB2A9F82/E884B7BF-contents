@@ -1,0 +1,21 @@
+# Filter St. Paul on all Text 
+
+st_paul <- c("st. paul","st paul")
+
+filter_Paul <- function(df){
+  df <- df %>%
+    filter(grepl('st paul|st.paul|paul|st faith|st.faith',texts)) %>%
+    filter(grepl('cathedral|cathederall|cathedral|churchyard',texts))
+  return(df)
+}
+
+# Filter St. Mary on all Text 
+
+filter_Mary <- function(df){
+  df <- df %>%
+    filter(grepl('st mary|st.mary|mary',texts)) %>%
+    filter(grepl('cathedral|cathederall|cathedral|churchyard|aldermary',texts))
+  return(df)
+}
+
+Case <- filter_Paul(P1)

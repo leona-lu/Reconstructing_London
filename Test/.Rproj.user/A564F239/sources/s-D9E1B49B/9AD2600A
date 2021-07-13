@@ -1,0 +1,27 @@
+{
+    "id": "9AD2600A",
+    "path": "~/Desktop/Test/Word_Embedding.Rmd",
+    "project_path": "Word_Embedding.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1625011348745.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "45,45",
+        "scrollLine": "22",
+        "last_setup_crc32": "",
+        "ignored_words": "Itokenize\n"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1625098555,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1625098555312,
+    "read_only": false,
+    "read_only_alternatives": []
+}

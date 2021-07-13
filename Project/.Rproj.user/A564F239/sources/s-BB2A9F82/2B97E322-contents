@@ -1,0 +1,110 @@
+# Load Library
+library(XML)
+library(tidyverse)
+library(textmineR)
+
+# Load Cleaned_CSV
+P1 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P1.csv")
+P2 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P2.csv")
+P3 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P3.csv")
+P4 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P4.csv")
+P5 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P5.csv")
+P6 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P6.csv")
+P7 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P7.csv")
+P8 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P8.csv")
+P9 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P9.csv")
+P10 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P10.csv")
+P11 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P11.csv")
+P12 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P12.csv")
+
+# Merge CSV 
+total <- rbind(P1, P2)
+total <- rbind(total, P3)
+total <- rbind(total, P4)
+total <- rbind(total, P5)
+total <- rbind(total, P6)
+total <- rbind(total, P7)
+total <- rbind(total, P8)
+total <- rbind(total, P9)
+total <- rbind(total, P10)
+total <- rbind(total, P11)
+total <- rbind(total, P12)
+
+## write.csv(total,'total.csv')
+
+# Basic EDA
+Date_Count <- total %>%
+  count(Date) %>%
+  as_tibble() 
+
+ggplot(Date_Count,aes(x=Date,y=n)) +
+  geom_line() 
+
+## Create DTM
+P1_dtm <- CreateDtm(doc_vec = P1$texts,
+                 doc_names = P1$TCP, 
+                 ngram_window = c(1, 2))
+
+P2_dtm <- CreateDtm(doc_vec = P2$texts,
+                    doc_names = P2$TCP, 
+                    ngram_window = c(1, 2))
+
+P3_dtm <- CreateDtm(doc_vec = P3$texts,
+                    doc_names = P3$TCP, 
+                    ngram_window = c(1, 2))
+
+P4_dtm <- CreateDtm(doc_vec = P4$texts,
+                    doc_names = P4$TCP, 
+                    ngram_window = c(1, 2))
+
+P5_dtm <- CreateDtm(doc_vec = P5$texts,
+                    doc_names = P5$TCP, 
+                    ngram_window = c(1, 2))
+
+P6_dtm <- CreateDtm(doc_vec = P6$texts,
+                    doc_names = P6$TCP, 
+                    ngram_window = c(1, 2))
+
+P7_dtm <- CreateDtm(doc_vec = P7$texts,
+                    doc_names = P7$TCP, 
+                    ngram_window = c(1, 2))
+
+P8_dtm <- CreateDtm(doc_vec = P8$texts,
+                    doc_names = P8$TCP, 
+                    ngram_window = c(1, 2))
+
+P9_dtm <- CreateDtm(doc_vec = P9$texts,
+                    doc_names = P9$TCP, 
+                    ngram_window = c(1, 2))
+
+P10_dtm <- CreateDtm(doc_vec = P10$texts,
+                    doc_names = P10$TCP, 
+                    ngram_window = c(1, 2))
+
+P11_dtm <- CreateDtm(doc_vec = P11$texts,
+                    doc_names = P11$TCP, 
+                    ngram_window = c(1, 2))
+
+P12_dtm <- CreateDtm(doc_vec = P12$texts,
+                     doc_names = P12$TCP, 
+                     ngram_window = c(1, 2))
+
+# Combine 12 dtm
+
+# make list of dtms
+list_of_dtms <- list(P1_dtm, P2_dtm)
+# convert list of dtms into one big dtm
+dtm <- do.call(tm:::c.DocumentTermMatrix, list_of_dtms)
+
+
+dtm <- c(P1_dtm, P2_dtm,recursive = FALSE)
+dtm <- c(dtm, P3_dtm,recursive = FALSE)
+dtm <- c(dtm, P4_dtm)
+dtm <- c(dtm, P5_dtm)
+dtm <- c(dtm, P6_dtm)
+dtm <- c(dtm, P7_dtm)
+dtm <- c(dtm, P8_dtm)
+dtm <- c(dtm, P9_dtm)
+dtm <- c(dtm, P10_dtm)
+dtm <- c(dtm, P11_dtm)
+dtm <- c(dtm, P12_dtm)

@@ -1,0 +1,67 @@
+---
+title: "Modified_Clean_Up_Function"
+author: "Leona"
+date: "6/17/2021"
+output: html_document
+---
+
+# Load Packages
+```{r, warning FALSE, message=FALSE}
+library(XML)
+library(sparklyr)
+# install.packages("SparkR")
+library(SparkR)
+library(ggplot2)
+library(dplyr)
+```
+
+# Clean_Up Function
+```{r}
+.cleanup <- function(filepath, stopwords = c(), normalize = TRUE) {
+  stopwords <- scan("/Users/yuchenlu/Desktop/Reconstructing_London/stopwords.txt", what="", sep="\n")
+
+  if (length(grep(".txt",filepath)) == 1) {
+    text = scan(filepath,what="character",sep="\n", fileEncoding = "UTF-8")
+    text = paste(text, collapse= " ")
+    
+  } else if (length(grep(".xml",filepath)) == 1) {
+    parsedText = htmlTreeParse(filepath,useInternalNodes = TRUE)
+    nodes = getNodeSet(parsedText,"//text")
+    text = lapply(nodes,xmlValue)
+  }
+  
+  text = gsub("non-Latin alphabet", " ", text)
+  text = gsub("1 page duplicate", " ", text)
+  
+  if (normalize == TRUE) {
+    text = gsub("ſ", "s", text)
+    #text = gsub("?.¿", "s", text)
+    text = gsub("[0-9]", "", text)
+    text = gsub("vv", "w", text)
+    text = gsub("'d ", "ed ", text)
+    text = gsub("'ring ", "ering ", text)
+  }
+  
+  text = strsplit(text,"\\W")
+  text = unlist(text)
+  text = text[text!=""]
+  
+  if (normalize == TRUE) {
+    text = tolower(text)
+    text = text[text %in% stopwords == FALSE]
+    if (any(grep("[^\x20-\x7E]",text))) text = text[-grep("[^\x20-\x7E]",text)]
+  }
+  
+  text = paste(text, collapse = " ")
+  return(text)
+}
+```
+
+# Import Text Function
+```{r}
+.importTexts <- function(dataframe, normalize = TRUE) {
+  dataframe$path <- paste0("/Users/yuchenlu/Desktop/Reconstructing_London/Data",dataframe$TCP,".xml")
+  dataframe$texts <- lapply(dataframe$path,.cleanup)
+  return(dataframe)
+  }
+```

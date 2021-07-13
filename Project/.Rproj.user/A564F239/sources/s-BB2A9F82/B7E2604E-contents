@@ -1,0 +1,61 @@
+---
+title: "Basic_EDA"
+author: "Leona"
+date: "7/12/2021"
+output: html_document
+---
+
+# EDA
+```{r basic EDA}
+Date_Count <- total %>%
+  count(Date) %>%
+  as_tibble() 
+
+ggplot(Date_Count,aes(x=Date,y=n)) +
+  geom_line() +
+  labs(title = "Texts printed from 1600 to 1700",
+       subtitle = "Number of text peaked at 1642 and 1660",
+       caption = "Data source: EEBO-TCP",
+       x = "Year", y = "Number of Texts")
+```
+
+```{r}
+# total$token <- ntoken(as.character(total$texts))
+# total$type  <- ntype(as.character(total$texts))
+
+# TTR display non-linear Relationship
+total %>%
+  ggplot(aes(x = token, y = type)) +
+  geom_point() + 
+  labs(subtitle = "Type-Token ratio ratio has non-linear relationship",
+       caption = "Data source: EEBO-TCP",
+       x = "Token", y = "Type") +
+  geom_smooth(linetype="dashed",
+             color="darkred", fill="grey")
+
+# Using Log to Normalize the TTR Ratio (linear asusmption)
+total %>%
+  ggplot(aes(x =log(token), y = log(type))) +
+  geom_point() + 
+  labs(title = "Log Normalized Type-Token Ratio Ratio",
+       caption = "Data source: EEBO-TCP",
+       x = "Token", y = "Type") +
+  geom_smooth(linetype="dashed",
+             color="darkred", fill="grey")
+
+```
+
+```{r}
+# TTR by Year
+# total$adjusted.TTR <- log(total$type)/log(total$token)
+
+total %>%
+  group_by(Date) %>%
+  summarise(
+    average.TTR = mean(adjusted.TTR)) %>%
+  ggplot(aes(x=Date,y=average.TTR)) +
+  geom_line() +
+  labs(title = "Average Log-adjusted Lexical Richness from 1600 to 1700",
+       caption = "Data source: EEBO-TCP",
+       x = "Year", y = "Average Lexical Richness")
+```

@@ -1,0 +1,169 @@
+---
+title: "Lexical Richness"
+author: "Leona"
+date: "6/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Package
+```{r warning=FALSE,message=FALSE}
+library(tidyverse)
+library(XML)
+library(quanteda.textstats)
+library(quanteda)
+library(quanteda.textplots)
+```
+
+# Clean_Up Function
+```{r}
+.cleanup <- function(filepath, stopwords = c(), normalize = TRUE) {
+  stopwords <- scan("/Users/yuchenlu/Desktop/Reconstructing_London/stopwords.txt", what="", sep="\n")
+
+  if (length(grep(".txt",filepath)) == 1) {
+    text = scan(filepath,what="character",sep="\n", fileEncoding = "UTF-8")
+    text = paste(text, collapse= " ")
+    
+  } else if (length(grep(".xml",filepath)) == 1) {
+    parsedText = htmlTreeParse(filepath,useInternalNodes = TRUE)
+    nodes = getNodeSet(parsedText,"//text")
+    text = lapply(nodes,xmlValue)
+  }
+  
+  text = gsub("non-Latin alphabet", " ", text)
+  text = gsub("1 page duplicate", " ", text)
+  
+  if (normalize == TRUE) {
+    text = gsub("ſ", "s", text)
+    #text = gsub("?.¿", "s", text)
+    text = gsub("[0-9]", "", text)
+    text = gsub("vv", "w", text)
+    text = gsub("'d ", "ed ", text)
+    text = gsub("'ring ", "ering ", text)
+  }
+  
+  text = strsplit(text,"\\W")
+  text = unlist(text)
+  text = text[text!=""]
+  
+  if (normalize == TRUE) {
+    text = tolower(text)
+    text = text[text %in% stopwords == FALSE]
+    if (any(grep("[^\x20-\x7E]",text))) text = text[-grep("[^\x20-\x7E]",text)]
+  }
+  
+  text = paste(text, collapse = " ")
+  return(text)
+}
+```
+# Import Function
+```{r}
+.importTexts <- function(dataframe, normalize = TRUE) {
+  dataframe$path <- paste0("/Users/yuchenlu/Desktop/Reconstructing_London/Data/",dataframe$TCP,".xml")
+  dataframe$texts <- lapply(dataframe$path,.cleanup)
+  return(dataframe)
+}
+```
+
+
+# Import Data
+```{r}
+df <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/index.csv")
+test_df <- df %>% head(20)
+test_df <- .importTexts(test_df)
+```
+
+
+# Lexical Richness: [TTR](https://quanteda.io/reference/textstat_lexdiv.html)
+```{r warning=FALSE}
+# Input: Document-featured matrix; Output: lexical richness
+Lexical_richness <- function(dataframe){
+  result <- textstat_lexdiv(dfm(tokens(dataframe$texts[[1]])), 
+                            c("all"))
+  for (i in 2:nrow(dataframe)){
+  dfm <- dfm(tokens(dataframe$texts[[i]]))
+  result <- rbind(result, textstat_lexdiv(dfm, c("all")))
+  }
+  result$TCP <- dataframe$TCP
+  return(result)
+}
+
+# Create result
+TTR_Result <- Lexical_richness(test_df)
+```
+
+# Lexical Richness: Hapax Richness 
+```{r}
+Hapax_richness <- function(dataframe){
+  result <- data.frame(matrix(ncol = 2, nrow = nrow(dataframe)))
+  x <- c("TCP", "Hapax")
+  colnames(result) <- x
+  for (i in 1:nrow(dataframe)){
+    dfm <- dfm(tokens(dataframe$texts[[i]]))
+    result$TCP <- dataframe$TCP
+    result$Hapax[[i]] <- rowSums(dfm == 1) / ntoken(dfm)
+    }
+  return(result)
+  }
+
+# Create result
+Hapax_Result <- Hapax_richness(test_df)
+```
+
+# Total Richness
+```{r}
+total_Lexical_Richness <- merge(TTR_Result,Hapax_Result,by="TCP")
+```
+
+# Lexical Richness by years
+
+```{r}
+Richness_by_year <- merge(total_Lexical_Richness, test_df[c("Date","TCP")], by = "TCP") 
+```
+
+```{r}
+result_by_year <- Richness_by_year %>%
+  dplyr:: group_by(Richness_by_year$Date)  %>%
+  summarise(
+          count =   dplyr:: n(),
+          mean_TTR = mean(TTR, na.rm = TRUE),
+          mean_Hapax = mean(Hapax, na.rm = TRUE),
+          
+          )
+```
+
+# Wordcloud visualization 
+
+```{r}
+# Combine dfm 
+dfm <- dfm(tokens(test_df$texts[[1]]))
+for (i in 2:nrow(test_df)){
+  dfm <- cbind(dfm, dfm(tokens(test_df$texts[[i]])))
+}
+```
+
+```{r}
+set.seed(100)
+textplot_wordcloud(dfm, max.words=1000)
+```
+
+# Comparing Lexical Richness
+```{r}
+test_df$token <- ntoken(as.character(test_df$texts))
+test_df$type  <- ntype(as.character(test_df$texts))
+```
+
+```{r}
+total_Lexical_Richness
+```
+
+```{r}
+test_df %>%
+  select(c("TCP","token","type")) %>%
+  merge(total_Lexical_Richness, by = "TCP") %>%
+  ggplot(aes(x = token, y = type)) +
+  geom_point()
+```

@@ -1,0 +1,5 @@
+"0","# maps words to indices"
+"0","vectorizer <- vocab_vectorizer(vocab)"
+"0",""
+"0","# use window of 10 for context words"
+"0","tcm  <- create_tcm(it, vectorizer, skip_grams_window = 10)"

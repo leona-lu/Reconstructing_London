@@ -1,0 +1,8 @@
+"0","result_by_year <- Richness_by_year %>%"
+"0","  dplyr:: group_by(Richness_by_year$Date)  %>%"
+"0","  summarise("
+"0","          count =   dplyr:: n(),"
+"0","          mean_TTR = mean(TTR, na.rm = TRUE),"
+"0","          mean_Hapax = mean(Hapax, na.rm = TRUE),"
+"0","          "
+"0","          )"

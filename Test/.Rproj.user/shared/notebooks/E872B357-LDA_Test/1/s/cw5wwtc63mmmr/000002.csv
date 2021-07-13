@@ -1,0 +1,6 @@
+"0","model$r2"
+"1","[1]"
+"1"," 0.8919083"
+"1","
+"
+"0","plot(model$log_likelihood, type = ""l"")"

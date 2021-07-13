@@ -1,0 +1,48 @@
+---
+title: "Word_Embedding"
+author: "Leona"
+date: "6/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Library
+```{r}
+library(text2vec)
+```
+
+# Load Text
+```{r}
+# Load Sample Text 
+sample <- total_result$texts[[1]]
+
+# Create word-list 
+word_list <- data_frame(text = sample) %>%
+  unnest_tokens(word, text) %>%
+  as.list()
+```
+
+```{r}
+# Itokenize word-list 
+it <- itoken(word_list, progressbar = FALSE)
+vocab <- create_vocabulary(it)
+vocab <- prune_vocabulary(vocab, term_count_min = 5)
+```
+
+# Create co-occurrence matrix (TCM)
+```{r}
+# maps words to indices
+vectorizer <- vocab_vectorizer(vocab)
+
+# use window of 10 for context words
+tcm  <- create_tcm(it, vectorizer, skip_grams_window = 10)
+```
+
+```{r}
+glove = GlobalVectors$new(rank = 5,vocabulary = vocab, x_max = 10)
+# shakes_wv_main = glove$fit_transform(tcm, n_iter = 1000, convergence_tol = 0.00001)
+```
+

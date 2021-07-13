@@ -1,0 +1,4 @@
+"0","result %>%"
+"0","  ggplot(aes(x=Date, y=trust, color = n.y)) + "
+"0","  geom_point() + "
+"0","  labs(title=""Trust Analysis on St. Paul's Cathedral"", x=""Date"", y=""Trust Sentiment Percentage"") "

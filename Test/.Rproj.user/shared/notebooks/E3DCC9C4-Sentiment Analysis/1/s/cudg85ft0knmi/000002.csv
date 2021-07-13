@@ -1,0 +1,3 @@
+"0","Hapax_Result <- Hapax_richness(Case_results)"
+"0","TTR_Result <- Lexical_richness(Case_results)"
+"0","total_Lexical_Richness <- merge(TTR_Result,Hapax_Result,by=""TCP"")"

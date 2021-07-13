@@ -1,0 +1,2 @@
+"0","df <- merge(total_Lexical_Richness[c(""TCP"",""TTR"",""Hapax"")], "
+"0","            Case_Sentiment_result[c(""sentiment"",""Date"",""TCP"")], by = ""TCP"")"

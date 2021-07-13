@@ -1,0 +1,3 @@
+"0","# lexicon = c(""bing"", ""afinn"", ""loughran"", ""nrc"")"
+"0","get_sentiments(""nrc"") %>%"
+"0","  distinct(sentiment)"

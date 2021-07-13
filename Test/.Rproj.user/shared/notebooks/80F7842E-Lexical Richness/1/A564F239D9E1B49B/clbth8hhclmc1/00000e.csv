@@ -1,0 +1,43 @@
+"0","df <- read.csv(""/Users/yuchenlu/Desktop/Reconstructing_London/index.csv"")"
+"0","test_df <- df %>% head(20)"
+"0","test_df <- .importTexts(test_df)"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"
+"2","Read 876 items
+"

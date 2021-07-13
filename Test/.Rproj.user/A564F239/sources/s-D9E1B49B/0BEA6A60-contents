@@ -1,0 +1,237 @@
+---
+title: "Case Study: Sentiment Analysis"
+author: "Leona"
+date: "6/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Packages
+```{r warning=FALSE,message=FALSE}
+# install.packages("tidytext")
+# install.packages("textdata")
+library(textdata)
+library(tidytext)
+library(dplyr)
+library(stringr)
+library(tei2r)
+library(XML)
+library(quanteda)
+# library(quanteda.textmodels)
+library(quanteda.textstats)
+library(quanteda.textplots)
+library(ggplot2)
+```
+
+# Sentiment Lexicon：Bing
+
+* NRC overestimates the positive sentiment.
+* AFINN also provides overly positive estimates, but to a lesser extent.
+* Loughran seems unreliable altogether (on Yelp data).
+* Bing estimates are accurate as long as texts are long enough (e.g., 200+ words).
+
+```{r function}
+.get_sentiment <- function(dataframe){
+  
+  tokens <- data_frame(text = dataframe$texts[[1]]) %>%
+    unnest_tokens(word, text)
+  # lexicon = c("bing", "afinn", "loughran", "nrc")
+  result <- tokens %>%
+      inner_join(get_sentiments("bing")) %>%
+      dplyr:: count(sentiment) %>%
+      spread(sentiment, n, fill = 0) %>%
+      dplyr:: mutate(sentiment = positive - negative)
+  
+  for (i in 2:nrow(dataframe)){
+    tokens <- data_frame(text = dataframe$texts[[i]]) %>%
+      unnest_tokens(word, text)
+    
+    result_updated <- tokens %>%
+      inner_join(get_sentiments("bing")) %>%
+      dplyr:: count(sentiment) %>%
+      spread(sentiment, n, fill = 0) %>%
+      dplyr:: mutate(sentiment = positive - negative)
+    
+    result <- rbind(result, result_updated)
+    }
+  result$Date <- dataframe$Date
+  result$TCP <- dataframe$TCP
+  return(result)
+}
+```
+
+# Case Study: St. Paul's Cathedral 
+```{r}
+Case_results <- tcpSearch(term <- "St. Paul's", field = "Terms")
+# tcpDownload(Case_results)
+
+.importTexts <- function(dataframe, normalize = TRUE) {
+  dataframe$path <- paste0("/Users/yuchenlu/Desktop/Test/Case_result/",dataframe$TCP,".xml")
+  dataframe$texts <- lapply(dataframe$path,.cleanup)
+  return(dataframe)
+}
+
+Case_results <-.importTexts(Case_results)
+```
+
+## Wordcloud visualization 
+```{r}
+# Combine dfm 
+dfm <- dfm(tokens(Case_results$texts[[1]]))
+for (i in 2:nrow(Case_results)){
+  dfm <- cbind(dfm, dfm(tokens(Case_results$texts[[i]])))
+}
+
+set.seed(100)
+textplot_wordcloud(dfm, max.words=100)
+```
+
+## Get_Sentiment of St. Paul's 
+```{r}
+Case_Sentiment_result <- .get_sentiment(Case_results)
+```
+
+## Get_Lexical_Richness of St. Paul's 
+```{r}
+Hapax_Result <- Hapax_richness(Case_results)
+TTR_Result <- Lexical_richness(Case_results)
+total_Lexical_Richness <- merge(TTR_Result,Hapax_Result,by="TCP")
+```
+
+```{r}
+df <- merge(total_Lexical_Richness[c("TCP","TTR","Hapax")], 
+            Case_Sentiment_result[c("sentiment","Date","TCP")], by = "TCP")
+```
+
+# Case Study: combining Term and Title
+```{r}
+Title_result <- tcpSearch(term <- "St. Paul's", field = "Title")
+Term_results <- tcpSearch(term <- "St. Paul's", field = "Terms")
+# tcpDownload(Case_results)
+total_result <- rbind(Title_result,Term_results)
+total_result <- total_result[!duplicated(total_result$TCP),]
+# tcpDownload(total_result)
+```
+
+```{r}
+.importTexts <- function(dataframe, normalize = TRUE) {
+  dataframe$path <- paste0("/Users/yuchenlu/Desktop/Test/Total_Case/",dataframe$TCP,".xml")
+  dataframe$texts <- lapply(dataframe$path,.cleanup)
+  return(dataframe)
+}
+
+total_result <-.importTexts(total_result)
+```
+
+## Wordcloud visualization 
+```{r}
+# Combine dfm 
+dfm <- dfm(tokens(total_result$texts[[1]]))
+for (i in 2:nrow(total_result)){
+  dfm <- cbind(dfm, dfm(tokens(total_result$texts[[i]])))
+}
+
+set.seed(100)
+textplot_wordcloud(dfm, max.words=100)
+```
+
+## Get_Sentiment of St. Paul's 
+
+```{r}
+# total_result <- total_result[-c(22),] 
+Total_Sentiment_result <- .get_sentiment(total_result)
+```
+
+## Get_Lexical_Richness of St. Paul's 
+```{r}
+Hapax_Result <- Hapax_richness(total_result)
+TTR_Result <- Lexical_richness(total_result)
+total_Lexical_Richness <- merge(TTR_Result,Hapax_Result,by="TCP")
+
+df <- merge(total_Lexical_Richness[c("TCP","TTR","Hapax")], 
+            Total_Sentiment_result[c("sentiment","Date","TCP")], by = "TCP")
+```
+
+# Sentiment Lexicon: NRC
+```{r}
+NRC_trust <- get_sentiments("nrc") %>%
+  filter(sentiment == "trust")
+```
+
+## Sample for one text 
+```{r}
+tokens <- data_frame(text = total_result$texts[[1]]) %>%
+  unnest_tokens(word, text)
+
+tokens %>%
+  inner_join(NRC_trust) %>%
+  dplyr:: count(sentiment) %>%
+  mutate(trust = n/nrow(tokens)) %>%
+  as_data_frame()
+```
+
+## Function for NRC result
+```{r}
+tokens <- data_frame(text = total_result$texts[[1]]) %>%
+  unnest_tokens(word, text)
+
+result <- tokens %>%
+  inner_join(NRC_trust) %>%
+  dplyr:: count(sentiment) %>%
+  mutate(trust = n/nrow(tokens)) %>%
+  as_data_frame()
+  
+  
+  
+for (i in 2:nrow(total_result)){
+  tokens <- data_frame(text = total_result$texts[[i]]) %>%
+    unnest_tokens(word, text)
+  
+  result_updated <- tokens %>%
+    inner_join(NRC_trust) %>%
+    dplyr:: count(sentiment) %>%
+    mutate(trust = n/nrow(tokens)) %>%
+    as_data_frame()
+  
+  result <- rbind(result, result_updated)
+}
+
+result$TCP <- total_result$TCP
+result$Date <- total_result$Date
+Date_count <- result %>% count(Date)
+result <- merge(result,Date_count, by = "Date")
+```
+
+## NRC result by year
+```{r}
+result %>% 
+  group_by(Date) %>%
+  summarise(
+   mean = mean(trust),
+   count = n()
+  ) %>%
+  ggplot(aes(x=Date, y=mean,color=count)) + 
+  geom_line() + 
+  labs(title="Average Trust Percentage", x="Date", y="Mean Trust Sentiment") 
+  
+```
+```{r}
+result %>%
+  ggplot(aes(x=Date, y=trust, color = n.y)) + 
+  geom_point() + 
+  labs(title="Trust Analysis on St. Paul's Cathedral", x="Date", y="Trust Sentiment Percentage") 
+```
+
+
+
+
+# Sentiment Lexicon: Comparison
+```{r}
+# lexicon = c("bing", "afinn", "loughran", "nrc")
+get_sentiments("nrc") %>%
+  distinct(sentiment)
+```
+

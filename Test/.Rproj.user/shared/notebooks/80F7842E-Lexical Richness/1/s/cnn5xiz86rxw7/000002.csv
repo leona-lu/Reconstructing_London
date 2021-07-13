@@ -1,0 +1,1 @@
+"0","Richness_by_year <- merge(total_Lexical_Richness, test_df[c(""Date"",""TCP"")], by = ""TCP"") "

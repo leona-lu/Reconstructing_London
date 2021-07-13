@@ -1,0 +1,2 @@
+"0","NRC_trust <- get_sentiments(""nrc"") %>%"
+"0","  filter(sentiment == ""trust"")"

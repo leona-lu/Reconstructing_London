@@ -1,0 +1,6 @@
+"0","Title_result <- tcpSearch(term <- ""St. Paul's"", field = ""Title"")"
+"0","Term_results <- tcpSearch(term <- ""St. Paul's"", field = ""Terms"")"
+"0","# tcpDownload(Case_results)"
+"0","total_result <- rbind(Title_result,Term_results)"
+"0","total_result <- total_result[!duplicated(total_result$TCP),]"
+"0","# tcpDownload(total_result)"

@@ -1,0 +1,50 @@
+# Load Library
+library(XML)
+library(tidyverse)
+library(textmineR)
+
+# Load Cleaned_CSV
+P1 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P1.csv")
+P2 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P2.csv")
+P3 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P3.csv")
+P4 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P4.csv")
+P5 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P5.csv")
+P6 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P6.csv")
+P7 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P7.csv")
+P8 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P8.csv")
+P9 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P9.csv")
+P10 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P10.csv")
+P11 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P11.csv")
+P12 <- read.csv("/Users/yuchenlu/Desktop/Reconstructing_London/Project/Cleaned_CSV/Cleaned_Data_P12.csv")
+
+# Merge CSV 
+total <- rbind(P1, P2)
+total <- rbind(total, P3)
+total <- rbind(total, P4)
+total <- rbind(total, P5)
+total <- rbind(total, P6)
+total <- rbind(total, P7)
+total <- rbind(total, P8)
+total <- rbind(total, P9)
+total <- rbind(total, P10)
+total <- rbind(total, P11)
+total <- rbind(total, P12)
+
+## write.csv(total,'total.csv')
+
+# Basic EDA
+Date_Count <- total %>%
+  count(Date) %>%
+  as_tibble() 
+
+ggplot(Date_Count,aes(x=Date,y=n)) +
+  geom_line() 
+
+## Create DTM
+start_time <- Sys.time()
+
+dtm <- CreateDtm(doc_vec = P1$texts,
+                 doc_names = P1$TCP, 
+                 ngram_window = c(1, 2))
+
+end_time <- Sys.time()

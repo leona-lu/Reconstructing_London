@@ -1,0 +1,7 @@
+"0","# Load Sample Text "
+"0","sample <- total_result$texts[[1]]"
+"0",""
+"0","# Create word-list "
+"0","word_list <- data_frame(text = sample) %>%"
+"0","  unnest_tokens(word, text) %>%"
+"0","  as.list()"

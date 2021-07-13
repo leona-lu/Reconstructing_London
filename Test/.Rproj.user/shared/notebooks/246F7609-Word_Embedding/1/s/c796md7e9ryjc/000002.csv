@@ -1,0 +1,4 @@
+"0","# Itokenize word-list "
+"0","it <- itoken(word_list, progressbar = FALSE)"
+"0","vocab <- create_vocabulary(it)"
+"0","vocab <- prune_vocabulary(shakes_vocab, term_count_min = 5)"
