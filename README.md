@@ -18,10 +18,10 @@ Check out our project poster and presentation.
 
 # Repository Organization
 ## Folder organization
-* 1_[cleaning](https://github.com/leona-lu/Reconstructing_London/tree/main/Graph) - Text processing 
-* 2_Macro-Analysis - Topic Modeling and Word Embedding on all 17th century text
+* 1_[cleaning]() - Text processing 
+* 2_[Macro-Analysis](https://github.com/leona-lu/Reconstructing_London/tree/main/Macro-Analysis) - Topic Modeling and Word Embedding on all 17th century text
 * 3_Micro-Analysis - Sentiment and Lexical Richness Analysis on St. Paul's Cathedral
-* 4_Visualizations - all graphs created along the process 
+* 4_[Visualizations](https://github.com/leona-lu/Reconstructing_London/tree/main/Graph) - all graphs created along the process 
 
 ## Project Refrences 
 ### Topic Modeling 
