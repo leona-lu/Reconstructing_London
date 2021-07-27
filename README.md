@@ -27,6 +27,11 @@ Check out our project poster and presentation.
 ### Topic Modeling 
 
 ### Word Embedding 
+[1] Socher, Richard. "CS 224D: Deep Learning for NLP", Lecture Notes (https://cs224d.stanford.edu/lecture_notes/notes2.pdf)
+
+[2] Garg, N., Schiebinger, L., Jurafsky, D., & Zou, J. (2018). Word embeddings quantify 100 years of gender and ethnic stereotypes. Proceedings of the National Academy of Sciences, 115(16), E3635–E3644. https://doi.org/10.1073/pnas.1720347115
+
+[3] Charu C. Aggarwal. 2018. Neural Networks and Deep Learning: A Textbook (1st. ed.). Springer Publishing Company, Incorporated.
 
 ### Sentiment Analysis 
 
