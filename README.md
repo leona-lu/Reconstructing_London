@@ -13,7 +13,7 @@ variation in Early English Printed Book, the project utilized [VARD 2.0](http://
 all text. 
 
 # Poster and Presentation
-Check out our project poster and presentation. 
+Check out our project poster and website. 
 
 # Repository Organization
 ## Folder organization
