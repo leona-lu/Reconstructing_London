@@ -3,8 +3,7 @@ This is the GitHub repository for 2021 Duke university Data+ Project 17 [Constru
 # Project Overview
 Who should get to decide what a utopian society looks like? After London was razed to the ground in the Great Fire of 1666, its reconstruction into the “emerald gem of Europe” was heavily influenced by the monarchy and aristocratic elites. In building a utopian epicenter focused on political and economic interests, immense sacrifices had to be made by London’s most marginalized citizens. 
 
-Project team led by ([Professor Astrid Giugni](https://bigdata.duke.edu/people/astrid-adele-giugni) and PHD Candidate [Nicholas Smolenski](https://scholars.duke.edu/person/nicholas.smolenski)) will 
-investigate those questions using machine learning algorithm.Undergradute researcher include: [Yuchen Lu](https://www.linkedin.com/in/yuchen-lu-2023/), [Erika Wang](https://www.linkedin.com/in/erika-wang-90911a175/), [Audrey Liu](https://www.linkedin.com/in/audrey-liu-2b244a1a3/).
+Project team led by (PHD Candidate [Nicholas Smolenski](https://scholars.duke.edu/person/nicholas.smolenski) and [Professor Astrid Giugni](https://bigdata.duke.edu/people/astrid-adele-giugni)) will investigate those questions using machine learning algorithm.Undergradute researcher include: [Yuchen Lu](https://www.linkedin.com/in/yuchen-lu-2023/), [Erika Wang](https://www.linkedin.com/in/erika-wang-90911a175/), [Audrey Liu](https://www.linkedin.com/in/audrey-liu-2b244a1a3/).
 
 # Database
 We used text from [EEBO-TCP Database](https://quod.lib.umich.edu/e/eebogroup/).
