@@ -13,28 +13,33 @@ variation in Early English Printed Book, the project utilized [VARD 2.0](http://
 all text. 
 
 # Poster and Presentation
-Check out our project poster and [website](https://sites.duke.edu/reconstructingutopia/). 
+Check out our project [poster](https://docs.google.com/presentation/d/1RCK63lLp28E32rZVp1LH8O7z6PfwLqFesWOEgg2Gx64/edit?usp=sharing) and [website](https://sites.duke.edu/reconstructingutopia/). 
 
 # Repository Organization
-## Folder organization
-* 1_[cleaning]() - Text processing 
-* 2_[Macro-Analysis](https://github.com/leona-lu/Reconstructing_London/tree/main/Macro-Analysis) - Topic Modeling and Word Embedding on all 17th century text
-* 3_Micro-Analysis - Sentiment and Lexical Richness Analysis on St. Paul's Cathedral
-* 4_[Visualizations](https://github.com/leona-lu/Reconstructing_London/tree/main/Graph) - all graphs created along the process 
+* 1_[Macro-Analysis](https://github.com/leona-lu/Reconstructing_London/tree/main/Macro-Analysis) - Topic Modeling and Word Embedding on all 17th century text
+* 2_[Micro-Analysis]() - Sentiment and Lexical Richness Analysis on St. Paul's Cathedral
+* 3_[Graph](https://github.com/leona-lu/Reconstructing_London/tree/main/Graph) - all graphs created along the process 
+* 3_[Test](https://github.com/leona-lu/Reconstructing_London/tree/main/Test) - Test code on sample texts  
 
 ## Project Refrences 
 ### Topic Modeling 
+[1] Jockers, Matthew. Text Analysis with R for Students of Literature. Springer. 2014.
 
 ### Word Embedding 
-[1] Socher, Richard. "CS 224D: Deep Learning for NLP", Lecture Notes (https://cs224d.stanford.edu/lecture_notes/notes2.pdf)
+[2] Socher, Richard. "CS 224D: Deep Learning for NLP", Lecture Notes (https://cs224d.stanford.edu/lecture_notes/notes2.pdf)
 
-[2] Garg, N., Schiebinger, L., Jurafsky, D., & Zou, J. (2018). Word embeddings quantify 100 years of gender and ethnic stereotypes. Proceedings of the National Academy of Sciences, 115(16), E3635–E3644. https://doi.org/10.1073/pnas.1720347115
+Kulshrestha, Ria. “NLP 101: Word2Vec — Skip-gram and CBOW”. Towards Data Science. 2019.
 
-[3] Charu C. Aggarwal. 2018. Neural Networks and Deep Learning: A Textbook (1st. ed.). Springer Publishing Company, Incorporated.
+[3] Garg, N., Schiebinger, L., Jurafsky, D., & Zou, J. (2018). Word embeddings quantify 100 years of gender and ethnic stereotypes. Proceedings of the National Academy of Sciences, 115(16), E3635–E3644. https://doi.org/10.1073/pnas.1720347115
 
-### Sentiment Analysis 
+[4] Charu C. Aggarwal. 2018. Neural Networks and Deep Learning: A Textbook (1st. ed.). Springer Publishing Company, Incorporated.
 
-### Lexical Richness 
+[5] Prabhakaran, Selva. “Cosine Similarity – Understanding the math and how it works (with python codes)”. Machine Learning +. 2018.
+
+### Sentiment Analysis
+[6] Jockers, Matthew. Text Analysis with R for Students of Literature. Springer. 2014.
+
+[7] Silge, Julia and David Robinson. “Sentiment analysis with tidy data”. Text Mining with Tidy Approach. 
 
 
 
