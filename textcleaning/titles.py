@@ -69,6 +69,7 @@ roman = re.compile(r"\b((?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?
 # finally, remove extra spaces
 spaces = re.compile(r" {2,}")
 
+# this function cleans a given text by replacing old English characters with modern characters
 def clean_title(text):
     clean_titles = []
 
@@ -115,12 +116,14 @@ def clean_title(text):
     print(clean_titles)
     return clean_titles
 
+# This function makes a csv using the title, author, date, and text 
 def make_csv():
     cols = ['title', 'author', 'date', 'text']
     rows = []
     df = pd.DataFrame(rows, columns=cols)
     df.to_csv('paul.csv')
 
+# calls vard to normalize spelling variations in the text
 def call_vard(jar_file, setup_folder, threshold, f_score, input_dir, search_subfolders, output_dir,use_normalization_cache):
   subprocess.call([
     'java',
