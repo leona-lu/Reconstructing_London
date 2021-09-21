@@ -7,7 +7,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r}
+# This file analyzes texts containing St Paul's cathedral and performs sentiment analysis and hapax richness. 
+
+
+```{r import-packages}
 library(tidyverse)
 library(dplyr)
 library(tidytext)
@@ -21,8 +24,7 @@ library(quanteda)
 
 ```
 
-
-```{r}
+```{r import-data}
 data <- read_csv("D://csv/2700_text.csv")
 data$title <- tolower(data$title)
 data$text <- tolower(data$text)
@@ -32,11 +34,8 @@ data$text <- tolower(data$text)
 
 # Observation Test
 
-
-#extract text
-
-```{r}
-
+```{r sentiment}
+# extracts sentiment tokens from texts and uses bing lexicon to compute the overall sentiment for each text
 extracted <- read_csv("C:/Users/erika/PycharmProjects/Converting/combined_text.csv")
 
 extracted$title <- tolower(extracted$title)
@@ -55,7 +54,6 @@ newdata <- newdata %>%
   filter(duplicated(title) == FALSE) %>%
   filter(date >= 1660)
   
-
 tokens <- extracted %>%
   group_by(date) %>%
   ungroup() %>%
@@ -73,7 +71,8 @@ sample_sentiment
 ```
 
 # Visualizations
-```{r}
+```{r sentiment-graph}
+# Creates a line graph showing change in sentiment through the 17th century
 
 df <- extracted %>%
   left_join(sample_sentiment) %>%
@@ -96,8 +95,8 @@ plot
 
 # Hapax Richness
 
-```{r}
-
+```{r hapax}
+# Computes the hapax richness of each text
 Hapax_richness <- function(dataframe){
   result <- data.frame(matrix(ncol = 2, nrow = nrow(dataframe)))
   x <- c("title", "Hapax")
@@ -117,21 +116,11 @@ Hapax_Result
 
 # Lexical Richness by years
 
-```{r}
+```{r hapax-graph}
+# Creates graph showing change in hapax richness through the 17th century
+
 hr_by_year <- Hapax_Result %>%
   left_join(newdata) 
-
-```
-
-```{r}
-# result_by_year <- Richness_by_year %>%
-#   dplyr:: group_by(Richness_by_year$date)  %>%
-#   summarise(
-#           count =   dplyr:: n(),
-#           mean_TTR = mean(TTR, na.rm = TRUE),
-#           mean_Hapax = mean(Hapax, na.rm = TRUE),
-#           
-#           )
 
 hapax_by_year <- hr_by_year %>%
   group_by(date) %>%
@@ -148,33 +137,8 @@ hapaxplot
 
 ```
 
-# Hapax 
-```{r}
-# hr_text <- newdata %>%
-#   mutate(total_words = length(gregexpr("\\W+", text)) + 1)
-# 
-# unique_words <- newdata %>%
-#   mutate(line = row_number()) %>%
-#   unnest_tokens(word, text) %>%
-#   anti_join(stop_words) %>%
-#   count(title, word, sort = TRUE)%>%
-#   filter(n == 1) %>%
-#   count(title)
-# 
-# paul_richness <- unique_words %>%
-#   left_join(hr_coal, by= c("title")) %>%
-#   rename(unique_words = n) %>%
-#   mutate(hr = unique_words / total_words) %>%
-#   select(title, author, date, text, total_words, unique_words, hr)
-# 
-# paul_richness
-#   
-
-```
-
-
-```{r}
-
+```{r edits}
+# Final edits made to the plots
 plot + 
   labs(title = "Sentiment Analysis on St. Paul\'s Cathedral", subtitle = "using BING lexicon, from 1600-1700")
 hapaxplot + 
