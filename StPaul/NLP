@@ -1,0 +1,183 @@
+---
+title: "St Paul's Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(tidytext)
+library(stringr)
+library(ggplot2)
+library(scales)
+library(tidyverse)
+library(XML)
+library(quanteda.textstats)
+library(quanteda)
+
+```
+
+
+```{r}
+data <- read_csv("D://csv/2700_text.csv")
+data$title <- tolower(data$title)
+data$text <- tolower(data$text)
+```
+
+
+
+# Observation Test
+
+
+#extract text
+
+```{r}
+
+extracted <- read_csv("C:/Users/erika/PycharmProjects/Converting/combined_text.csv")
+
+extracted$title <- tolower(extracted$title)
+extracted$text <- tolower(extracted$text)
+
+extracted <- extracted %>%
+  arrange(title) %>%
+  filter(duplicated(title) == FALSE) %>%
+  filter(duplicated(text) == FALSE) %>%
+  filter(date >= 1660)
+
+newdata <- subset(data, title %in% extracted$title)
+
+newdata <- newdata %>%
+  arrange(title) %>%
+  filter(duplicated(title) == FALSE) %>%
+  filter(date >= 1660)
+  
+
+tokens <- extracted %>%
+  group_by(date) %>%
+  ungroup() %>%
+  unnest_tokens(word, text)
+
+#get_sentiments("bing")
+
+sample_sentiment <- tokens %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(date, sentiment) %>%
+  pivot_wider(names_from = sentiment, values_from = n, values_fill = 0) %>% 
+  mutate(sentiment = (positive) / (positive + negative))
+sample_sentiment
+
+```
+
+# Visualizations
+```{r}
+
+df <- extracted %>%
+  left_join(sample_sentiment) %>%
+  select(title, author, date, text, negative, positive, sentiment) %>%
+  mutate(sapply(strsplit(text, " "), length))
+df
+
+
+plot <- ggplot(df, aes(x=date, y=sentiment)) +
+  geom_line(color = "firebrick2") +
+  geom_smooth(method = "lm", se = FALSE, lwd = 0.1, color = "firebrick2") +
+  ylim(0.4, 0.9) + 
+  scale_x_continuous(breaks= pretty_breaks()) + 
+  theme_minimal() + 
+  labs(title = "Sentiment Analysis on St. Paul\'s Cathedral", subtitle = "using BING lexicon, from 1660-1700", x = "Date", y = "Sentiment")
+plot
+
+
+```
+
+# Hapax Richness
+
+```{r}
+
+Hapax_richness <- function(dataframe){
+  result <- data.frame(matrix(ncol = 2, nrow = nrow(dataframe)))
+  x <- c("title", "Hapax")
+  colnames(result) <- x
+  for (i in 1:nrow(dataframe)){
+    dfm <- dfm(tokens(dataframe$text[[i]]))
+    result$title <- dataframe$title
+    result$Hapax[[i]] <- rowSums(dfm == 1) / ntoken(dfm)
+    }
+  return(result)
+  }
+
+# Create result
+Hapax_Result <- Hapax_richness(newdata)
+Hapax_Result
+```
+
+# Lexical Richness by years
+
+```{r}
+hr_by_year <- Hapax_Result %>%
+  left_join(newdata) 
+
+```
+
+```{r}
+# result_by_year <- Richness_by_year %>%
+#   dplyr:: group_by(Richness_by_year$date)  %>%
+#   summarise(
+#           count =   dplyr:: n(),
+#           mean_TTR = mean(TTR, na.rm = TRUE),
+#           mean_Hapax = mean(Hapax, na.rm = TRUE),
+#           
+#           )
+
+hapax_by_year <- hr_by_year %>%
+  group_by(date) %>%
+  summarise(count = n(), mean_Hapax = mean(Hapax, na.rm = TRUE))
+
+hapaxplot <- ggplot(hapax_by_year, aes(x= date, y=mean_Hapax)) +
+  geom_line(color = "cyan4") +
+  geom_smooth(method = "lm", se = FALSE, lwd = 0.1, color = "cyan4") +
+  scale_x_continuous(breaks= pretty_breaks()) +
+  ylim(0, 0.15) +
+  theme_minimal()+ 
+  labs(title = "Hapax Richness of St Paul\'s Texts", subtitle = "from 1660-1700", x = "Date", y = "Mean Hapax")
+hapaxplot
+
+```
+
+# Hapax 
+```{r}
+# hr_text <- newdata %>%
+#   mutate(total_words = length(gregexpr("\\W+", text)) + 1)
+# 
+# unique_words <- newdata %>%
+#   mutate(line = row_number()) %>%
+#   unnest_tokens(word, text) %>%
+#   anti_join(stop_words) %>%
+#   count(title, word, sort = TRUE)%>%
+#   filter(n == 1) %>%
+#   count(title)
+# 
+# paul_richness <- unique_words %>%
+#   left_join(hr_coal, by= c("title")) %>%
+#   rename(unique_words = n) %>%
+#   mutate(hr = unique_words / total_words) %>%
+#   select(title, author, date, text, total_words, unique_words, hr)
+# 
+# paul_richness
+#   
+
+```
+
+
+```{r}
+
+plot + 
+  labs(title = "Sentiment Analysis on St. Paul\'s Cathedral", subtitle = "using BING lexicon, from 1600-1700")
+hapaxplot + 
+  labs(title = "Hapax Richness of St Paul\'s Texts", subtitle = "from 1600-1700")
+
+```
