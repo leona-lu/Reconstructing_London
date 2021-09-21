@@ -4,10 +4,13 @@ Created on 7/13/2021
 @author: erika
 """
 
+"""
+This file combines multiple csv's in a folder
+"""
+
 import os
 import glob
 import pandas as pd
-
 
 if __name__ == '__main__':
     os.chdir("D://csv")
