@@ -5,7 +5,7 @@ Created on 7/8/21
 """
 
 """
-filters titles in a CSV and rewrites the column
+This file cleans and filters titles in a CSV and rewrites the "title" column with the newly cleaned titles.
 """
 from pandas import *
 import re
